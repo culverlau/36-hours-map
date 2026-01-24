@@ -1,0 +1,256 @@
+{
+  "meta": {
+    "lastUpdated": "2024-01-15T00:00:00.000Z",
+    "totalLocations": 15,
+    "totalArticles": 20,
+    "lastArticleDate": "2024-01-10"
+  },
+  "locations": [
+    {
+      "id": "austin-texas-usa",
+      "name": "Austin, Texas, USA",
+      "coordinates": { "lat": 30.2672, "lng": -97.7431 },
+      "region": "North America",
+      "articles": [
+        {
+          "nytId": "nyt://article/sample-austin-2023",
+          "title": "36 Hours in Austin, Texas",
+          "url": "https://www.nytimes.com/2023/03/15/travel/36-hours-austin-texas.html",
+          "date": "2023-03-15",
+          "abstract": "From live music to breakfast tacos, Austin offers a perfect weekend escape."
+        },
+        {
+          "nytId": "nyt://article/sample-austin-2018",
+          "title": "36 Hours in Austin, Texas",
+          "url": "https://www.nytimes.com/2018/05/20/travel/36-hours-austin-texas.html",
+          "date": "2018-05-20",
+          "abstract": "The Texas capital continues to reinvent itself while keeping its weird charm."
+        }
+      ]
+    },
+    {
+      "id": "tokyo-japan",
+      "name": "Tokyo, Japan",
+      "coordinates": { "lat": 35.6762, "lng": 139.6503 },
+      "region": "Asia",
+      "articles": [
+        {
+          "nytId": "nyt://article/sample-tokyo-2022",
+          "title": "36 Hours in Tokyo",
+          "url": "https://www.nytimes.com/2022/11/10/travel/36-hours-tokyo.html",
+          "date": "2022-11-10",
+          "abstract": "From teamLab installations to hidden izakayas, Tokyo never stops surprising."
+        },
+        {
+          "nytId": "nyt://article/sample-tokyo-2015",
+          "title": "36 Hours in Tokyo",
+          "url": "https://www.nytimes.com/2015/08/20/travel/36-hours-tokyo.html",
+          "date": "2015-08-20",
+          "abstract": "A weekend guide to Japan's electrifying capital."
+        }
+      ]
+    },
+    {
+      "id": "paris-france",
+      "name": "Paris, France",
+      "coordinates": { "lat": 48.8566, "lng": 2.3522 },
+      "region": "Europe",
+      "articles": [
+        {
+          "nytId": "nyt://article/sample-paris-2023",
+          "title": "36 Hours in Paris",
+          "url": "https://www.nytimes.com/2023/06/01/travel/36-hours-paris.html",
+          "date": "2023-06-01",
+          "abstract": "The City of Light continues to dazzle with new museums, restaurants, and hidden gems."
+        }
+      ]
+    },
+    {
+      "id": "lisbon-portugal",
+      "name": "Lisbon, Portugal",
+      "coordinates": { "lat": 38.7223, "lng": -9.1393 },
+      "region": "Europe",
+      "articles": [
+        {
+          "nytId": "nyt://article/sample-lisbon-2022",
+          "title": "36 Hours in Lisbon",
+          "url": "https://www.nytimes.com/2022/04/15/travel/36-hours-lisbon.html",
+          "date": "2022-04-15",
+          "abstract": "Portugal's hilly capital combines old-world charm with contemporary creativity."
+        }
+      ]
+    },
+    {
+      "id": "mexico-city-mexico",
+      "name": "Mexico City, Mexico",
+      "coordinates": { "lat": 19.4326, "lng": -99.1332 },
+      "region": "North America",
+      "articles": [
+        {
+          "nytId": "nyt://article/sample-cdmx-2023",
+          "title": "36 Hours in Mexico City",
+          "url": "https://www.nytimes.com/2023/02/10/travel/36-hours-mexico-city.html",
+          "date": "2023-02-10",
+          "abstract": "Ancient ruins, world-class museums, and incredible street food await."
+        }
+      ]
+    },
+    {
+      "id": "sydney-australia",
+      "name": "Sydney, Australia",
+      "coordinates": { "lat": -33.8688, "lng": 151.2093 },
+      "region": "Oceania",
+      "articles": [
+        {
+          "nytId": "nyt://article/sample-sydney-2021",
+          "title": "36 Hours in Sydney",
+          "url": "https://www.nytimes.com/2021/12/05/travel/36-hours-sydney.html",
+          "date": "2021-12-05",
+          "abstract": "Beyond the Opera House, Sydney offers beaches, bushland, and brilliant food."
+        }
+      ]
+    },
+    {
+      "id": "cape-town-south-africa",
+      "name": "Cape Town, South Africa",
+      "coordinates": { "lat": -33.9249, "lng": 18.4241 },
+      "region": "Africa",
+      "articles": [
+        {
+          "nytId": "nyt://article/sample-capetown-2022",
+          "title": "36 Hours in Cape Town",
+          "url": "https://www.nytimes.com/2022/08/20/travel/36-hours-cape-town.html",
+          "date": "2022-08-20",
+          "abstract": "Table Mountain views, wine country, and a vibrant creative scene."
+        }
+      ]
+    },
+    {
+      "id": "barcelona-spain",
+      "name": "Barcelona, Spain",
+      "coordinates": { "lat": 41.3851, "lng": 2.1734 },
+      "region": "Europe",
+      "articles": [
+        {
+          "nytId": "nyt://article/sample-barcelona-2023",
+          "title": "36 Hours in Barcelona",
+          "url": "https://www.nytimes.com/2023/04/22/travel/36-hours-barcelona.html",
+          "date": "2023-04-22",
+          "abstract": "Gaudi's masterpieces, Gothic Quarter wandering, and beach relaxation."
+        }
+      ]
+    },
+    {
+      "id": "new-orleans-louisiana-usa",
+      "name": "New Orleans, Louisiana, USA",
+      "coordinates": { "lat": 29.9511, "lng": -90.0715 },
+      "region": "North America",
+      "articles": [
+        {
+          "nytId": "nyt://article/sample-nola-2022",
+          "title": "36 Hours in New Orleans",
+          "url": "https://www.nytimes.com/2022/02/14/travel/36-hours-new-orleans.html",
+          "date": "2022-02-14",
+          "abstract": "Jazz, beignets, and the unique spirit of the Big Easy."
+        }
+      ]
+    },
+    {
+      "id": "amalfi-coast-italy",
+      "name": "Amalfi Coast, Italy",
+      "coordinates": { "lat": 40.6333, "lng": 14.6029 },
+      "region": "Europe",
+      "articles": [
+        {
+          "nytId": "nyt://article/sample-amalfi-2021",
+          "title": "36 Hours on the Amalfi Coast",
+          "url": "https://www.nytimes.com/2021/07/10/travel/36-hours-amalfi-coast.html",
+          "date": "2021-07-10",
+          "abstract": "Cliffside villages, limoncello, and the bluest Mediterranean waters."
+        }
+      ]
+    },
+    {
+      "id": "kyoto-japan",
+      "name": "Kyoto, Japan",
+      "coordinates": { "lat": 35.0116, "lng": 135.7681 },
+      "region": "Asia",
+      "articles": [
+        {
+          "nytId": "nyt://article/sample-kyoto-2023",
+          "title": "36 Hours in Kyoto",
+          "url": "https://www.nytimes.com/2023/09/05/travel/36-hours-kyoto.html",
+          "date": "2023-09-05",
+          "abstract": "Ancient temples, traditional ryokans, and exquisite kaiseki cuisine."
+        }
+      ]
+    },
+    {
+      "id": "buenos-aires-argentina",
+      "name": "Buenos Aires, Argentina",
+      "coordinates": { "lat": -34.6037, "lng": -58.3816 },
+      "region": "South America",
+      "articles": [
+        {
+          "nytId": "nyt://article/sample-buenosaires-2022",
+          "title": "36 Hours in Buenos Aires",
+          "url": "https://www.nytimes.com/2022/10/15/travel/36-hours-buenos-aires.html",
+          "date": "2022-10-15",
+          "abstract": "Tango, steak, and the Paris of South America."
+        }
+      ]
+    },
+    {
+      "id": "reykjavik-iceland",
+      "name": "Reykjavik, Iceland",
+      "coordinates": { "lat": 64.1466, "lng": -21.9426 },
+      "region": "Europe",
+      "articles": [
+        {
+          "nytId": "nyt://article/sample-reykjavik-2023",
+          "title": "36 Hours in Reykjavik",
+          "url": "https://www.nytimes.com/2023/07/20/travel/36-hours-reykjavik.html",
+          "date": "2023-07-20",
+          "abstract": "Northern lights, geothermal pools, and Viking heritage."
+        }
+      ]
+    },
+    {
+      "id": "marrakech-morocco",
+      "name": "Marrakech, Morocco",
+      "coordinates": { "lat": 31.6295, "lng": -7.9811 },
+      "region": "Africa",
+      "articles": [
+        {
+          "nytId": "nyt://article/sample-marrakech-2022",
+          "title": "36 Hours in Marrakech",
+          "url": "https://www.nytimes.com/2022/05/08/travel/36-hours-marrakech.html",
+          "date": "2022-05-08",
+          "abstract": "Souks, riads, and the magic of the medina."
+        }
+      ]
+    },
+    {
+      "id": "portland-oregon-usa",
+      "name": "Portland, Oregon, USA",
+      "coordinates": { "lat": 45.5152, "lng": -122.6784 },
+      "region": "North America",
+      "articles": [
+        {
+          "nytId": "nyt://article/sample-portland-2023",
+          "title": "36 Hours in Portland, Oregon",
+          "url": "https://www.nytimes.com/2023/08/12/travel/36-hours-portland-oregon.html",
+          "date": "2023-08-12",
+          "abstract": "Powell's Books, food carts, and the Pacific Northwest vibe."
+        },
+        {
+          "nytId": "nyt://article/sample-portland-2017",
+          "title": "36 Hours in Portland, Oregon",
+          "url": "https://www.nytimes.com/2017/04/18/travel/36-hours-portland-oregon.html",
+          "date": "2017-04-18",
+          "abstract": "Keep Portland Weird: coffee, crafts, and counterculture."
+        }
+      ]
+    }
+  ]
+}
