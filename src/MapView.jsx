@@ -132,7 +132,7 @@ export default function MapView({ locations, selectedId, onSelect, fitKey, onVie
     if (!flyTo) return;
     const m = map.current;
     const loc = latest.current.locations.find((l) => l.id === flyTo.id);
-    if (loc) m.flyTo({ center: [loc.lng, loc.lat], zoom: Math.max(m.getZoom(), 7), duration: 700, essential: true });
+    if (loc) m.flyTo({ center: [loc.lng, loc.lat], zoom: Math.max(m.getZoom(), 7), duration: 1500, essential: true });
   }, [flyTo]);
 
   return <div className="map" ref={el} />;
