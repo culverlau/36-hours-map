@@ -57,7 +57,7 @@ export default function Sidebar({ selected, onClose, query, setQuery, yearRange,
             <li key={l.id}>
               <button onClick={() => onPick(l.id)}>
                 <span>{l.name}</span>
-                <small>{l.articles.length > 1 ? `${l.articles.length} articles` : l.articles[0].date.slice(0, 4)}</small>
+                <small>{l.articles[0].date.slice(0, 4)}{l.articles.length > 1 ? ` · ${l.articles.length} articles` : ''}</small>
               </button>
             </li>
           ))}

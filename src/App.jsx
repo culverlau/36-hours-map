@@ -38,6 +38,7 @@ export default function App() {
         }),
       }))
       .filter((l) => l.articles.length)
+      .sort((a, b) => b.articles[0].date.localeCompare(a.articles[0].date))
       .filter((l) => !q || `${l.name} ${l.country ?? ''} ${l.articles.map((a) => a.title).join(' ')}`.toLowerCase().includes(q));
   }, [data, query, yearRange]);
 
