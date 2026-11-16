@@ -2,7 +2,7 @@ const fmt = (d) => new Date(d + 'T00:00').toLocaleDateString('en-US', { year: 'n
 
 const range = (a, b) => Array.from({ length: b - a + 1 }, (_, i) => a + i);
 
-export default function Sidebar({ selected, onClose, query, setQuery, yearRange, setYearRange, bounds, results, total, onPick }) {
+export default function Sidebar({ selected, onClose, query, setQuery, yearRange, setYearRange, bounds, results, total, onPick, scope, onClearCluster }) {
   const years = range(bounds[0], bounds[1]);
   return (
     <aside className="sidebar">
@@ -33,7 +33,7 @@ export default function Sidebar({ selected, onClose, query, setQuery, yearRange,
             </select>
           </label>
         </div>
-        <p className="count">{total} articles in {results.length} places in view</p>
+        <p className="count">{total} articles in {results.length} places {scope}{onClearCluster && <> · <button className="back" onClick={onClearCluster}>Show all in view</button></>}</p>
       </div>
 
       {selected ? (

@@ -11,12 +11,12 @@ const toGeoJSON = (locations) => ({
   })),
 });
 
-export default function MapView({ locations, selectedId, onSelect, fitKey, onViewChange }) {
+export default function MapView({ locations, selectedId, onSelect, fitKey, onViewChange, clusterId, onClusterSelect, onBlankClick, onClusterClear }) {
   const el = useRef(null);
   const map = useRef(null);
   const ready = useRef(false);
-  const latest = useRef({ locations, onSelect, onViewChange });
-  latest.current = { locations, onSelect, onViewChange };
+  const latest = useRef({});
+  latest.current = { locations, onSelect, onViewChange, onClusterSelect, onBlankClick, onClusterClear };
 
   useEffect(() => {
     const m = new maplibregl.Map({
@@ -31,6 +31,14 @@ export default function MapView({ locations, selectedId, onSelect, fitKey, onVie
 
     m.on('load', () => {
       m.addSource('places', { type: 'geojson', data: toGeoJSON(latest.current.locations), cluster: true, clusterRadius: 40, clusterMaxZoom: 9 });
+      m.addLayer({
+        id: 'cluster-highlight', type: 'circle', source: 'places', filter: ['==', ['get', 'cluster_id'], -1],
+        paint: {
+          'circle-color': '#111', 'circle-opacity': 0.2,
+          'circle-radius': ['+', ['step', ['get', 'point_count'], 14, 10, 18, 50, 24, 150, 30], 7],
+          'circle-stroke-width': 2, 'circle-stroke-color': '#111',
+        },
+      });
       m.addLayer({
         id: 'clusters', type: 'circle', source: 'places', filter: ['has', 'point_count'],
         paint: {
@@ -60,9 +68,16 @@ export default function MapView({ locations, selectedId, onSelect, fitKey, onVie
 
       m.on('click', 'clusters', async (e) => {
         const f = m.queryRenderedFeatures(e.point, { layers: ['clusters'] })[0];
-        const zoom = await m.getSource('places').getClusterExpansionZoom(f.properties.cluster_id);
-        m.easeTo({ center: f.geometry.coordinates, zoom: zoom + 0.5 });
+        const cid = f.properties.cluster_id;
+        const leaves = await m.getSource('places').getClusterLeaves(cid, Infinity, 0);
+        latest.current.onClusterSelect?.({ clusterId: cid, ids: leaves.map((l) => l.properties.id) });
       });
+      m.on('click', (e) => {
+        const hit = m.queryRenderedFeatures(e.point, { layers: ['clusters', 'points'] });
+        if (!hit.length) latest.current.onBlankClick?.();
+      });
+      // Cluster ids change when the zoom level changes, so drop the cluster selection on a user zoom.
+      m.on('zoomstart', (e) => { if (e.originalEvent) latest.current.onClusterClear?.(); });
       m.on('click', 'points', (e) => latest.current.onSelect(e.features[0].properties.id));
       for (const layer of ['clusters', 'points']) {
         m.on('mouseenter', layer, () => (m.getCanvas().style.cursor = 'pointer'));
@@ -85,6 +100,12 @@ export default function MapView({ locations, selectedId, onSelect, fitKey, onVie
     const apply = () => m.getSource('places')?.setData(toGeoJSON(locations));
     ready.current ? apply() : m.once('app-ready', apply);
   }, [locations]);
+
+  useEffect(() => {
+    const m = map.current;
+    const apply = () => m.setFilter('cluster-highlight', ['==', ['get', 'cluster_id'], clusterId ?? -1]);
+    ready.current ? apply() : m.once('app-ready', apply);
+  }, [clusterId]);
 
   useEffect(() => {
     const m = map.current;

@@ -8,6 +8,7 @@ export default function App() {
   const [selectedId, setSelectedId] = useState(null);
   const [query, setQuery] = useState('');
   const [yearRange, setYearRange] = useState(null);
+  const [cluster, setCluster] = useState(null); // { clusterId, ids } when a map cluster is selected
   const [view, setView] = useState(null); // [west, south, east, north]
 
   useEffect(() => {
@@ -44,11 +45,12 @@ export default function App() {
   }, [data, query, yearRange]);
 
   const visible = useMemo(() => {
+    if (cluster) return filtered.filter((l) => cluster.ids.includes(l.id));
     if (!view) return filtered;
     const [w, s, e, n] = view;
     const wholeWorld = e - w >= 360;
     return filtered.filter((l) => l.lat >= s && l.lat <= n && (wholeWorld || (l.lng >= w && l.lng <= e)));
-  }, [filtered, view]);
+  }, [filtered, view, cluster]);
 
   if (error) return <div className="status">Could not load data: {error.message}</div>;
   if (!data) return <div className="status">Loading…</div>;
@@ -68,9 +70,16 @@ export default function App() {
         bounds={bounds}
         results={visible}
         total={total}
+        scope={cluster ? 'in this cluster' : 'in view'}
+        onClearCluster={cluster ? () => setCluster(null) : null}
         onPick={setSelectedId}
       />
-      <MapView onViewChange={setView} fitKey={query.trim() ? query.trim().toLowerCase() : ''} locations={filtered} selectedId={selectedId} onSelect={setSelectedId} />
+      <MapView
+        onViewChange={setView}
+        clusterId={cluster?.clusterId ?? null}
+        onClusterSelect={(c) => { setCluster(c); setSelectedId(null); }}
+        onBlankClick={() => { setCluster(null); setSelectedId(null); }}
+        onClusterClear={() => setCluster(null)} fitKey={query.trim() ? query.trim().toLowerCase() : ''} locations={filtered} selectedId={selectedId} onSelect={(id) => { setCluster(null); setSelectedId(id); }} />
     </div>
   );
 }
