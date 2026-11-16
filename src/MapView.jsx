@@ -11,7 +11,7 @@ const toGeoJSON = (locations) => ({
   })),
 });
 
-export default function MapView({ locations, selectedId, onSelect, fitKey, onViewChange, clusterId, onClusterSelect, onBlankClick, onClusterClear }) {
+export default function MapView({ locations, selectedId, onSelect, fitKey, onViewChange, clusterId, onClusterSelect, onBlankClick, onClusterClear, flyTo }) {
   const el = useRef(null);
   const map = useRef(null);
   const ready = useRef(false);
@@ -123,12 +123,17 @@ export default function MapView({ locations, selectedId, onSelect, fitKey, onVie
     const m = map.current;
     const apply = () => {
       m.setFilter('selected', ['==', ['get', 'id'], selectedId || '']);
-      const loc = latest.current.locations.find((l) => l.id === selectedId);
-      // Keep the current zoom; only pan if the place is outside the visible map.
-      if (loc && !m.getBounds().contains([loc.lng, loc.lat])) m.easeTo({ center: [loc.lng, loc.lat] });
     };
     ready.current ? apply() : m.once('app-ready', apply);
   }, [selectedId]);
+
+  // Picking a place from the list zooms to it (clicking a dot on the map does not).
+  useEffect(() => {
+    if (!flyTo) return;
+    const m = map.current;
+    const loc = latest.current.locations.find((l) => l.id === flyTo.id);
+    if (loc) m.flyTo({ center: [loc.lng, loc.lat], zoom: Math.max(m.getZoom(), 7), essential: true });
+  }, [flyTo]);
 
   return <div className="map" ref={el} />;
 }

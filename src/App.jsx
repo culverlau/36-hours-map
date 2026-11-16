@@ -9,6 +9,7 @@ export default function App() {
   const [query, setQuery] = useState('');
   const [yearRange, setYearRange] = useState(null);
   const [cluster, setCluster] = useState(null); // { clusterId, ids } when a map cluster is selected
+  const [flyTo, setFlyTo] = useState(null);
   const [view, setView] = useState(null); // [west, south, east, north]
 
   useEffect(() => {
@@ -72,9 +73,14 @@ export default function App() {
         total={total}
         scope={cluster ? 'in this cluster' : 'in view'}
         onClearCluster={cluster ? () => setCluster(null) : null}
-        onPick={setSelectedId}
+        onPick={(id) => {
+          setSelectedId(id);
+          setFlyTo({ id, n: Date.now() });
+          setCluster((c) => (c ? { ...c, clusterId: null } : c)); // cluster ids change once we zoom
+        }}
       />
       <MapView
+        flyTo={flyTo}
         onViewChange={setView}
         clusterId={cluster?.clusterId ?? null}
         onClusterSelect={(c) => { setCluster(c); setSelectedId(null); }}
