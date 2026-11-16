@@ -1,75 +1,26 @@
-# 36 Hours Travel Map
+# 36 Hours Map
 
-A public interactive map displaying all New York Times "36 Hours" travel articles, allowing users to explore weekend travel destinations worldwide.
+An interactive world map of every New York Times "36 Hours" travel guide. Click a pin to see the articles for that place.
+Unofficial fan project. Stores only article metadata and links to nytimes.com.
 
-## What This Is
+## How it works
+1. `npm run fetch` pulls each month from the NYT Archive API (2002 to now) and keeps the 36 Hours items in `data/months/`. It is resumable and slow on purpose (NYT rate limits).
+2. `npm run build-data` merges duplicates, finds a place name for each article, geocodes it with OpenStreetMap Nominatim (cached in `data/geocode-cache.json`), and writes `public/data/articles.json`. Fix wrong or missing places by adding entries to `data/overrides.json`. Items it couldn't place are listed in `data/unresolved.json`.
+3. The site (React + MapLibre GL, free OpenFreeMap tiles) loads that JSON as a static file. No server or paid service is needed.
+4. A weekly GitHub Action fetches the latest two months, updates the data, and redeploys to GitHub Pages.
 
-The NYT "36 Hours" series (running since 2002) provides weekend travel guides for cities around the world. This project aggregates all ~500 articles and displays them on an interactive map grouped by location.
-
-**Live site:** [TODO: Add custom domain once configured]
-
-## Features
-
-- Interactive world map with markers for each destination
-- **Grouped markers**: Multiple articles about the same city (e.g., Tokyo 2008, 2015, 2022) show as one pin with a list of articles
-- Click markers to see article cards with title, date, and link to NYT
-- Filter by region/continent
-- Search for specific cities
-- Responsive design for mobile and desktop
-
-## Tech Stack
-
-- **Frontend**: React + Vite
-- **Map**: Leaflet.js with OpenStreetMap tiles (abstracted for future Google Maps swap)
-- **Data**: Static JSON committed to repo, grouped by location
-- **Geocoding**: Google Geocoding API (with LLM fallback for ambiguous cases)
-- **CI/CD**: GitHub Actions (daily check for new articles)
-- **Hosting**: GitHub Pages with custom domain
-
-## Quick Start
-
-```bash
+## Run locally
+```
+cp .env.example .env     # add your NYT_API_KEY (Archive API enabled)
 npm install
-cp .env.example .env  # Add your API keys
-npm run dev           # Start dev server at localhost:5173
+npm run dev
+npm test
 ```
 
-See [docs/SETUP.md](docs/SETUP.md) for detailed instructions.
+## Deploy
+Push to GitHub, enable Pages (Source: GitHub Actions), add the `NYT_API_KEY` repository secret.
 
-## Documentation
-
-- [ARCHITECTURE.md](docs/ARCHITECTURE.md) - System design, data flow, key decisions
-- [API_NOTES.md](docs/API_NOTES.md) - NYT API usage details
-- [SETUP.md](docs/SETUP.md) - Setup and deployment guide
-- [DECISIONS.md](docs/DECISIONS.md) - Record of architectural decisions and rationale
-
-## Project Structure
-
+## overrides.json format
+```json
+{ "Some Query": { "lat": 48.85, "lng": 2.35, "country": "France" } }
 ```
-36-hours-map/
-├── .github/
-│   └── workflows/
-│       └── check-new-articles.yml  # Daily article check
-├── docs/                           # Project documentation
-├── scripts/
-│   ├── fetch-articles.js           # One-time backfill script
-│   ├── check-new-articles.js       # Daily incremental check
-│   └── geocode.js                  # Geocoding utilities
-├── data/
-│   └── locations.json              # Article data grouped by location
-├── src/
-│   ├── components/
-│   │   ├── Map/                    # Leaflet wrapper (swappable)
-│   │   ├── ArticleCard/            # Article display card
-│   │   └── LocationPopup/          # Popup with article list
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-├── index.html
-├── package.json
-└── vite.config.js
-```
-
-## License
-
-MIT

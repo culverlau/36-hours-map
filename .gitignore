@@ -9,6 +9,9 @@ node_modules/
 # Build output
 dist/
 
+# Fetch cache (resumable fetch progress - regenerated on fetch)
+data/.cache/
+
 # Editor
 .vscode/
 .idea/

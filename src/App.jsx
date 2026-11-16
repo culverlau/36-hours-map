@@ -1,80 +1,67 @@
-import { useState, useMemo } from 'react';
-import Map from './components/Map/Map';
-import Header from './components/Header/Header';
-import { useLocations } from './hooks/useLocations';
+import { useEffect, useMemo, useState } from 'react';
+import MapView from './MapView.jsx';
+import Sidebar from './Sidebar.jsx';
 
-function App() {
-  const { locations, meta, loading, error } = useLocations();
-  const [selectedRegion, setSelectedRegion] = useState('all');
-  const [searchQuery, setSearchQuery] = useState('');
+export default function App() {
+  const [data, setData] = useState(null);
+  const [error, setError] = useState(null);
+  const [selectedId, setSelectedId] = useState(null);
+  const [query, setQuery] = useState('');
+  const [yearRange, setYearRange] = useState(null);
 
-  // Get unique regions for filter
-  const regions = useMemo(() => {
-    if (!locations) return [];
-    const uniqueRegions = [...new Set(locations.map(loc => loc.region))];
-    return uniqueRegions.sort();
-  }, [locations]);
+  useEffect(() => {
+    fetch(`${import.meta.env.BASE_URL}data/articles.json`)
+      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(`HTTP ${r.status}`))))
+      .then((d) => {
+        setData(d);
+        const years = d.locations.flatMap((l) => l.articles.map((a) => +a.date.slice(0, 4)));
+        setYearRange([Math.min(...years), Math.max(...years)]);
+      })
+      .catch(setError);
+  }, []);
 
-  // Filter locations based on region and search
-  const filteredLocations = useMemo(() => {
-    if (!locations) return [];
+  const bounds = useMemo(() => {
+    if (!data) return null;
+    const years = data.locations.flatMap((l) => l.articles.map((a) => +a.date.slice(0, 4)));
+    return [Math.min(...years), Math.max(...years)];
+  }, [data]);
 
-    return locations.filter(location => {
-      // Region filter
-      if (selectedRegion !== 'all' && location.region !== selectedRegion) {
-        return false;
-      }
+  const filtered = useMemo(() => {
+    if (!data || !yearRange) return [];
+    const q = query.trim().toLowerCase();
+    return data.locations
+      .map((l) => ({
+        ...l,
+        articles: l.articles.filter((a) => {
+          const y = +a.date.slice(0, 4);
+          return y >= yearRange[0] && y <= yearRange[1];
+        }),
+      }))
+      .filter((l) => l.articles.length)
+      .filter((l) => !q || `${l.name} ${l.country ?? ''} ${l.articles.map((a) => a.title).join(' ')}`.toLowerCase().includes(q));
+  }, [data, query, yearRange]);
 
-      // Search filter
-      if (searchQuery) {
-        const query = searchQuery.toLowerCase();
-        const matchesName = location.name.toLowerCase().includes(query);
-        const matchesArticle = location.articles.some(
-          article => article.title.toLowerCase().includes(query)
-        );
-        if (!matchesName && !matchesArticle) {
-          return false;
-        }
-      }
+  if (error) return <div className="status">Could not load data: {error.message}</div>;
+  if (!data) return <div className="status">Loading…</div>;
 
-      return true;
-    });
-  }, [locations, selectedRegion, searchQuery]);
-
-  if (loading) {
-    return (
-      <div className="loading">
-        <div className="loading-spinner"></div>
-        <p>Loading travel destinations...</p>
-      </div>
-    );
-  }
-
-  if (error) {
-    return (
-      <div className="error">
-        <h2>Error loading data</h2>
-        <p>{error.message}</p>
-      </div>
-    );
-  }
+  const selected = filtered.find((l) => l.id === selectedId) || null;
+  const total = filtered.reduce((n, l) => n + l.articles.length, 0);
 
   return (
     <div className="app">
-      <Header
-        meta={meta}
-        regions={regions}
-        selectedRegion={selectedRegion}
-        onRegionChange={setSelectedRegion}
-        searchQuery={searchQuery}
-        onSearchChange={setSearchQuery}
-        filteredCount={filteredLocations.length}
+      <Sidebar
+        selected={selected}
+        onClose={() => setSelectedId(null)}
+        query={query}
+        setQuery={setQuery}
+        yearRange={yearRange}
+        setYearRange={setYearRange}
+        bounds={bounds}
+        results={filtered}
+        total={total}
+        onPick={setSelectedId}
       />
-      <main className="main">
-        <Map locations={filteredLocations} />
-      </main>
+      <MapView fitKey={query.trim() ? query.trim().toLowerCase() : ''} locations={filtered} selectedId={selectedId} onSelect={setSelectedId} />
     </div>
   );
 }
-
-export default App;

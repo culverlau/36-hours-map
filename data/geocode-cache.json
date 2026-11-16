@@ -1,0 +1,5994 @@
+{
+ "Portland, Oregon": {
+  "lat": 45.52025,
+  "lng": -122.67419,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Portland, Multnomah County, Oregon, United States",
+  "type": "administrative"
+ },
+ "Detroit, Michigan": {
+  "lat": 42.33155,
+  "lng": -83.04664,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Detroit, Wayne County, Michigan, United States",
+  "type": "administrative"
+ },
+ "Death Valley, California": {
+  "lat": 36.42287,
+  "lng": -116.91372,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Death Valley, California, 92328, United States",
+  "type": "desert"
+ },
+ "Niagara-On-The-Lake, Ontario": {
+  "lat": 43.25561,
+  "lng": -79.07233,
+  "country": "Canada",
+  "countryCode": "CA",
+  "display": "Niagara-on-the-Lake, Niagara Region, Ontario, Canada",
+  "type": "administrative"
+ },
+ "Athens, Georgia": {
+  "lat": 33.95977,
+  "lng": -83.3764,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Athens, Clarke County, Georgia, United States",
+  "type": "administrative"
+ },
+ "Newport, Rhode Island": {
+  "lat": 41.48998,
+  "lng": -71.31377,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Newport, Newport County, Rhode Island, 02840, United States",
+  "type": "administrative"
+ },
+ "Williamstown, Massachusetts": {
+  "lat": 42.71355,
+  "lng": -73.20946,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Williamstown, Berkshire County, Massachusetts, 01267, United States",
+  "type": "administrative"
+ },
+ "5 Half Moon Bay, Calif.": {
+  "lat": 37.46355,
+  "lng": -122.42859,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Half Moon Bay, San Mateo County, California, 94019, United States",
+  "type": "administrative"
+ },
+ "Saratoga Springs, New York": {
+  "lat": 43.08223,
+  "lng": -73.78537,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "City of Saratoga Springs, Saratoga County, New York, 12866, United States",
+  "type": "administrative"
+ },
+ "Santa Monica, California": {
+  "lat": 34.01947,
+  "lng": -118.49123,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Santa Monica, Los Angeles County, California, United States",
+  "type": "administrative"
+ },
+ "Park City, Utah": {
+  "lat": 40.64609,
+  "lng": -111.498,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Park City, Summit County, Utah, United States",
+  "type": "administrative"
+ },
+ "Concord, Massachusetts": {
+  "lat": 42.46052,
+  "lng": -71.3489,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Concord, Middlesex County, Massachusetts, 01742, United States",
+  "type": "administrative"
+ },
+ "Honolulu, Hawaii": {
+  "lat": 21.30455,
+  "lng": -157.85568,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Honolulu, Honolulu County, Hawaii, United States",
+  "type": "city"
+ },
+ "Cape Ann, Massachusetts": {
+  "lat": 42.6253,
+  "lng": -70.71511,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Cape Ann, Gloucester, Essex County, Massachusetts, United States",
+  "type": "peninsula"
+ },
+ "Jackson, Wyoming": {
+  "lat": 43.47996,
+  "lng": -110.76181,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Jackson, Teton County, Wyoming, United States",
+  "type": "administrative"
+ },
+ "Santa Barbara, California": {
+  "lat": 34.42213,
+  "lng": -119.70267,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Santa Barbara, Santa Barbara County, California, United States",
+  "type": "administrative"
+ },
+ "Half Moon Bay, California": {
+  "lat": 37.46355,
+  "lng": -122.42859,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Half Moon Bay, San Mateo County, California, 94019, United States",
+  "type": "administrative"
+ },
+ "Portland, Maine": {
+  "lat": 43.65736,
+  "lng": -70.25866,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Portland, Cumberland County, Maine, United States",
+  "type": "administrative"
+ },
+ "Washington, Washington, D.C.": {
+  "lat": 36.29885,
+  "lng": -82.35919,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "D,C, Buccaneer Ridge Drive, Dogwood Acres, Johnson City, Washington County, East Tennessee, Tennessee, 37684, United States",
+  "type": "yes"
+ },
+ "Prince Edward Island, Canada": {
+  "lat": 46.33555,
+  "lng": -63.14667,
+  "country": "Canada",
+  "countryCode": "CA",
+  "display": "Prince Edward Island, Canada",
+  "type": "administrative"
+ },
+ "Black Hills, South Dakota": {
+  "lat": 43.86928,
+  "lng": -103.52649,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Black Hills, Pennington County, South Dakota, 57751, United States",
+  "type": "mountain_range"
+ },
+ "Flagstaff, Arizona": {
+  "lat": 35.19875,
+  "lng": -111.65182,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Flagstaff, Coconino County, Arizona, United States",
+  "type": "administrative"
+ },
+ "Rochester, New York": {
+  "lat": 43.15729,
+  "lng": -77.61521,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "City of Rochester, Monroe County, New York, United States",
+  "type": "administrative"
+ },
+ "Irvington, Virginia": {
+  "lat": 37.66153,
+  "lng": -76.41912,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Irvington, Lancaster County, Virginia, 22480, United States",
+  "type": "administrative"
+ },
+ "Burlington, Vermont": {
+  "lat": 44.47616,
+  "lng": -73.21291,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Burlington, Chittenden County, Vermont, United States",
+  "type": "administrative"
+ },
+ "Santa Fe, New Mexico": {
+  "lat": 35.68761,
+  "lng": -105.93846,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Santa Fe, Santa Fe County, New Mexico, United States",
+  "type": "administrative"
+ },
+ "Asheville, North Carolina": {
+  "lat": 35.59536,
+  "lng": -82.55084,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Asheville, Buncombe County, North Carolina, United States",
+  "type": "administrative"
+ },
+ "Sacramento, California": {
+  "lat": 38.58106,
+  "lng": -121.49389,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Sacramento, Sacramento County, California, United States",
+  "type": "administrative"
+ },
+ "Ann Arbor, Michigan": {
+  "lat": 42.28137,
+  "lng": -83.74846,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Ann Arbor, Washtenaw County, Michigan, United States",
+  "type": "administrative"
+ },
+ "Ithaca, New York": {
+  "lat": 42.43742,
+  "lng": -76.54837,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Town of Ithaca, Tompkins County, New York, United States",
+  "type": "administrative"
+ },
+ "Scranton, Pennsylvania": {
+  "lat": 41.40869,
+  "lng": -75.66213,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Scranton, Lackawanna County, Pennsylvania, United States",
+  "type": "administrative"
+ },
+ "San Antonio, Texas": {
+  "lat": 29.4246,
+  "lng": -98.49514,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "San Antonio, Bexar County, Texas, United States",
+  "type": "administrative"
+ },
+ "Santa Cruz, California": {
+  "lat": 37.0501,
+  "lng": -121.99059,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Santa Cruz County, California, United States",
+  "type": "administrative"
+ },
+ "Charlottesville, Virginia": {
+  "lat": 38.02931,
+  "lng": -78.47668,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Charlottesville, Virginia, United States",
+  "type": "administrative"
+ },
+ "Banff, Alberta": {
+  "lat": 51.17508,
+  "lng": -115.57208,
+  "country": "Canada",
+  "countryCode": "CA",
+  "display": "Banff, Alberta, Canada",
+  "type": "administrative"
+ },
+ "Pittsburgh, Pennsylvania": {
+  "lat": 40.4407,
+  "lng": -80.00257,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Pittsburgh, Allegheny County, Pennsylvania, United States",
+  "type": "administrative"
+ },
+ "Baltimore, Maryland": {
+  "lat": 39.29088,
+  "lng": -76.61076,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Baltimore, Maryland, United States",
+  "type": "administrative"
+ },
+ "Boulder, Colorado": {
+  "lat": 40.01499,
+  "lng": -105.27054,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Boulder, Boulder County, Colorado, United States",
+  "type": "administrative"
+ },
+ "Stowe, Vermont": {
+  "lat": 44.46438,
+  "lng": -72.68562,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Stowe, Lamoille County, Vermont, 05672, United States",
+  "type": "administrative"
+ },
+ "West Palm Beach, Florida": {
+  "lat": 26.71536,
+  "lng": -80.05329,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "West Palm Beach, Palm Beach County, Florida, United States",
+  "type": "administrative"
+ },
+ "Mendocino, California": {
+  "lat": 39.31765,
+  "lng": -123.41264,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Mendocino County, California, United States",
+  "type": "administrative"
+ },
+ "Fort Myers, Florida": {
+  "lat": 26.64063,
+  "lng": -81.87231,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Fort Myers, Lee County, Florida, United States",
+  "type": "administrative"
+ },
+ "Taos, New Mexico": {
+  "lat": 36.40724,
+  "lng": -105.57328,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Taos, Taos County, New Mexico, 87571, United States",
+  "type": "administrative"
+ },
+ "Lake Placid, New York": {
+  "lat": 44.28312,
+  "lng": -73.98283,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Village of Lake Placid, Town of North Elba, Essex County, New York, 12946, United States",
+  "type": "administrative"
+ },
+ "Vail, Colorado": {
+  "lat": 39.6438,
+  "lng": -106.38882,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Vail, Eagle County, Colorado, 81657, United States",
+  "type": "administrative"
+ },
+ "Lenox, Mass.": {
+  "lat": 42.35682,
+  "lng": -73.28509,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Lenox, Berkshire County, Massachusetts, United States",
+  "type": "administrative"
+ },
+ "Key West, Florida": {
+  "lat": 24.55483,
+  "lng": -81.80207,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Key West, Monroe County, Florida, United States",
+  "type": "administrative"
+ },
+ "Palo Alto, Calif.": {
+  "lat": 37.44433,
+  "lng": -122.15985,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Palo Alto, Santa Clara County, California, United States",
+  "type": "administrative"
+ },
+ "Kauai, Hawaii": {
+  "lat": 22.05038,
+  "lng": -159.55886,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Kauai, Kauaʻi County, Hawaii, United States",
+  "type": "island"
+ },
+ "Sarasota, Florida": {
+  "lat": 27.33658,
+  "lng": -82.53085,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Sarasota, Sarasota County, Florida, United States",
+  "type": "administrative"
+ },
+ "Austin, Texas": {
+  "lat": 30.26493,
+  "lng": -97.74741,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Austin, Travis County, Texas, United States",
+  "type": "administrative"
+ },
+ "Key Biscayne, Florida": {
+  "lat": 25.69684,
+  "lng": -80.16353,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Key Biscayne, Miami-Dade County, Florida, 33149, United States",
+  "type": "village"
+ },
+ "Louisville, Kentucky": {
+  "lat": 38.25424,
+  "lng": -85.75941,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Louisville, Jefferson County, Kentucky, United States",
+  "type": "administrative"
+ },
+ "La Jolla, California": {
+  "lat": 32.84585,
+  "lng": -117.25757,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "La Jolla, San Diego, San Diego County, California, United States",
+  "type": "local_authority"
+ },
+ "Atlanta, Georgia": {
+  "lat": 33.75447,
+  "lng": -84.38982,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Atlanta, Fulton County, Georgia, United States",
+  "type": "administrative"
+ },
+ "Chicago, Illinois": {
+  "lat": 41.87556,
+  "lng": -87.62442,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Chicago, South Chicago Township, Cook County, Illinois, United States",
+  "type": "administrative"
+ },
+ "Morgantown, W Va": {
+  "lat": 39.62968,
+  "lng": -79.95594,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Morgantown, Monongalia County, West Virginia, United States",
+  "type": "administrative"
+ },
+ "Santa Catalina Island, California": {
+  "lat": 33.3889,
+  "lng": -118.42393,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Santa Catalina Island, Avalon, Los Angeles County, California, 90704, United States",
+  "type": "island"
+ },
+ "North Myrtle Beach, North Carolina": {
+  "lat": 33.81541,
+  "lng": -78.67815,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "North Myrtle Beach, Futch Beach, Cherry Grove Beach, North Myrtle Beach, Horry County, South Carolina, United States",
+  "type": "beach"
+ },
+ "Kansas City, Missouri": {
+  "lat": 39.1001,
+  "lng": -94.57814,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Kansas City, Jackson County, Missouri, United States",
+  "type": "administrative"
+ },
+ "Richmond, Virginia": {
+  "lat": 37.53851,
+  "lng": -77.43428,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Richmond, Virginia, United States",
+  "type": "administrative"
+ },
+ "Montreal, Quebec": {
+  "lat": 45.50318,
+  "lng": -73.56981,
+  "country": "Canada",
+  "countryCode": "CA",
+  "display": "Montreal, Urban agglomeration of Montreal, Montreal (administrative region), Quebec, Canada",
+  "type": "administrative"
+ },
+ "Milwaukee, Wisconsin": {
+  "lat": 43.03865,
+  "lng": -87.90908,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Milwaukee, Milwaukee County, Wisconsin, United States",
+  "type": "administrative"
+ },
+ "Cincinnati, Ohio": {
+  "lat": 39.10128,
+  "lng": -84.51274,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Cincinnati, Hamilton County, Ohio, United States",
+  "type": "administrative"
+ },
+ "Mystic, Connecticut": {
+  "lat": 41.35604,
+  "lng": -71.95733,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Mystic, Stonington, Southeastern Connecticut Planning Region, Connecticut, 06388, United States",
+  "type": "statistical"
+ },
+ "Cape May, New Jersey": {
+  "lat": 39.17654,
+  "lng": -74.80121,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Cape May County, New Jersey, United States",
+  "type": "administrative"
+ },
+ "Beverly Hills, California": {
+  "lat": 34.06965,
+  "lng": -118.39631,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Beverly Hills, Los Angeles County, California, United States",
+  "type": "administrative"
+ },
+ "Saranac Lake, New York": {
+  "lat": 44.32966,
+  "lng": -74.13112,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Village of Saranac Lake, Town of Harrietstown, Franklin County, New York, United States",
+  "type": "administrative"
+ },
+ "Nantucket, Massachusetts": {
+  "lat": 41.28444,
+  "lng": -70.09842,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Nantucket, Massachusetts, United States",
+  "type": "administrative"
+ },
+ "Vancouver, British Columbia": {
+  "lat": 49.26087,
+  "lng": -123.11395,
+  "country": "Canada",
+  "countryCode": "CA",
+  "display": "Vancouver, Metro Vancouver Regional District, British Columbia, Canada",
+  "type": "administrative"
+ },
+ "Newburyport, Massachusetts": {
+  "lat": 42.81166,
+  "lng": -70.87193,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Newburyport, Essex County, Massachusetts, 01950, United States",
+  "type": "administrative"
+ },
+ "Seattle, Washington State": {
+  "lat": 47.60383,
+  "lng": -122.33006,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Seattle, King County, Washington, United States",
+  "type": "administrative"
+ },
+ "Galveston, Texas": {
+  "lat": 29.38723,
+  "lng": -94.99274,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Galveston County, Texas, United States",
+  "type": "administrative"
+ },
+ "St Augustine, Florida": {
+  "lat": 29.8947,
+  "lng": -81.31454,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Saint Augustine, Saint Johns County, Florida, 32084, United States",
+  "type": "administrative"
+ },
+ "Camden, Maine": {
+  "lat": 44.21549,
+  "lng": -69.08517,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Camden, Knox County, Maine, 04843, United States",
+  "type": "administrative"
+ },
+ "Pasadena, California": {
+  "lat": 34.14765,
+  "lng": -118.14415,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Pasadena, Los Angeles County, California, United States",
+  "type": "administrative"
+ },
+ "Coral Gables, Florida": {
+  "lat": 25.73311,
+  "lng": -80.25851,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Coral Gables, Miami-Dade County, Florida, United States",
+  "type": "administrative"
+ },
+ "Providence, Rhode Island": {
+  "lat": 41.82399,
+  "lng": -71.41283,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Providence, Providence County, Rhode Island, United States",
+  "type": "administrative"
+ },
+ "Madison, Wisconsin": {
+  "lat": 43.07469,
+  "lng": -89.38417,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Madison, Dane County, Wisconsin, United States",
+  "type": "administrative"
+ },
+ "Manchester, Vermont": {
+  "lat": 43.17691,
+  "lng": -73.05687,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Manchester, Bennington County, Vermont, United States",
+  "type": "administrative"
+ },
+ "Omaha, Nebraska": {
+  "lat": 41.25875,
+  "lng": -95.93838,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Omaha, Douglas County, Nebraska, United States",
+  "type": "administrative"
+ },
+ "Tucson, Arizona": {
+  "lat": 32.22288,
+  "lng": -110.97485,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Tucson, Pima County, Arizona, United States",
+  "type": "administrative"
+ },
+ "Berkeley, California": {
+  "lat": 37.87084,
+  "lng": -122.27286,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Berkeley, Alameda County, California, United States",
+  "type": "administrative"
+ },
+ "Charlotte, North Carolina": {
+  "lat": 35.22721,
+  "lng": -80.84308,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Charlotte, Mecklenburg County, North Carolina, United States",
+  "type": "administrative"
+ },
+ "Boston, Massachusetts": {
+  "lat": 42.35883,
+  "lng": -71.05783,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Boston, Suffolk County, Massachusetts, United States",
+  "type": "administrative"
+ },
+ "Corpus Christi, Texas": {
+  "lat": 27.76353,
+  "lng": -97.40332,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Corpus Christi, Nueces County, Texas, United States",
+  "type": "administrative"
+ },
+ "Laguna Beach, California": {
+  "lat": 33.5427,
+  "lng": -117.78537,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Laguna Beach, Orange County, California, United States",
+  "type": "administrative"
+ },
+ "Amelia Island, Florida": {
+  "lat": 30.60774,
+  "lng": -81.46009,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Amelia Island, Fernandina Beach, Nassau County, Florida, 32034, United States",
+  "type": "island"
+ },
+ "Palm Springs, Calif.": {
+  "lat": 33.82463,
+  "lng": -116.5403,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Palm Springs, Riverside County, California, United States",
+  "type": "administrative"
+ },
+ "Oakland, California": {
+  "lat": 37.80446,
+  "lng": -122.27136,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Oakland, Alameda County, California, United States",
+  "type": "administrative"
+ },
+ "Ottawa, Ontario": {
+  "lat": 45.42088,
+  "lng": -75.69011,
+  "country": "Canada",
+  "countryCode": "CA",
+  "display": "Ottawa, Eastern Ontario, Ontario, Canada",
+  "type": "administrative"
+ },
+ "Aspen, Colorado": {
+  "lat": 39.19111,
+  "lng": -106.82356,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Aspen, Pitkin County, Colorado, United States",
+  "type": "administrative"
+ },
+ "St Paul, Minnesota": {
+  "lat": 44.94975,
+  "lng": -93.0931,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Saint Paul, Ramsey County, Minnesota, United States",
+  "type": "administrative"
+ },
+ "Apalachicola, Florida": {
+  "lat": 29.72551,
+  "lng": -84.98277,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Apalachicola, Franklin County, Florida, 32320, United States",
+  "type": "administrative"
+ },
+ "Salt Lake City, Utah": {
+  "lat": 40.75962,
+  "lng": -111.8868,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Salt Lake City, Salt Lake County, Utah, United States",
+  "type": "administrative"
+ },
+ "Steamboat Springs, Colorado": {
+  "lat": 40.4848,
+  "lng": -106.83173,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Steamboat Springs, Routt County, Colorado, United States",
+  "type": "administrative"
+ },
+ "St Petersburg, Florida": {
+  "lat": 27.77123,
+  "lng": -82.63403,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Saint Petersburg, Pinellas County, Florida, United States",
+  "type": "administrative"
+ },
+ "Fort Lauderdale, Florida": {
+  "lat": 26.12231,
+  "lng": -80.14338,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Fort Lauderdale, Broward County, Florida, United States",
+  "type": "administrative"
+ },
+ "San Diego, California": {
+  "lat": 32.71571,
+  "lng": -117.16383,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "San Diego, San Diego County, California, United States",
+  "type": "administrative"
+ },
+ "Scottsdale, Arizona": {
+  "lat": 33.5967,
+  "lng": -111.89102,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Scottsdale, Maricopa County, Arizona, United States",
+  "type": "administrative"
+ },
+ "Bakersfield, California": {
+  "lat": 35.37387,
+  "lng": -119.01946,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Bakersfield, Kern County, California, United States",
+  "type": "administrative"
+ },
+ "Quechee, Vermont": {
+  "lat": 43.64521,
+  "lng": -72.41572,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Quechee, Hartford, Windsor County, Vermont, 05059, United States",
+  "type": "census"
+ },
+ "Philadelphia, Pennsylvania": {
+  "lat": 39.95272,
+  "lng": -75.16353,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Philadelphia, Philadelphia County, Pennsylvania, United States",
+  "type": "administrative"
+ },
+ "Macon, Georgia": {
+  "lat": 32.84069,
+  "lng": -83.6324,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Macon, Bibb County, Georgia, United States",
+  "type": "administrative"
+ },
+ "Sonoma Valley, California": {
+  "lat": 38.22472,
+  "lng": -122.45439,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Sonoma Valley Airport, Wagner Road, Big Bend, Sonoma County, California, 95476, United States",
+  "type": "aerodrome"
+ },
+ "Charleston, South Carolina": {
+  "lat": 32.78844,
+  "lng": -79.93993,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Charleston, Charleston County, South Carolina, United States",
+  "type": "administrative"
+ },
+ "Jacksonville, Florida": {
+  "lat": 30.32622,
+  "lng": -81.65792,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Jacksonville, Duval County, Florida, United States",
+  "type": "administrative"
+ },
+ "Nashville, Tennessee": {
+  "lat": 36.16228,
+  "lng": -86.7743,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Nashville, Davidson County, Middle Tennessee, Tennessee, United States",
+  "type": "administrative"
+ },
+ "San Luis Obispo, California": {
+  "lat": 35.35402,
+  "lng": -120.37572,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "San Luis Obispo County, California, United States",
+  "type": "administrative"
+ },
+ "Oxford, Mississippi": {
+  "lat": 34.36638,
+  "lng": -89.51877,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Oxford, Lafayette County, Mississippi, United States",
+  "type": "administrative"
+ },
+ "Walt Disney World": {
+  "lat": 28.38241,
+  "lng": -81.56171,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Walt Disney World, Bay Lake, Orange County, Florida, 32830, United States",
+  "type": "resort"
+ },
+ "Guthrie, Oklahoma": {
+  "lat": 35.87892,
+  "lng": -97.42528,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Guthrie, Logan County, Oklahoma, 73044, United States",
+  "type": "administrative"
+ },
+ "Victoria, British Columbia": {
+  "lat": 48.42832,
+  "lng": -123.36495,
+  "country": "Canada",
+  "countryCode": "CA",
+  "display": "Victoria, Capital Regional District, British Columbia, Canada",
+  "type": "administrative"
+ },
+ "Williamsburg, Virginia": {
+  "lat": 37.27125,
+  "lng": -76.70003,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Williamsburg, Virginia, United States",
+  "type": "administrative"
+ },
+ "Fort Worth, Texas": {
+  "lat": 32.75318,
+  "lng": -97.33275,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Fort Worth, Tarrant County, Texas, United States",
+  "type": "administrative"
+ },
+ "Sun Valley, Idaho": {
+  "lat": 43.69622,
+  "lng": -114.3531,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Sun Valley, Blaine County, Idaho, United States",
+  "type": "administrative"
+ },
+ "Iowa City, Iowa": {
+  "lat": 41.66126,
+  "lng": -91.52991,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Iowa City, Johnson County, Iowa, United States",
+  "type": "administrative"
+ },
+ "Rehoboth Beach, Delaware": {
+  "lat": 38.71648,
+  "lng": -75.08351,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Rehoboth Beach, Sussex County, Delaware, 19771, United States",
+  "type": "administrative"
+ },
+ "Homer, Alaska": {
+  "lat": 59.64541,
+  "lng": -151.54456,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Homer, Kenai Peninsula Borough, Alaska, 99603, United States",
+  "type": "administrative"
+ },
+ "Ogunquit, Me.": {
+  "lat": 43.24898,
+  "lng": -70.59922,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Ogunquit, York County, Maine, 03907, United States",
+  "type": "administrative"
+ },
+ "Ogunquit, Maine": {
+  "lat": 43.24898,
+  "lng": -70.59922,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Ogunquit, York County, Maine, 03907, United States",
+  "type": "administrative"
+ },
+ "Portsmouth, New Hampshire": {
+  "lat": 43.07513,
+  "lng": -70.76018,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Portsmouth, Rockingham County, New Hampshire, United States",
+  "type": "administrative"
+ },
+ "Buffalo, New York": {
+  "lat": 42.88642,
+  "lng": -78.87815,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Buffalo, Erie County, New York, United States",
+  "type": "administrative"
+ },
+ "Galena, Illinois": {
+  "lat": 42.41573,
+  "lng": -90.42947,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Galena, West Galena Township, Jo Daviess County, Illinois, United States",
+  "type": "administrative"
+ },
+ "Galena, Ill.": {
+  "lat": 42.41573,
+  "lng": -90.42947,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Galena, West Galena Township, Jo Daviess County, Illinois, United States",
+  "type": "administrative"
+ },
+ "Bar Harbor, Maine": {
+  "lat": 44.38764,
+  "lng": -68.20434,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Bar Harbor, Hancock County, Maine, United States",
+  "type": "administrative"
+ },
+ "Brandywine Valley, Pennsylvania": {
+  "lat": 39.98904,
+  "lng": -75.80138,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Brandywine Valley Fabricators, 1102, Caln, Coatesville, Chester County, Pennsylvania, 19320, United States",
+  "type": "industrial"
+ },
+ "Toronto": {
+  "lat": 43.65348,
+  "lng": -79.38393,
+  "country": "Canada",
+  "countryCode": "CA",
+  "display": "Toronto, Ontario, Canada",
+  "type": "administrative"
+ },
+ "Toronto, Ontario": {
+  "lat": 43.65348,
+  "lng": -79.38393,
+  "country": "Canada",
+  "countryCode": "CA",
+  "display": "Toronto, Ontario, Canada",
+  "type": "administrative"
+ },
+ "the San Juan Islands": {
+  "lat": -17.05479,
+  "lng": 42.72849,
+  "country": "France",
+  "countryCode": "FR",
+  "display": "Juan de Nova Island, Scattered Islands in the Indian Ocean, French Southern and Antarctic Lands, France",
+  "type": "island"
+ },
+ "Block Island, R.I.": {
+  "lat": 41.18958,
+  "lng": -71.5679,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Block Island, New Shoreham, South County, Rhode Island, 02807, United States",
+  "type": "island"
+ },
+ "Block Island, Rhode Island": {
+  "lat": 41.18958,
+  "lng": -71.5679,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Block Island, New Shoreham, South County, Rhode Island, 02807, United States",
+  "type": "island"
+ },
+ "Missoula, Mont.": {
+  "lat": 46.8701,
+  "lng": -113.99527,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Missoula, Missoula County, Montana, United States",
+  "type": "administrative"
+ },
+ "Missoula, Montana": {
+  "lat": 46.8701,
+  "lng": -113.99527,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Missoula, Missoula County, Montana, United States",
+  "type": "administrative"
+ },
+ "Kennebunkport, Maine": {
+  "lat": 43.3615,
+  "lng": -70.47711,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Kennebunkport, York County, Maine, 04046, United States",
+  "type": "administrative"
+ },
+ "Duluth, Minnesota": {
+  "lat": 46.78383,
+  "lng": -92.10527,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Duluth, Saint Louis County, Minnesota, United States",
+  "type": "administrative"
+ },
+ "Halifax, Nova Scotia": {
+  "lat": 44.64862,
+  "lng": -63.58595,
+  "country": "Canada",
+  "countryCode": "CA",
+  "display": "Halifax, Halifax Regional Municipality, Halifax County, Nova Scotia, Canada",
+  "type": "administrative"
+ },
+ "Healdsburg, Calif.": {
+  "lat": 38.61068,
+  "lng": -122.87014,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Healdsburg, Sonoma County, California, 95448, United States",
+  "type": "administrative"
+ },
+ "Healdsburg, California": {
+  "lat": 38.61068,
+  "lng": -122.87014,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Healdsburg, Sonoma County, California, 95448, United States",
+  "type": "administrative"
+ },
+ "Ocean City, Maryland": {
+  "lat": 38.33154,
+  "lng": -75.08742,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Ocean City, Worcester County, Maryland, United States",
+  "type": "administrative"
+ },
+ "Panama": {
+  "lat": 8.55956,
+  "lng": -81.13084,
+  "country": "Panama",
+  "countryCode": "PA",
+  "display": "Panama",
+  "type": "administrative"
+ },
+ "Panama City, Panama": {
+  "lat": 8.97145,
+  "lng": -79.53418,
+  "country": "Panama",
+  "countryCode": "PA",
+  "display": "Panama City, Calidonia, Distrito de Panamá, Panamá Province, 0843, Panama",
+  "type": "city"
+ },
+ "Point Reyes, Calif.": {
+  "lat": 37.99589,
+  "lng": -123.02264,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Point Reyes, Marin County, California, United States",
+  "type": "cape"
+ },
+ "Point Reyes, California": {
+  "lat": 37.99589,
+  "lng": -123.02264,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Point Reyes, Marin County, California, United States",
+  "type": "cape"
+ },
+ "Durango, Colo.": {
+  "lat": 37.27695,
+  "lng": -107.8766,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Durango, La Plata County, Colorado, United States",
+  "type": "administrative"
+ },
+ "Durango, Colorado": {
+  "lat": 37.27695,
+  "lng": -107.8766,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Durango, La Plata County, Colorado, United States",
+  "type": "administrative"
+ },
+ "Des Moines": {
+  "lat": 41.58687,
+  "lng": -93.62495,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Des Moines, Polk County, Iowa, United States",
+  "type": "administrative"
+ },
+ "Des Moines, Iowa": {
+  "lat": 41.58687,
+  "lng": -93.62495,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Des Moines, Polk County, Iowa, United States",
+  "type": "administrative"
+ },
+ "Moab, Utah": {
+  "lat": 38.57381,
+  "lng": -109.54621,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Moab, Grand County, Utah, 84532, United States",
+  "type": "administrative"
+ },
+ "San Jose, Calif.": {
+  "lat": 37.33617,
+  "lng": -121.89059,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "San Jose, Santa Clara County, California, United States",
+  "type": "administrative"
+ },
+ "San Jose, California": {
+  "lat": 37.33617,
+  "lng": -121.89059,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "San Jose, Santa Clara County, California, United States",
+  "type": "administrative"
+ },
+ "Indiana": {
+  "lat": 40.32701,
+  "lng": -86.17469,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Indiana, United States",
+  "type": "administrative"
+ },
+ "Huntington Beach, California": {
+  "lat": 33.67833,
+  "lng": -118.00002,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Huntington Beach, Orange County, California, United States",
+  "type": "administrative"
+ },
+ "Astoria, Oregon": {
+  "lat": 46.1882,
+  "lng": -123.83198,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Astoria, Clatsop County, Oregon, 97103, United States",
+  "type": "administrative"
+ },
+ "Whistler, British Columbia": {
+  "lat": 50.11719,
+  "lng": -122.9543,
+  "country": "Canada",
+  "countryCode": "CA",
+  "display": "Whistler, Squamish-Lillooet Regional District, British Columbia, Canada",
+  "type": "administrative"
+ },
+ "Tampa, Florida": {
+  "lat": 27.94499,
+  "lng": -82.45831,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Tampa, Hillsborough County, Florida, United States",
+  "type": "administrative"
+ },
+ "Houston, Texas": {
+  "lat": 29.75894,
+  "lng": -95.3677,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Houston, Harris County, Texas, United States",
+  "type": "administrative"
+ },
+ "Pensacola, Florida": {
+  "lat": 30.42131,
+  "lng": -87.21691,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Pensacola, Escambia County, Florida, United States",
+  "type": "administrative"
+ },
+ "Mexico City": {
+  "lat": 19.32077,
+  "lng": -99.15147,
+  "country": "Mexico",
+  "countryCode": "MX",
+  "display": "Mexico City, Mexico",
+  "type": "administrative"
+ },
+ "Mexico City, Mexico": {
+  "lat": 19.32077,
+  "lng": -99.15147,
+  "country": "Mexico",
+  "countryCode": "MX",
+  "display": "Mexico City, Mexico",
+  "type": "administrative"
+ },
+ "Maui, Hawaii": {
+  "lat": 20.80296,
+  "lng": -156.31068,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Maui, Maui County, Hawaii, United States",
+  "type": "island"
+ },
+ "Silver City, N.M.": {
+  "lat": 32.77118,
+  "lng": -108.27642,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Silver City, Grant County, New Mexico, United States",
+  "type": "administrative"
+ },
+ "Downtown San Diego": {
+  "lat": 32.70893,
+  "lng": -117.16426,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Downtown San Diego, San Diego, San Diego County, California, United States",
+  "type": "district"
+ },
+ "Whitehorse, Yukon Territory": {
+  "lat": 60.72157,
+  "lng": -135.05493,
+  "country": "Canada",
+  "countryCode": "CA",
+  "display": "Whitehorse, Yukon, Canada",
+  "type": "administrative"
+ },
+ "Naples, Florida": {
+  "lat": 26.1422,
+  "lng": -81.79429,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Naples, Collier County, Florida, United States",
+  "type": "administrative"
+ },
+ "Grand Forks, N.D.": {
+  "lat": 47.92521,
+  "lng": -97.03063,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Grand Forks, Grand Forks County, North Dakota, United States",
+  "type": "administrative"
+ },
+ "Crested Butte, Colorado": {
+  "lat": 38.86982,
+  "lng": -106.98404,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Crested Butte, Gunnison County, Colorado, United States",
+  "type": "administrative"
+ },
+ "St John, Virgin Islands": {
+  "lat": 18.3356,
+  "lng": -64.75504,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Saint John, East End, Saint Thomas - Saint John District, United States Virgin Islands, United States",
+  "type": "census"
+ },
+ "SoMa, San Francisco": {
+  "lat": 37.78089,
+  "lng": -122.40095,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "South of Market, San Francisco, California, United States",
+  "type": "neighbourhood"
+ },
+ "Winston-Salem, N.C.": {
+  "lat": 36.09981,
+  "lng": -80.24405,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Winston-Salem, Forsyth County, North Carolina, United States",
+  "type": "administrative"
+ },
+ "Lower Manhattan": {
+  "lat": 40.71355,
+  "lng": -74.00543,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Lower Manhattan, Manhattan Community Board 1, Manhattan, New York County, New York, 10000, United States",
+  "type": "quarter"
+ },
+ "Exuma, the Bahamas": {
+  "lat": 23.441,
+  "lng": -75.82173,
+  "country": "Bahamas",
+  "countryCode": "BS",
+  "display": "Exuma, Bahamas",
+  "type": "administrative"
+ },
+ "St Louis, Missouri": {
+  "lat": 38.62541,
+  "lng": -90.19001,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Saint Louis, Missouri, United States",
+  "type": "administrative"
+ },
+ "the Space Coast": {
+  "lat": -28.07622,
+  "lng": 153.44361,
+  "country": "Australia",
+  "countryCode": "AU",
+  "display": "The Walls Art Space, 18, Mountain View Avenue, Miami, Gold Coast, Queensland, 4220, Australia",
+  "type": "gallery"
+ },
+ "North Bennington, Vt.": {
+  "lat": 42.93043,
+  "lng": -73.2427,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "North Bennington, Bennington, Bennington County, Vermont, 05257, United States",
+  "type": "administrative"
+ },
+ "Fayetteville, Ark.": {
+  "lat": 36.06258,
+  "lng": -94.15743,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Fayetteville, Washington County, Arkansas, United States",
+  "type": "administrative"
+ },
+ "Gatlinburg, Tenn.": {
+  "lat": 35.71426,
+  "lng": -83.51016,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Gatlinburg, Sevier County, East Tennessee, Tennessee, United States",
+  "type": "administrative"
+ },
+ "Fresno, Calif.": {
+  "lat": 36.73944,
+  "lng": -119.78483,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Fresno, Fresno County, California, United States",
+  "type": "administrative"
+ },
+ "Abilene, Texas": {
+  "lat": 32.45362,
+  "lng": -99.73113,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Abilene, Taylor County, Texas, United States",
+  "type": "administrative"
+ },
+ "Syracuse, New York": {
+  "lat": 43.04812,
+  "lng": -76.14742,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "City of Syracuse, Onondaga County, New York, United States",
+  "type": "administrative"
+ },
+ "New Bedford, Mass.": {
+  "lat": 41.63622,
+  "lng": -70.93421,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "New Bedford, Bristol County, Massachusetts, United States",
+  "type": "administrative"
+ },
+ "Virginia Beach, Virginia": {
+  "lat": 36.84966,
+  "lng": -75.97608,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Virginia Beach, Virginia, United States",
+  "type": "administrative"
+ },
+ "Virginia": {
+  "lat": 37.12322,
+  "lng": -78.49277,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Virginia, United States",
+  "type": "administrative"
+ },
+ "on Broadway": {
+  "lat": 51.48072,
+  "lng": -0.20692,
+  "country": "United Kingdom",
+  "countryCode": "GB",
+  "display": "On Broadway, 161, Dawes Road, Fulham, London Borough of Hammersmith and Fulham, Greater London, England, SW6 7EE, United Kingdom",
+  "type": "music"
+ },
+ "Clarksdale, Miss.": {
+  "lat": 34.20065,
+  "lng": -90.57021,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Clarksdale, Coahoma County, Mississippi, 38614, United States",
+  "type": "administrative"
+ },
+ "Hollywood": {
+  "lat": 34.098,
+  "lng": -118.32952,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Hollywood, Los Angeles, Los Angeles County, California, 90028, United States",
+  "type": "suburb"
+ },
+ "the South End of Boston": {
+  "lat": 42.34073,
+  "lng": -71.06947,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Holy Cross Cathedral, 1400, Washington Street, South End, Boston, Suffolk County, Massachusetts, 02118, United States",
+  "type": "place_of_worship"
+ },
+ "Redding, Calif.": {
+  "lat": 40.58636,
+  "lng": -122.39168,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Redding, Shasta County, California, United States",
+  "type": "administrative"
+ },
+ "Springfield, Illinois": {
+  "lat": 39.79902,
+  "lng": -89.64396,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Springfield, Sangamon County, Illinois, United States",
+  "type": "administrative"
+ },
+ "Boise, Idaho": {
+  "lat": 43.61662,
+  "lng": -116.20089,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Boise, Ada County, Idaho, United States",
+  "type": "administrative"
+ },
+ "St. John’s, Newfoundland": {
+  "lat": 47.56468,
+  "lng": -52.7067,
+  "country": "Canada",
+  "countryCode": "CA",
+  "display": "St. John's, Newfoundland, Newfoundland and Labrador, Canada",
+  "type": "administrative"
+ },
+ "Provincetown, Massachusetts": {
+  "lat": 42.05256,
+  "lng": -70.18586,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Provincetown, Barnstable County, Massachusetts, 02657, United States",
+  "type": "administrative"
+ },
+ "Lake Tahoe, Nevada": {
+  "lat": 39.08854,
+  "lng": -120.05035,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Lake Tahoe, Placer County, California, United States",
+  "type": "lake"
+ },
+ "Lafayette, Louisiana": {
+  "lat": 30.22622,
+  "lng": -92.01782,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Lafayette, Lafayette Parish, Louisiana, United States",
+  "type": "administrative"
+ },
+ "South Beach, Fla.": {
+  "lat": 25.77443,
+  "lng": -80.13324,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "South Beach, Miami Beach, Miami-Dade County, Florida, 33139, United States",
+  "type": "neighbourhood"
+ },
+ "Grand Rapids, Mich.": {
+  "lat": 42.96324,
+  "lng": -85.66786,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Grand Rapids, Kent County, Michigan, United States",
+  "type": "administrative"
+ },
+ "Jackson Hole, Wyoming": {
+  "lat": 43.60879,
+  "lng": -110.73803,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Jackson Hole Airport, Glacier Road, Teton County, Wyoming, 83012, United States",
+  "type": "aerodrome"
+ },
+ "Chattanooga, Tennessee": {
+  "lat": 35.04572,
+  "lng": -85.30949,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Chattanooga, Hamilton County, East Tennessee, Tennessee, United States",
+  "type": "administrative"
+ },
+ "Chattanooga": {
+  "lat": 35.04572,
+  "lng": -85.30949,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Chattanooga, Hamilton County, East Tennessee, Tennessee, United States",
+  "type": "administrative"
+ },
+ "College Station, Tex.": {
+  "lat": 30.61839,
+  "lng": -96.3456,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "College Station, Brazos County, Texas, United States",
+  "type": "administrative"
+ },
+ "Sutter Creek, Calif.": {
+  "lat": 38.39297,
+  "lng": -120.80244,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Sutter Creek, Amador County, California, 95685, United States",
+  "type": "administrative"
+ },
+ "Las Vegas, Nevada": {
+  "lat": 36.16743,
+  "lng": -115.14841,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Las Vegas, Clark County, Nevada, United States",
+  "type": "administrative"
+ },
+ "Shanghai, China": {
+  "lat": 31.23127,
+  "lng": 121.47002,
+  "country": "China",
+  "countryCode": "CN",
+  "display": "Shanghai, China",
+  "type": "administrative"
+ },
+ "San Juan": {
+  "lat": 18.38424,
+  "lng": -66.05344,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "San Juan, Puerto Rico, United States",
+  "type": "administrative"
+ },
+ "San Juan, Puerto Rico": {
+  "lat": 18.38424,
+  "lng": -66.05344,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "San Juan, Puerto Rico, United States",
+  "type": "administrative"
+ },
+ "Copenhagen, Denmark": {
+  "lat": 55.68672,
+  "lng": 12.57007,
+  "country": "Denmark",
+  "countryCode": "DK",
+  "display": "Copenhagen, Copenhagen Municipality, Capital Region of Denmark, 1357, Denmark",
+  "type": "city"
+ },
+ "Sydney, Australia": {
+  "lat": -33.86984,
+  "lng": 151.20828,
+  "country": "Australia",
+  "countryCode": "AU",
+  "display": "Sydney, New South Wales, Australia",
+  "type": "city"
+ },
+ "Venice, Italy": {
+  "lat": 45.43719,
+  "lng": 12.33459,
+  "country": "Italy",
+  "countryCode": "IT",
+  "display": "Venice, Venezia, Veneto, 30121-30176, Italy",
+  "type": "administrative"
+ },
+ "Berlin, Germany": {
+  "lat": 52.51739,
+  "lng": 13.39513,
+  "country": "Germany",
+  "countryCode": "DE",
+  "display": "Berlin, Germany",
+  "type": "administrative"
+ },
+ "Rome, Italy": {
+  "lat": 41.89332,
+  "lng": 12.48293,
+  "country": "Italy",
+  "countryCode": "IT",
+  "display": "Rome, Roma Capitale, Lazio, Italy",
+  "type": "administrative"
+ },
+ "Paris, France": {
+  "lat": 48.8535,
+  "lng": 2.34839,
+  "country": "France",
+  "countryCode": "FR",
+  "display": "Paris, Ile-de-France, Metropolitan France, France",
+  "type": "administrative"
+ },
+ "London, England": {
+  "lat": 51.50745,
+  "lng": -0.12777,
+  "country": "United Kingdom",
+  "countryCode": "GB",
+  "display": "Greater London, England, United Kingdom",
+  "type": "administrative"
+ },
+ "Cancún": {
+  "lat": 21.15275,
+  "lng": -86.84258,
+  "country": "Mexico",
+  "countryCode": "MX",
+  "display": "Cancún, Benito Juárez, Distrito 5, Quintana Roo, Mexico",
+  "type": "administrative"
+ },
+ "Madrid, Spain": {
+  "lat": 40.41678,
+  "lng": -3.70351,
+  "country": "Spain",
+  "countryCode": "ES",
+  "display": "Madrid, Community of Madrid, Spain",
+  "type": "administrative"
+ },
+ "Buenos Aires, Argentina": {
+  "lat": -34.60956,
+  "lng": -58.38879,
+  "country": "Argentina",
+  "countryCode": "AR",
+  "display": "Buenos Aires, Comuna 1, Autonomous City of Buenos Aires, Argentina",
+  "type": "administrative"
+ },
+ "Sedona, Arizona": {
+  "lat": 34.86886,
+  "lng": -111.76144,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Sedona, Coconino County, Arizona, United States",
+  "type": "administrative"
+ },
+ "Rio De Janeiro, Brazil": {
+  "lat": -22.91101,
+  "lng": -43.20937,
+  "country": "Brazil",
+  "countryCode": "BR",
+  "display": "Rio de Janeiro, Southeast Region, Brazil",
+  "type": "administrative"
+ },
+ "Barcelona, Spain": {
+  "lat": 41.38258,
+  "lng": 2.17707,
+  "country": "Spain",
+  "countryCode": "ES",
+  "display": "Barcelona, Barcelonès, Barcelona, Catalonia, Spain",
+  "type": "administrative"
+ },
+ "Nairobi, Kenya": {
+  "lat": -1.289,
+  "lng": 36.81728,
+  "country": "Kenya",
+  "countryCode": "KE",
+  "display": "Nairobi, Nairobi County, Kenya",
+  "type": "city"
+ },
+ "Kenya": {
+  "lat": 0.27932,
+  "lng": 37.51649,
+  "country": "Kenya",
+  "countryCode": "KE",
+  "display": "Kenya",
+  "type": "historic:administrative"
+ },
+ "Prague, Czech Republic": {
+  "lat": 50.08747,
+  "lng": 14.42125,
+  "country": "Czechia",
+  "countryCode": "CZ",
+  "display": "Prague, Czechia",
+  "type": "administrative"
+ },
+ "Orlando, Florida": {
+  "lat": 28.54212,
+  "lng": -81.37905,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Orlando, Orange County, Florida, United States",
+  "type": "administrative"
+ },
+ "Hong Kong": {
+  "lat": 22.34924,
+  "lng": 114.18578,
+  "country": "China",
+  "countryCode": "CN",
+  "display": "Hong Kong, China",
+  "type": "administrative"
+ },
+ "Dublin, Ireland": {
+  "lat": 53.34938,
+  "lng": -6.26056,
+  "country": "Ireland",
+  "countryCode": "IE",
+  "display": "Dublin, County Dublin, Leinster, Ireland",
+  "type": "administrative"
+ },
+ "Istanbul, Turkey": {
+  "lat": 41.00638,
+  "lng": 28.97587,
+  "country": "Turkey",
+  "countryCode": "TR",
+  "display": "Istanbul, Fatih, Istanbul, Marmara Region, 34122, Turkey",
+  "type": "city"
+ },
+ "St Petersburg, Russia": {
+  "lat": 59.96067,
+  "lng": 30.15866,
+  "country": "Russia",
+  "countryCode": "RU",
+  "display": "Saint Petersburg, Northwestern Federal District, Russia",
+  "type": "administrative"
+ },
+ "Moscow, Russia": {
+  "lat": 55.62558,
+  "lng": 37.60639,
+  "country": "Russia",
+  "countryCode": "RU",
+  "display": "Moscow, Central Federal District, Russia",
+  "type": "administrative"
+ },
+ "Florence, Italy": {
+  "lat": 43.7698,
+  "lng": 11.25564,
+  "country": "Italy",
+  "countryCode": "IT",
+  "display": "Florence, Tuscany, Italy",
+  "type": "administrative"
+ },
+ "New York City": {
+  "lat": 40.71273,
+  "lng": -74.00602,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "New York, United States",
+  "type": "administrative"
+ },
+ "Milan, Italy": {
+  "lat": 45.46419,
+  "lng": 9.18963,
+  "country": "Italy",
+  "countryCode": "IT",
+  "display": "Milan, Rodano, Milan, Lombardy, Italy",
+  "type": "administrative"
+ },
+ "Paradise": {
+  "lat": 36.07243,
+  "lng": -115.14748,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Paradise, Clark County, Nevada, United States",
+  "type": "census"
+ },
+ "Bali, Indonesia": {
+  "lat": -8.22713,
+  "lng": 115.19192,
+  "country": "Indonesia",
+  "countryCode": "ID",
+  "display": "Bali, Indonesia",
+  "type": "administrative"
+ },
+ "Savannah, Georgia": {
+  "lat": 32.07901,
+  "lng": -81.09213,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Savannah, Chatham County, Georgia, United States",
+  "type": "administrative"
+ },
+ "Brussels, Belgium": {
+  "lat": 50.84674,
+  "lng": 4.35249,
+  "country": "Belgium",
+  "countryCode": "BE",
+  "display": "Brussels, Brussels-Capital, Belgium",
+  "type": "administrative"
+ },
+ "Amsterdam, Netherlands": {
+  "lat": 52.37308,
+  "lng": 4.89245,
+  "country": "Netherlands",
+  "countryCode": "NL",
+  "display": "Amsterdam, North Holland, Netherlands",
+  "type": "administrative"
+ },
+ "Edinburgh, Scotland": {
+  "lat": 55.95335,
+  "lng": -3.18837,
+  "country": "United Kingdom",
+  "countryCode": "GB",
+  "display": "City of Edinburgh, Scotland, United Kingdom",
+  "type": "administrative"
+ },
+ "the Cinque Terre, Italy": {
+  "lat": 44.13554,
+  "lng": 9.68282,
+  "country": "Italy",
+  "countryCode": "IT",
+  "display": "The Trails of Cinque Terre, Via G. M. Pensa, Vernazza, La Spezia, Liguria, 19081, Italy",
+  "type": "map"
+ },
+ "Budapest, Hungary": {
+  "lat": 47.48185,
+  "lng": 19.14491,
+  "country": "Hungary",
+  "countryCode": "HU",
+  "display": "Budapest, Hungary",
+  "type": "administrative"
+ },
+ "Frankfurt, Germany": {
+  "lat": 50.11064,
+  "lng": 8.68209,
+  "country": "Germany",
+  "countryCode": "DE",
+  "display": "Frankfurt, Hesse, Germany",
+  "type": "administrative"
+ },
+ "Seville, Spain": {
+  "lat": 37.38863,
+  "lng": -5.99534,
+  "country": "Spain",
+  "countryCode": "ES",
+  "display": "Seville, Sevilla, Andalusia, Spain",
+  "type": "administrative"
+ },
+ "Stockholm, Sweden": {
+  "lat": 59.32512,
+  "lng": 18.07109,
+  "country": "Sweden",
+  "countryCode": "SE",
+  "display": "Stockholm, Stockholm Municipality, Stockholm County, 111 29, Sweden",
+  "type": "city"
+ },
+ "Geneva, Switzerland": {
+  "lat": 46.20176,
+  "lng": 6.1466,
+  "country": "Switzerland",
+  "countryCode": "CH",
+  "display": "Geneva, Switzerland",
+  "type": "administrative"
+ },
+ "Bologna, Italy": {
+  "lat": 44.49382,
+  "lng": 11.34263,
+  "country": "Italy",
+  "countryCode": "IT",
+  "display": "Bologna, Emilia-Romagna, Italy",
+  "type": "administrative"
+ },
+ "Hamburg, Germany": {
+  "lat": 53.55017,
+  "lng": 10.00132,
+  "country": "Germany",
+  "countryCode": "DE",
+  "display": "Hamburg, Germany",
+  "type": "administrative"
+ },
+ "São Paulo": {
+  "lat": -23.55065,
+  "lng": -46.63338,
+  "country": "Brazil",
+  "countryCode": "BR",
+  "display": "São Paulo, Southeast Region, Brazil",
+  "type": "administrative"
+ },
+ "Riga, Latvia": {
+  "lat": 56.9494,
+  "lng": 24.10518,
+  "country": "Latvia",
+  "countryCode": "LV",
+  "display": "Riga, Latvia",
+  "type": "administrative"
+ },
+ "Nassau, Bahamas": {
+  "lat": 25.07823,
+  "lng": -77.33834,
+  "country": "Bahamas",
+  "countryCode": "BS",
+  "display": "Nassau, New Providence, Bahamas",
+  "type": "city"
+ },
+ "Ibiza, Spain": {
+  "lat": 38.97439,
+  "lng": 1.41975,
+  "country": "Spain",
+  "countryCode": "ES",
+  "display": "Ibiza, Balearic Islands, Spain",
+  "type": "island"
+ },
+ "Marrakesh, Morocco": {
+  "lat": 31.62583,
+  "lng": -7.98916,
+  "country": "Morocco",
+  "countryCode": "MA",
+  "display": "Marrakesh, Pachalik de Marrakech, Marrakesh Prefecture, Marrakech-Safi, Morocco",
+  "type": "administrative"
+ },
+ "San Sebastián": {
+  "lat": 43.32242,
+  "lng": -1.98389,
+  "country": "Spain",
+  "countryCode": "ES",
+  "display": "San Sebastián, Gipuzkoa, Autonomous Community of the Basque Country, Spain",
+  "type": "administrative"
+ },
+ "Oaxaca, Mexico": {
+  "lat": 17,
+  "lng": -96.5,
+  "country": "Mexico",
+  "countryCode": "MX",
+  "display": "Oaxaca, Mexico",
+  "type": "administrative"
+ },
+ "Beijing, China": {
+  "lat": 39.90571,
+  "lng": 116.3913,
+  "country": "China",
+  "countryCode": "CN",
+  "display": "Beijing, China",
+  "type": "administrative"
+ },
+ "New Orleans, Louisiana": {
+  "lat": 29.95747,
+  "lng": -90.06295,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "New Orleans, Orleans Parish, Louisiana, United States",
+  "type": "administrative"
+ },
+ "Singapore": {
+  "lat": 1.35711,
+  "lng": 103.8195,
+  "country": "Singapore",
+  "countryCode": "SG",
+  "display": "Singapore",
+  "type": "administrative"
+ },
+ "Melbourne, Australia": {
+  "lat": -37.81425,
+  "lng": 144.96317,
+  "country": "Australia",
+  "countryCode": "AU",
+  "display": "Melbourne, Victoria, Australia",
+  "type": "city"
+ },
+ "Hollywood, California": {
+  "lat": 34.098,
+  "lng": -118.32952,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Hollywood, Los Angeles, Los Angeles County, California, 90028, United States",
+  "type": "suburb"
+ },
+ "Breckenridge, Colo.": {
+  "lat": 39.48291,
+  "lng": -106.04655,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Breckenridge, Summit County, Colorado, United States",
+  "type": "administrative"
+ },
+ "Cape Town, South Africa": {
+  "lat": -33.92883,
+  "lng": 18.41722,
+  "country": "South Africa",
+  "countryCode": "ZA",
+  "display": "Cape Town, City of Cape Town, Western Cape, 8001, South Africa",
+  "type": "city"
+ },
+ "Cairo, Egypt": {
+  "lat": 30.04439,
+  "lng": 31.23573,
+  "country": "Egypt",
+  "countryCode": "EG",
+  "display": "Cairo, Egypt",
+  "type": "city"
+ },
+ "Napa, California": {
+  "lat": 38.48987,
+  "lng": -122.32184,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Napa County, California, United States",
+  "type": "administrative"
+ },
+ "St. Barts": {
+  "lat": 17.89677,
+  "lng": -62.8256,
+  "country": "France",
+  "countryCode": "FR",
+  "display": "Saint Barthélemy, 97133, France",
+  "type": "administrative"
+ },
+ "Mont Tremblant, Canada": {
+  "lat": 46.11588,
+  "lng": -74.58914,
+  "country": "Canada",
+  "countryCode": "CA",
+  "display": "Mont-Tremblant, Les Laurentides, Laurentides, Quebec, Canada",
+  "type": "administrative"
+ },
+ "Taipei, Taiwan": {
+  "lat": 25.03752,
+  "lng": 121.56368,
+  "country": "Taiwan",
+  "countryCode": "TW",
+  "display": "Taipei, Taiwan",
+  "type": "administrative"
+ },
+ "Puebla, Mexico": {
+  "lat": 18.83333,
+  "lng": -98,
+  "country": "Mexico",
+  "countryCode": "MX",
+  "display": "Puebla, Mexico",
+  "type": "administrative"
+ },
+ "New Delhi, India": {
+  "lat": 28.6139,
+  "lng": 77.20901,
+  "country": "India",
+  "countryCode": "IN",
+  "display": "New Delhi, Delhi, India",
+  "type": "administrative"
+ },
+ "Dubai": {
+  "lat": 25.07428,
+  "lng": 55.18856,
+  "country": "United Arab Emirates",
+  "countryCode": "AE",
+  "display": "Dubai, Dubai Emirate, United Arab Emirates",
+  "type": "administrative"
+ },
+ "Chiang Mai, Thailand": {
+  "lat": 18.78828,
+  "lng": 98.98588,
+  "country": "Thailand",
+  "countryCode": "TH",
+  "display": "Chiang Mai City Municipality, Fa Ham, Mueang Chiang Mai District, Chiang Mai Province, Thailand",
+  "type": "administrative"
+ },
+ "Naples, Italy": {
+  "lat": 40.83588,
+  "lng": 14.24877,
+  "country": "Italy",
+  "countryCode": "IT",
+  "display": "Naples, Campania, Italy",
+  "type": "administrative"
+ },
+ "Athens, Greece": {
+  "lat": 37.97556,
+  "lng": 23.73483,
+  "country": "Greece",
+  "countryCode": "GR",
+  "display": "Athens, Municipality of Athens, Regional Unit of Central Athens, Attica, 105 57, Greece",
+  "type": "city"
+ },
+ "Liverpool, England": {
+  "lat": 53.39334,
+  "lng": -2.91664,
+  "country": "United Kingdom",
+  "countryCode": "GB",
+  "display": "Liverpool, Liverpool City Region, England, United Kingdom",
+  "type": "administrative"
+ },
+ "Luang Prabang, Laos": {
+  "lat": 19.88874,
+  "lng": 102.1359,
+  "country": "Laos",
+  "countryCode": "LA",
+  "display": "Luang Prabang, Luang Prabang District, Luang Prabang, 10554, Laos",
+  "type": "city"
+ },
+ "Cartagena, Colombia": {
+  "lat": 10.42656,
+  "lng": -75.54417,
+  "country": "Colombia",
+  "countryCode": "CO",
+  "display": "Cartagena, Dique, Bolívar, RAP Caribe, Colombia",
+  "type": "administrative"
+ },
+ "Lima, Peru": {
+  "lat": -12.04598,
+  "lng": -77.03059,
+  "country": "Peru",
+  "countryCode": "PE",
+  "display": "Lima, Province of Lima, Lima Metropolitan Area, Lima, 15001, Peru",
+  "type": "city"
+ },
+ "Knoxville, Tennessee": {
+  "lat": 35.96039,
+  "lng": -83.92103,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Knoxville, Knox County, East Tennessee, Tennessee, United States",
+  "type": "administrative"
+ },
+ "Vienna, Austria": {
+  "lat": 48.20835,
+  "lng": 16.3725,
+  "country": "Austria",
+  "countryCode": "AT",
+  "display": "Vienna, Austria",
+  "type": "administrative"
+ },
+ "Mumbai, India": {
+  "lat": 19.055,
+  "lng": 72.8692,
+  "country": "India",
+  "countryCode": "IN",
+  "display": "Mumbai, Mumbai Suburban District, Maharashtra, 400051, India",
+  "type": "city"
+ },
+ "Bangkok, Thailand": {
+  "lat": 13.75249,
+  "lng": 100.49351,
+  "country": "Thailand",
+  "countryCode": "TH",
+  "display": "Bangkok, Thailand",
+  "type": "administrative"
+ },
+ "Toulouse, France": {
+  "lat": 43.60446,
+  "lng": 1.44424,
+  "country": "France",
+  "countryCode": "FR",
+  "display": "Toulouse, Haute-Garonne, Occitania, Metropolitan France, France",
+  "type": "administrative"
+ },
+ "Palermo, Italy": {
+  "lat": 38.11123,
+  "lng": 13.35244,
+  "country": "Italy",
+  "countryCode": "IT",
+  "display": "Palermo, Sicily, Italy",
+  "type": "administrative"
+ },
+ "Denver, Colorado": {
+  "lat": 39.73924,
+  "lng": -104.98486,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Denver, Colorado, United States",
+  "type": "administrative"
+ },
+ "Minneapolis, Minnesota": {
+  "lat": 44.9773,
+  "lng": -93.26547,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Minneapolis, Hennepin County, Minnesota, United States",
+  "type": "administrative"
+ },
+ "Mykonos, Greece": {
+  "lat": 37.45139,
+  "lng": 25.39231,
+  "country": "Greece",
+  "countryCode": "GR",
+  "display": "Mykonos, Platys Gialos, Municipality of Mykonos, Mykonos Regional Unit, South Aegean, Aegean, 846 00, Greece",
+  "type": "island"
+ },
+ "Biarritz, France": {
+  "lat": 43.48325,
+  "lng": -1.55928,
+  "country": "France",
+  "countryCode": "FR",
+  "display": "Biarritz, Bayonne, Pyrénées-Atlantiques, Nouvelle-Aquitaine, Metropolitan France, 64200, France",
+  "type": "administrative"
+ },
+ "San Francisco, California": {
+  "lat": 37.78794,
+  "lng": -122.40752,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "San Francisco, California, United States",
+  "type": "administrative"
+ },
+ "Phnom Penh, Cambodia": {
+  "lat": 11.57304,
+  "lng": 104.85781,
+  "country": "Cambodia",
+  "countryCode": "KH",
+  "display": "Phnom Penh, Cambodia",
+  "type": "administrative"
+ },
+ "Brighton, England": {
+  "lat": 50.82146,
+  "lng": -0.14006,
+  "country": "United Kingdom",
+  "countryCode": "GB",
+  "display": "Brighton, Brighton and Hove, England, BN1 1HJ, United Kingdom",
+  "type": "city"
+ },
+ "Santo Domingo, Dominican Republic": {
+  "lat": 18.47139,
+  "lng": -69.89184,
+  "country": "Dominican Republic",
+  "countryCode": "DO",
+  "display": "Santo Domingo, Distrito Nacional, 03201, Dominican Republic",
+  "type": "administrative"
+ },
+ "Phoenix, Arizona": {
+  "lat": 33.44844,
+  "lng": -112.07414,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Phoenix, Maricopa County, Arizona, United States",
+  "type": "administrative"
+ },
+ "Zermatt, Switzerland": {
+  "lat": 46.02121,
+  "lng": 7.74925,
+  "country": "Switzerland",
+  "countryCode": "CH",
+  "display": "Zermatt, Visp, Oberwallis, Valais/Wallis, 3920, Switzerland",
+  "type": "administrative"
+ },
+ "Lisbon, Portugal": {
+  "lat": 38.70775,
+  "lng": -9.13659,
+  "country": "Portugal",
+  "countryCode": "PT",
+  "display": "Lisbon, Portugal",
+  "type": "administrative"
+ },
+ "Ho Chi Minh City, Vietnam": {
+  "lat": 10.77373,
+  "lng": 106.7166,
+  "country": "Vietnam",
+  "countryCode": "VN",
+  "display": "Ho Chi Minh City, Vietnam",
+  "type": "administrative"
+ },
+ "Siem Reap, Cambodia": {
+  "lat": 13.36176,
+  "lng": 103.85903,
+  "country": "Cambodia",
+  "countryCode": "KH",
+  "display": "Siem Reap, 123456, Cambodia",
+  "type": "city"
+ },
+ "Reykjavik, Iceland": {
+  "lat": 64.14598,
+  "lng": -21.94224,
+  "country": "Iceland",
+  "countryCode": "IS",
+  "display": "Reykjavik, Capital Region, Iceland",
+  "type": "administrative"
+ },
+ "Carmel, California": {
+  "lat": 36.55527,
+  "lng": -121.92328,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Carmel-by-the-Sea, Monterey County, California, United States",
+  "type": "administrative"
+ },
+ "Antigua And Barbuda": {
+  "lat": 17.22347,
+  "lng": -61.95546,
+  "country": "Antigua and Barbuda",
+  "countryCode": "AG",
+  "display": "Antigua and Barbuda",
+  "type": "administrative"
+ },
+ "North Lake Tahoe": {
+  "lat": 39.16753,
+  "lng": -120.14449,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "North Lake Tahoe Visitor Center, 100, North Lake Boulevard, Tahoe City, Placer County, California, 96145, United States",
+  "type": "information"
+ },
+ "Salvador, Brazil": {
+  "lat": -12.98225,
+  "lng": -38.48128,
+  "country": "Brazil",
+  "countryCode": "BR",
+  "display": "Salvador, Bahia, Northeast Region, Brazil",
+  "type": "administrative"
+ },
+ "Doha, Qatar": {
+  "lat": 25.31088,
+  "lng": 51.50818,
+  "country": "Qatar",
+  "countryCode": "QA",
+  "display": "Doha, Qatar",
+  "type": "administrative"
+ },
+ "Majorca, Spain": {
+  "lat": 39.61343,
+  "lng": 2.88292,
+  "country": "Spain",
+  "countryCode": "ES",
+  "display": "Majorca, Balearic Islands, Spain",
+  "type": "island"
+ },
+ "Hanoi, Vietnam": {
+  "lat": 21.02833,
+  "lng": 105.85404,
+  "country": "Vietnam",
+  "countryCode": "VN",
+  "display": "Hà Nội, Vietnam",
+  "type": "administrative"
+ },
+ "Palm Springs, California": {
+  "lat": 33.82463,
+  "lng": -116.5403,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Palm Springs, Riverside County, California, United States",
+  "type": "administrative"
+ },
+ "Birmingham, Alabama": {
+  "lat": 33.52068,
+  "lng": -86.80243,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Birmingham, Jefferson County, Alabama, United States",
+  "type": "administrative"
+ },
+ "at the Grand Canyon": {
+  "lat": 35.96976,
+  "lng": -112.12946,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "The Squire at Grand Canyon, a Holiday Inn Resort, 100, Long Jim Loop, Tusayan, Coconino County, Arizona, 86023, United States",
+  "type": "hotel"
+ },
+ "Research Triangle, N.C.": {
+  "lat": 35.87526,
+  "lng": -78.77513,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Research Triangle, Wake County, North Carolina, 27617, United States",
+  "type": "region"
+ },
+ "Malibu, California": {
+  "lat": 34.03559,
+  "lng": -118.68942,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Malibu, Los Angeles County, California, 90265, United States",
+  "type": "administrative"
+ },
+ "Cork, Ireland": {
+  "lat": 51.89851,
+  "lng": -8.47264,
+  "country": "Ireland",
+  "countryCode": "IE",
+  "display": "Cork, County Cork, Munster, Ireland",
+  "type": "administrative"
+ },
+ "Aix-En-Provence, France": {
+  "lat": 43.52984,
+  "lng": 5.44747,
+  "country": "France",
+  "countryCode": "FR",
+  "display": "Aix-en-Provence, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, Metropolitan France, France",
+  "type": "administrative"
+ },
+ "on Martha’s Vineyard": null,
+ "Martha's Vineyard, Massachusetts": {
+  "lat": 41.39205,
+  "lng": -70.62081,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Martha's Vineyard, West Tisbury, Dukes County, Massachusetts, United States",
+  "type": "island"
+ },
+ "Glasgow, Scotland": {
+  "lat": 55.86115,
+  "lng": -4.25017,
+  "country": "United Kingdom",
+  "countryCode": "GB",
+  "display": "Glasgow, Glasgow City, Scotland, G2 1AL, United Kingdom",
+  "type": "city"
+ },
+ "Tulum, Mexico": {
+  "lat": 20.42965,
+  "lng": -87.65293,
+  "country": "Mexico",
+  "countryCode": "MX",
+  "display": "Tulum, Quintana Roo, Mexico",
+  "type": "administrative"
+ },
+ "Warsaw, Poland": {
+  "lat": 52.23337,
+  "lng": 21.07115,
+  "country": "Poland",
+  "countryCode": "PL",
+  "display": "Warsaw, Masovian Voivodeship, Poland",
+  "type": "administrative"
+ },
+ "Oslo, Norway": {
+  "lat": 59.91333,
+  "lng": 10.73897,
+  "country": "Norway",
+  "countryCode": "NO",
+  "display": "Oslo, Norway",
+  "type": "administrative"
+ },
+ "Juneau, Alaska": {
+  "lat": 58.30196,
+  "lng": -134.41968,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Juneau, Alaska, United States",
+  "type": "administrative"
+ },
+ "Zagreb, Croatia": {
+  "lat": 45.8131,
+  "lng": 15.97728,
+  "country": "Croatia",
+  "countryCode": "HR",
+  "display": "City of Zagreb, Croatia",
+  "type": "administrative"
+ },
+ "Zurich, Switzerland": {
+  "lat": 47.37445,
+  "lng": 8.54104,
+  "country": "Switzerland",
+  "countryCode": "CH",
+  "display": "Zurich, District Zurich, Zurich, Switzerland",
+  "type": "administrative"
+ },
+ "Cleveland, Ohio": {
+  "lat": 41.49966,
+  "lng": -81.69368,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Cleveland, Cuyahoga County, Ohio, United States",
+  "type": "administrative"
+ },
+ "Bermuda": {
+  "lat": 32.30403,
+  "lng": -64.75631,
+  "country": "Bermuda",
+  "countryCode": "BM",
+  "display": "Bermuda",
+  "type": "administrative"
+ },
+ "Montevideo, Uruguay": {
+  "lat": -34.90589,
+  "lng": -56.19131,
+  "country": "Uruguay",
+  "countryCode": "UY",
+  "display": "Montevideo, Uruguay",
+  "type": "administrative"
+ },
+ "Turks And Caicos Islands": {
+  "lat": 21.72175,
+  "lng": -71.55278,
+  "country": "Turks and Caicos Islands",
+  "countryCode": "TC",
+  "display": "Turks and Caicos Islands",
+  "type": "administrative"
+ },
+ "Rajasthan, India": {
+  "lat": 26.81058,
+  "lng": 73.76845,
+  "country": "India",
+  "countryCode": "IN",
+  "display": "Rajasthan, India",
+  "type": "administrative"
+ },
+ "South Beach, Miami Beach, Fla": {
+  "lat": 25.77443,
+  "lng": -80.13324,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "South Beach, Miami Beach, Miami-Dade County, Florida, 33139, United States",
+  "type": "neighbourhood"
+ },
+ "Kuala Lumpur, Malaysia": {
+  "lat": 3.1517,
+  "lng": 101.69424,
+  "country": "Malaysia",
+  "countryCode": "MY",
+  "display": "Kuala Lumpur, Malaysia",
+  "type": "administrative"
+ },
+ "San Miguel De Allende, Mexico": {
+  "lat": 20.91305,
+  "lng": -100.73566,
+  "country": "Mexico",
+  "countryCode": "MX",
+  "display": "San Miguel de Allende, Guanajuato, Mexico",
+  "type": "administrative"
+ },
+ "Vieques Island, Puerto Rico": {
+  "lat": 18.12167,
+  "lng": -65.45712,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Isla de Vieques, Isabel II, Vieques, Puerto Rico, 00765, United States",
+  "type": "island"
+ },
+ "Telluride, Colorado": {
+  "lat": 37.93749,
+  "lng": -107.81229,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Telluride, San Miguel County, Colorado, 81435, United States",
+  "type": "administrative"
+ },
+ "Palm Beach, Florida": {
+  "lat": 26.62798,
+  "lng": -80.44942,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Palm Beach County, Florida, United States",
+  "type": "administrative"
+ },
+ "Goa, India": {
+  "lat": 15.30045,
+  "lng": 74.08551,
+  "country": "India",
+  "countryCode": "IN",
+  "display": "Goa, India",
+  "type": "administrative"
+ },
+ "Phuket, Thailand": {
+  "lat": 7.9366,
+  "lng": 98.35293,
+  "country": "Thailand",
+  "countryCode": "TH",
+  "display": "Phuket Province, Thailand",
+  "type": "administrative"
+ },
+ "Munich, Germany": {
+  "lat": 48.13711,
+  "lng": 11.57538,
+  "country": "Germany",
+  "countryCode": "DE",
+  "display": "Munich, Bavaria, Germany",
+  "type": "administrative"
+ },
+ "Kyoto, Japan": {
+  "lat": 35.01158,
+  "lng": 135.76814,
+  "country": "Japan",
+  "countryCode": "JP",
+  "display": "Kyoto, Kyoto Prefecture, Japan",
+  "type": "administrative"
+ },
+ "Beirut, Lebanon": {
+  "lat": 33.88923,
+  "lng": 35.50256,
+  "country": "Lebanon",
+  "countryCode": "LB",
+  "display": "Beirut, Basta Tahta, Bashura, Beirut Governorate, Lebanon",
+  "type": "harbour"
+ },
+ "Genoa, Italy": {
+  "lat": 44.40726,
+  "lng": 8.93386,
+  "country": "Italy",
+  "countryCode": "IT",
+  "display": "Genoa, Liguria, Italy",
+  "type": "administrative"
+ },
+ "Bordeaux, France": {
+  "lat": 44.84123,
+  "lng": -0.58004,
+  "country": "France",
+  "countryCode": "FR",
+  "display": "Bordeaux, Gironde, Nouvelle-Aquitaine, Metropolitan France, France",
+  "type": "administrative"
+ },
+ "Bogota, Colombia": {
+  "lat": 4.65338,
+  "lng": -74.08363,
+  "country": "Colombia",
+  "countryCode": "CO",
+  "display": "Bogota, Bogota, Capital District, RAP (Especial) Central, Colombia",
+  "type": "administrative"
+ },
+ "East Hampton, New York": {
+  "lat": 40.96339,
+  "lng": -72.18476,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Town of East Hampton, Suffolk County, New York, United States",
+  "type": "administrative"
+ },
+ "Sonoma County, California": {
+  "lat": 38.51108,
+  "lng": -122.84734,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Sonoma County, California, United States",
+  "type": "administrative"
+ },
+ "Silicon Valley, California": {
+  "lat": 37.443,
+  "lng": -122.15452,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Silicon Valley, Palo Alto, Santa Clara County, California, 94301, United States",
+  "type": "region"
+ },
+ "Rome": {
+  "lat": 41.89332,
+  "lng": 12.48293,
+  "country": "Italy",
+  "countryCode": "IT",
+  "display": "Rome, Roma Capitale, Lazio, Italy",
+  "type": "administrative"
+ },
+ "St Martin, Caribbean": {
+  "lat": 18.08589,
+  "lng": -63.01991,
+  "country": "France",
+  "countryCode": "FR",
+  "display": "Résidence Caribbean Riviera, Rue Soleil, Orient Bay, Saint Martin, 97150, France",
+  "type": "yes"
+ },
+ "Seoul, South Korea": {
+  "lat": 37.56668,
+  "lng": 126.97829,
+  "country": "South Korea",
+  "countryCode": "KR",
+  "display": "Seoul, South Korea",
+  "type": "administrative"
+ },
+ "Cambridge, England": {
+  "lat": 52.19758,
+  "lng": 0.13915,
+  "country": "United Kingdom",
+  "countryCode": "GB",
+  "display": "Cambridge, Cambridgeshire, Cambridgeshire and Peterborough, England, United Kingdom",
+  "type": "administrative"
+ },
+ "Damascus, Syria": {
+  "lat": 33.51307,
+  "lng": 36.30958,
+  "country": "Syria",
+  "countryCode": "SY",
+  "display": "Damascus, Ancient City of Damascus Municipality, Damascus Subdistrict, Damascus District, Damascus Governorate, Syria",
+  "type": "city"
+ },
+ "Key West": {
+  "lat": 24.55483,
+  "lng": -81.80207,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Key West, Monroe County, Florida, United States",
+  "type": "administrative"
+ },
+ "Valencia, Spain": {
+  "lat": 39.46971,
+  "lng": -0.37634,
+  "country": "Spain",
+  "countryCode": "ES",
+  "display": "Valencia, Comarca de València, Valencia, Valencian Community, Spain",
+  "type": "administrative"
+ },
+ "Santiago, Chile": {
+  "lat": -33.4377,
+  "lng": -70.65107,
+  "country": "Chile",
+  "countryCode": "CL",
+  "display": "Santiago, Provincia de Santiago, Santiago Metropolitan Region, 8320000, Chile",
+  "type": "city"
+ },
+ "Brooklyn, New York City": {
+  "lat": 40.6526,
+  "lng": -73.94972,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Brooklyn, Kings County, New York, United States",
+  "type": "administrative"
+ },
+ "Downtown Los Angeles": {
+  "lat": 34.048,
+  "lng": -118.2521,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Downtown, Los Angeles, Los Angeles County, California, 90071, United States",
+  "type": "suburb"
+ },
+ "Mammoth Lakes, California": {
+  "lat": 37.64325,
+  "lng": -118.96685,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Mammoth Lakes, Mono County, California, United States",
+  "type": "administrative"
+ },
+ "São Paulo, Brazil": {
+  "lat": -23.55065,
+  "lng": -46.63338,
+  "country": "Brazil",
+  "countryCode": "BR",
+  "display": "São Paulo, Southeast Region, Brazil",
+  "type": "administrative"
+ },
+ "Abu Dhabi, United Arab Emirates": {
+  "lat": 24.45384,
+  "lng": 54.3774,
+  "country": "United Arab Emirates",
+  "countryCode": "AE",
+  "display": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
+  "type": "administrative"
+ },
+ "Niagara Falls, Ontario": {
+  "lat": 43.10656,
+  "lng": -79.0639,
+  "country": "Canada",
+  "countryCode": "CA",
+  "display": "Niagara Falls, Niagara Region, Ontario, Canada",
+  "type": "administrative"
+ },
+ "Niagara Falls, New York": {
+  "lat": 43.08484,
+  "lng": -79.07018,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Niagara Falls, Goat Island Road, City of Niagara Falls, Niagara County, New York, 14302, United States",
+  "type": "waterfall"
+ },
+ "St-Tropez, France": {
+  "lat": 43.27272,
+  "lng": 6.64052,
+  "country": "France",
+  "countryCode": "FR",
+  "display": "Saint-Tropez, Draguignan, Var, Provence-Alpes-Côte d'Azur, Metropolitan France, 83990, France",
+  "type": "administrative"
+ },
+ "San Sebastián, Spain": {
+  "lat": 43.32242,
+  "lng": -1.98389,
+  "country": "Spain",
+  "countryCode": "ES",
+  "display": "San Sebastián, Gipuzkoa, Autonomous Community of the Basque Country, Spain",
+  "type": "administrative"
+ },
+ "Marseille, France": {
+  "lat": 43.2964,
+  "lng": 5.37779,
+  "country": "France",
+  "countryCode": "FR",
+  "display": "Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, Metropolitan France, France",
+  "type": "administrative"
+ },
+ "Downtown Manhattan": {
+  "lat": 51.12895,
+  "lng": 71.46488,
+  "country": "Kazakhstan",
+  "countryCode": "KZ",
+  "display": "Downtown Manhattan, 1/2, Rakhimzhan Koshkarbaev avenue, Almaty District, Astana, 010000, Kazakhstan",
+  "type": "yes"
+ },
+ "on the Mendocino Coast": null,
+ "Bern, Switzerland": {
+  "lat": 46.94847,
+  "lng": 7.45217,
+  "country": "Switzerland",
+  "countryCode": "CH",
+  "display": "Bern, Bern-Mittelland administrative district, Bernese Mittelland administrative region, Bern, Switzerland",
+  "type": "administrative"
+ },
+ "Quito, Ecuador": {
+  "lat": -0.22016,
+  "lng": -78.51233,
+  "country": "Ecuador",
+  "countryCode": "EC",
+  "display": "Quito, Quito Canton, Pichincha, 170130, Ecuador",
+  "type": "city"
+ },
+ "Perugia, Italy": {
+  "lat": 43.10703,
+  "lng": 12.403,
+  "country": "Italy",
+  "countryCode": "IT",
+  "display": "Perugia, Umbria, Italy",
+  "type": "administrative"
+ },
+ "Krakow, Poland": {
+  "lat": 50.04694,
+  "lng": 19.99715,
+  "country": "Poland",
+  "countryCode": "PL",
+  "display": "Krakow, Lesser Poland Voivodeship, Poland",
+  "type": "administrative"
+ },
+ "Quebec City, Quebec": {
+  "lat": 46.81374,
+  "lng": -71.20841,
+  "country": "Canada",
+  "countryCode": "CA",
+  "display": "Quebec, Urban agglomeration of Québec, Capitale-Nationale, Quebec, Canada",
+  "type": "administrative"
+ },
+ "Albuquerque, New Mexico": {
+  "lat": 35.0841,
+  "lng": -106.65099,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Albuquerque, Bernalillo County, New Mexico, United States",
+  "type": "administrative"
+ },
+ "Brasília": {
+  "lat": -15.79399,
+  "lng": -47.8828,
+  "country": "Brazil",
+  "countryCode": "BR",
+  "display": "Brasília, Plano Piloto, Federal District, Central-West Region, 70391-900, Brazil",
+  "type": "city"
+ },
+ "St Lucia": {
+  "lat": 10.30602,
+  "lng": -66.65885,
+  "country": "Venezuela",
+  "countryCode": "VE",
+  "display": "Saint Lucia, Parroquia Santa Lucía, Municipio Paz Castillo, Miranda State, 1214, Venezuela",
+  "type": "city"
+ },
+ "Porto, Portugal": {
+  "lat": 41.15022,
+  "lng": -8.61035,
+  "country": "Portugal",
+  "countryCode": "PT",
+  "display": "Porto, Portugal",
+  "type": "administrative"
+ },
+ "Mérida, Mexico": {
+  "lat": 20.96708,
+  "lng": -89.62374,
+  "country": "Mexico",
+  "countryCode": "MX",
+  "display": "Mérida, Yucatán, 97000, Mexico",
+  "type": "city"
+ },
+ "Salzburg, Austria": {
+  "lat": 47.79813,
+  "lng": 13.04648,
+  "country": "Austria",
+  "countryCode": "AT",
+  "display": "Salzburg, Austria",
+  "type": "administrative"
+ },
+ "Cambridge, Massachusetts": {
+  "lat": 42.36563,
+  "lng": -71.104,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Cambridge, Middlesex County, Massachusetts, United States",
+  "type": "administrative"
+ },
+ "Trinidad And Tobago": {
+  "lat": 10.74669,
+  "lng": -61.08401,
+  "country": "Trinidad and Tobago",
+  "countryCode": "TT",
+  "display": "Trinidad and Tobago",
+  "type": "administrative"
+ },
+ "Birmingham, England": {
+  "lat": 52.4949,
+  "lng": -1.85184,
+  "country": "United Kingdom",
+  "countryCode": "GB",
+  "display": "Birmingham, West Midlands, England, United Kingdom",
+  "type": "administrative"
+ },
+ "Penang, Malaysia": {
+  "lat": 5.4065,
+  "lng": 100.25591,
+  "country": "Malaysia",
+  "countryCode": "MY",
+  "display": "Penang, Malaysia",
+  "type": "administrative"
+ },
+ "Bruges, Belgium": {
+  "lat": 51.20855,
+  "lng": 3.22677,
+  "country": "Belgium",
+  "countryCode": "BE",
+  "display": "Bruges, Brugge, West Flanders, Flanders, Belgium",
+  "type": "administrative"
+ },
+ "Tallinn, Estonia": {
+  "lat": 59.43724,
+  "lng": 24.75727,
+  "country": "Estonia",
+  "countryCode": "EE",
+  "display": "Tallinn, Harju County, Estonia",
+  "type": "administrative"
+ },
+ "Long Beach, California": {
+  "lat": 33.76902,
+  "lng": -118.1916,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Long Beach, Los Angeles County, California, United States",
+  "type": "administrative"
+ },
+ "Vientiane, Laos": {
+  "lat": 17.9641,
+  "lng": 102.61337,
+  "country": "Laos",
+  "countryCode": "LA",
+  "display": "Vientiane Capital, Chanthabuly District, Vientiane Prefecture, Laos",
+  "type": "administrative"
+ },
+ "Cologne, Germany": {
+  "lat": 50.93836,
+  "lng": 6.95997,
+  "country": "Germany",
+  "countryCode": "DE",
+  "display": "Cologne, North Rhine-Westphalia, Germany",
+  "type": "administrative"
+ },
+ "Mendoza, Argentina": {
+  "lat": -34.59703,
+  "lng": -68.73048,
+  "country": "Argentina",
+  "countryCode": "AR",
+  "display": "Mendoza, Argentina",
+  "type": "administrative"
+ },
+ "Lyon, France": {
+  "lat": 45.75781,
+  "lng": 4.83201,
+  "country": "France",
+  "countryCode": "FR",
+  "display": "Lyon, Métropole de Lyon, Rhône, Auvergne-Rhône-Alpes, Metropolitan France, France",
+  "type": "administrative"
+ },
+ "East London": {
+  "lat": -33.01916,
+  "lng": 27.89986,
+  "country": "South Africa",
+  "countryCode": "ZA",
+  "display": "KuGompo City, Buffalo City Metropolitan Municipality, Eastern Cape, 5220, South Africa",
+  "type": "city"
+ },
+ "Hyderabad, India": {
+  "lat": 17.36059,
+  "lng": 78.47406,
+  "country": "India",
+  "countryCode": "IN",
+  "display": "Hyderabad, Bahadurpura mandal, Hyderabad, Telangana, India",
+  "type": "administrative"
+ },
+ "Dresden, Germany": {
+  "lat": 51.04933,
+  "lng": 13.73814,
+  "country": "Germany",
+  "countryCode": "DE",
+  "display": "Dresden, Saxony, Germany",
+  "type": "administrative"
+ },
+ "Oxford, England": {
+  "lat": 51.75201,
+  "lng": -1.25785,
+  "country": "United Kingdom",
+  "countryCode": "GB",
+  "display": "Oxford, Oxfordshire, England, United Kingdom",
+  "type": "administrative"
+ },
+ "Osaka, Japan": {
+  "lat": 34.69376,
+  "lng": 135.50145,
+  "country": "Japan",
+  "countryCode": "JP",
+  "display": "Osaka, Osaka Prefecture, Japan",
+  "type": "administrative"
+ },
+ "Kiev, Ukraine": {
+  "lat": 50.45003,
+  "lng": 30.52414,
+  "country": "Ukraine",
+  "countryCode": "UA",
+  "display": "Kyiv, Ukraine",
+  "type": "administrative"
+ },
+ "Turin, Italy": {
+  "lat": 45.06776,
+  "lng": 7.68249,
+  "country": "Italy",
+  "countryCode": "IT",
+  "display": "Turin, Piedmont, Italy",
+  "type": "administrative"
+ },
+ "Helsinki, Finland": {
+  "lat": 60.16662,
+  "lng": 24.94354,
+  "country": "Finland",
+  "countryCode": "FI",
+  "display": "Helsinki, Helsinki sub-region, Uusimaa, Mainland Finland, Finland",
+  "type": "administrative"
+ },
+ "Orléans, France": {
+  "lat": 47.90273,
+  "lng": 1.90861,
+  "country": "France",
+  "countryCode": "FR",
+  "display": "Orléans, Loiret, Centre-Val de Loire, Metropolitan France, 45000, France",
+  "type": "administrative"
+ },
+ "Midcoast Maine": {
+  "lat": 43.8972,
+  "lng": -69.92485,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Southern Maine Community College Midcoast Tennis Courts, Brunswick, Cumberland County, Maine, 04011, United States",
+  "type": "recreation_ground"
+ },
+ "Montpellier, France": {
+  "lat": 43.61124,
+  "lng": 3.87673,
+  "country": "France",
+  "countryCode": "FR",
+  "display": "Montpellier, Hérault, Occitania, Metropolitan France, France",
+  "type": "administrative"
+ },
+ "Johannesburg, South Africa": {
+  "lat": -26.205,
+  "lng": 28.04972,
+  "country": "South Africa",
+  "countryCode": "ZA",
+  "display": "Johannesburg, City of Johannesburg Metropolitan Municipality, Gauteng, 2001, South Africa",
+  "type": "city"
+ },
+ "Montpelier, Vermont": {
+  "lat": 44.26022,
+  "lng": -72.57504,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Montpelier, Washington County, Vermont, 05602, United States",
+  "type": "administrative"
+ },
+ "Sofia, Bulgaria": {
+  "lat": 42.6977,
+  "lng": 23.32174,
+  "country": "Bulgaria",
+  "countryCode": "BG",
+  "display": "Sofia, Sredets District, Stolichna, Sofia-City, Bulgaria",
+  "type": "administrative"
+ },
+ "Galway, Ireland": {
+  "lat": 53.27441,
+  "lng": -9.04906,
+  "country": "Ireland",
+  "countryCode": "IE",
+  "display": "Galway, County Galway, Connacht, Ireland",
+  "type": "administrative"
+ },
+ "Managua, Nicaragua": {
+  "lat": 12.11,
+  "lng": -86.25,
+  "country": "Nicaragua",
+  "countryCode": "NI",
+  "display": "Managua, 10000 (código maestro), Nicaragua",
+  "type": "administrative"
+ },
+ "Dubrovnik, Croatia": {
+  "lat": 42.6491,
+  "lng": 18.09395,
+  "country": "Croatia",
+  "countryCode": "HR",
+  "display": "Dubrovnik, Dubrovnik-Neretva County, Croatia",
+  "type": "administrative"
+ },
+ "Gothenburg, Sweden": {
+  "lat": 57.70723,
+  "lng": 11.96702,
+  "country": "Sweden",
+  "countryCode": "SE",
+  "display": "Gothenburg, Göteborgs Stad, Västra Götaland County, 411 10, Sweden",
+  "type": "city"
+ },
+ "Siena, Italy": {
+  "lat": 43.16721,
+  "lng": 11.46756,
+  "country": "Italy",
+  "countryCode": "IT",
+  "display": "Siena, Tuscany, Italy",
+  "type": "administrative"
+ },
+ "Modena, Italy": {
+  "lat": 44.53847,
+  "lng": 10.93596,
+  "country": "Italy",
+  "countryCode": "IT",
+  "display": "Modena, Emilia-Romagna, Italy",
+  "type": "administrative"
+ },
+ "New Haven, Connecticut": {
+  "lat": 41.30821,
+  "lng": -72.92505,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "New Haven, South Central Connecticut Planning Region, Connecticut, United States",
+  "type": "administrative"
+ },
+ "Macau": {
+  "lat": 22.17576,
+  "lng": 113.55141,
+  "country": "China",
+  "countryCode": "CN",
+  "display": "Macau, China",
+  "type": "administrative"
+ },
+ "Cancún, Mexico": {
+  "lat": 21.15275,
+  "lng": -86.84258,
+  "country": "Mexico",
+  "countryCode": "MX",
+  "display": "Cancún, Benito Juárez, Distrito 5, Quintana Roo, Mexico",
+  "type": "administrative"
+ },
+ "Ljubljana, Slovenia": {
+  "lat": 46.05003,
+  "lng": 14.50693,
+  "country": "Slovenia",
+  "countryCode": "SI",
+  "display": "Ljubljana, Upravna Enota Ljubljana, 1000, Slovenia",
+  "type": "city"
+ },
+ "Kolkata, India": {
+  "lat": 22.57265,
+  "lng": 88.3639,
+  "country": "India",
+  "countryCode": "IN",
+  "display": "Kolkata, Greater Kolkata, Kolkata, West Bengal, India",
+  "type": "administrative"
+ },
+ "Lijiang, China": {
+  "lat": 26.85959,
+  "lng": 100.22498,
+  "country": "China",
+  "countryCode": "CN",
+  "display": "Lijiang City, Yunnan, China",
+  "type": "administrative"
+ },
+ "Queens, New York City": {
+  "lat": 40.71351,
+  "lng": -73.82831,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Queens, Queens County, New York, United States",
+  "type": "administrative"
+ },
+ "? In Queens, Enough Frugal Options for a Week": null,
+ "Astoria, New York City": {
+  "lat": 40.77201,
+  "lng": -73.93027,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Astoria, Queens, Queens County, New York, 11102, United States",
+  "type": "neighbourhood"
+ },
+ "El Paso, Texas": {
+  "lat": 31.7601,
+  "lng": -106.48705,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "El Paso, El Paso County, Texas, United States",
+  "type": "administrative"
+ },
+ "Durham, North Carolina": {
+  "lat": 35.99665,
+  "lng": -78.90181,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Durham, Durham County, North Carolina, United States",
+  "type": "administrative"
+ },
+ "Marin County, California": {
+  "lat": 38.04091,
+  "lng": -122.61996,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Marin County, California, United States",
+  "type": "administrative"
+ },
+ "Innsbruck, Austria": {
+  "lat": 47.26543,
+  "lng": 11.39277,
+  "country": "Austria",
+  "countryCode": "AT",
+  "display": "Innsbruck, Tyrol, Austria",
+  "type": "administrative"
+ },
+ "Davos, Switzerland": {
+  "lat": 46.7962,
+  "lng": 9.82369,
+  "country": "Switzerland",
+  "countryCode": "CH",
+  "display": "Davos, Prättigau/Davos, Grisons, Switzerland",
+  "type": "administrative"
+ },
+ "Panama City Beach, Florida": {
+  "lat": 30.17659,
+  "lng": -85.80539,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Panama City Beach, Bay County, Florida, United States",
+  "type": "administrative"
+ },
+ "Bangkok": {
+  "lat": 13.75249,
+  "lng": 100.49351,
+  "country": "Thailand",
+  "countryCode": "TH",
+  "display": "Bangkok, Thailand",
+  "type": "administrative"
+ },
+ "Brisbane, Australia": {
+  "lat": -27.46896,
+  "lng": 153.0235,
+  "country": "Australia",
+  "countryCode": "AU",
+  "display": "Brisbane, Queensland, Australia",
+  "type": "city"
+ },
+ "Bangalore, India": {
+  "lat": 12.97679,
+  "lng": 77.59008,
+  "country": "India",
+  "countryCode": "IN",
+  "display": "Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, India",
+  "type": "administrative"
+ },
+ "Cannes, France": {
+  "lat": 43.55152,
+  "lng": 7.01344,
+  "country": "France",
+  "countryCode": "FR",
+  "display": "Cannes, Grasse, Maritime Alps, Provence-Alpes-Côte d'Azur, Metropolitan France, France",
+  "type": "administrative"
+ },
+ "Salta, Argentina": {
+  "lat": -25.22699,
+  "lng": -64.5912,
+  "country": "Argentina",
+  "countryCode": "AR",
+  "display": "Salta, Argentina",
+  "type": "administrative"
+ },
+ "Tokyo, Japan": {
+  "lat": 35.67686,
+  "lng": 139.76389,
+  "country": "Japan",
+  "countryCode": "JP",
+  "display": "Tokyo, Japan",
+  "type": "administrative"
+ },
+ "Texas": {
+  "lat": 31.26389,
+  "lng": -98.54561,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Texas, United States",
+  "type": "administrative"
+ },
+ "Auckland, New Zealand": {
+  "lat": -36.85209,
+  "lng": 174.76318,
+  "country": "New Zealand",
+  "countryCode": "NZ",
+  "display": "Auckland, Waitematā, Auckland, 1010, New Zealand",
+  "type": "city"
+ },
+ "Jackson, Mississippi": {
+  "lat": 32.29987,
+  "lng": -90.18304,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Jackson, Hinds County, Mississippi, United States",
+  "type": "administrative"
+ },
+ "Verona, Italy": {
+  "lat": 45.4425,
+  "lng": 10.98574,
+  "country": "Italy",
+  "countryCode": "IT",
+  "display": "Verona, Veneto, Italy",
+  "type": "administrative"
+ },
+ "Gettysburg, Pennsylvania": {
+  "lat": 39.8309,
+  "lng": -77.23101,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Gettysburg, Adams County, Pennsylvania, United States",
+  "type": "administrative"
+ },
+ "Hilton Head, South Carolina": {
+  "lat": 32.16185,
+  "lng": -80.75126,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Hilton Head Island, Beaufort County, South Carolina, United States",
+  "type": "administrative"
+ },
+ "the Hudson Valley, New York": {
+  "lat": 41.31713,
+  "lng": -74.12721,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Shop | The Sample, Evergreen Court, Woodbury Common Premium Outlets, Village of Woodbury, Town of Woodbury, Orange County, New York, 10917, United States",
+  "type": "clothes"
+ },
+ "Lecce, Italy": {
+  "lat": 40.15222,
+  "lng": 18.22606,
+  "country": "Italy",
+  "countryCode": "IT",
+  "display": "Lecce, Apulia, Italy",
+  "type": "administrative"
+ },
+ "Monaco": {
+  "lat": 43.73235,
+  "lng": 7.42768,
+  "country": "Monaco",
+  "countryCode": "MC",
+  "display": "Monaco",
+  "type": "administrative"
+ },
+ "Izmir, Turkey": {
+  "lat": 38.41925,
+  "lng": 27.12847,
+  "country": "Turkey",
+  "countryCode": "TR",
+  "display": "İzmir, Konak, Izmir, Aegean Region, 35250, Turkey",
+  "type": "city"
+ },
+ "the Brandywine Valley": {
+  "lat": 40.05341,
+  "lng": -75.79727,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "The Reserve at Cross Creek, 1, Valley Oak Road, The Reserve at Cross Creek, Brandywine Manor, West Brandywine Township, Chester County, Pennsylvania, 19343, United States",
+  "type": "yes"
+ },
+ "Hampstead, London": {
+  "lat": 51.55653,
+  "lng": -0.1783,
+  "country": "United Kingdom",
+  "countryCode": "GB",
+  "display": "Hampstead, Greater London, England, NW3 1QG, United Kingdom",
+  "type": "town"
+ },
+ "Antwerp, Belgium": {
+  "lat": 51.22111,
+  "lng": 4.39971,
+  "country": "Belgium",
+  "countryCode": "BE",
+  "display": "Antwerp, Flanders, Belgium",
+  "type": "administrative"
+ },
+ "Sarajevo, Bosnia And Herzegovina": {
+  "lat": 43.85707,
+  "lng": 18.41261,
+  "country": "Bosnia and Herzegovina",
+  "countryCode": "BA",
+  "display": "Sarajevo, Mjesna zajednica Trg oslobođenja-Centar, Centar Municipality, City of Sarajevo, Sarajevo Canton, Federation of Bosnia and Herzegovina, 71000, Bosnia and Herzegovina",
+  "type": "administrative"
+ },
+ "Cardiff, Wales": {
+  "lat": 51.48165,
+  "lng": -3.17919,
+  "country": "United Kingdom",
+  "countryCode": "GB",
+  "display": "Cardiff, Wales, CF10 2AF, United Kingdom",
+  "type": "city"
+ },
+ "Düsseldorf, Germany": {
+  "lat": 51.2254,
+  "lng": 6.77631,
+  "country": "Germany",
+  "countryCode": "DE",
+  "display": "Dusseldorf, North Rhine-Westphalia, Germany",
+  "type": "administrative"
+ },
+ "Aruba": {
+  "lat": 12.50136,
+  "lng": -69.96185,
+  "country": "Aruba",
+  "countryCode": "NL",
+  "display": "Aruba, Netherlands",
+  "type": "administrative"
+ },
+ "Chianti, Italy": {
+  "lat": 43.60695,
+  "lng": 11.33201,
+  "country": "Italy",
+  "countryCode": "IT",
+  "display": "Greve in Chianti, Florence, Tuscany, Italy",
+  "type": "administrative"
+ },
+ "Colombo, Sri Lanka": {
+  "lat": 6.93886,
+  "lng": 79.8542,
+  "country": "Sri Lanka",
+  "countryCode": "LK",
+  "display": "Colombo, Colombo District, Western Province, Sri Lanka",
+  "type": "administrative"
+ },
+ "Basel, Switzerland": {
+  "lat": 47.55811,
+  "lng": 7.58783,
+  "country": "Switzerland",
+  "countryCode": "CH",
+  "display": "Basel, Basel-City, Switzerland",
+  "type": "administrative"
+ },
+ "Yangon, Myanmar": {
+  "lat": 16.79671,
+  "lng": 96.16099,
+  "country": "Myanmar",
+  "countryCode": "MM",
+  "display": "Yangon City, Yangon, Myanmar",
+  "type": "administrative"
+ },
+ "Baton Rouge, Louisiana": {
+  "lat": 30.44942,
+  "lng": -91.18697,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Baton Rouge, East Baton Rouge Parish, Louisiana, United States",
+  "type": "administrative"
+ },
+ "Upper Manhattan": {
+  "lat": 42.23875,
+  "lng": 3.12371,
+  "country": "Spain",
+  "countryCode": "ES",
+  "display": "Manhattan, 6, Sector Delta Muga, Empuriabrava i entorn, Castelló d'Empúries, Upper Empordà, Girona, Catalonia, 17487, Spain",
+  "type": "apartments"
+ },
+ "Raleigh, North Carolina": {
+  "lat": 35.7804,
+  "lng": -78.6391,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Raleigh, Wake County, North Carolina, United States",
+  "type": "administrative"
+ },
+ "Jamaica, West Indies": {
+  "lat": 18.00538,
+  "lng": -76.74533,
+  "country": "Jamaica",
+  "countryCode": "JM",
+  "display": "University of the West Indies (Mona), Tavern Drive, Mona, Saint Andrew, Surrey County, Kingston 7, Jamaica",
+  "type": "university"
+ },
+ "Hood River, Oregon": {
+  "lat": 45.53116,
+  "lng": -121.64756,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Hood River County, Oregon, United States",
+  "type": "administrative"
+ },
+ "Belo Horizonte, Brazil": {
+  "lat": -19.92273,
+  "lng": -43.94509,
+  "country": "Brazil",
+  "countryCode": "BR",
+  "display": "Belo Horizonte, Minas Gerais, Southeast Region, Brazil",
+  "type": "administrative"
+ },
+ "Zanzibar, Tanzania": {
+  "lat": -6.09997,
+  "lng": 39.32095,
+  "country": "Tanzania",
+  "countryCode": "TZ",
+  "display": "Zanzibar, Tanzania",
+  "type": "administrative"
+ },
+ "Canberra, Australia": {
+  "lat": -35.29759,
+  "lng": 149.10127,
+  "country": "Australia",
+  "countryCode": "AU",
+  "display": "Canberra, District of Canberra Central, Australian Capital Territory, 2600, Australia",
+  "type": "city"
+ },
+ "the Berkshires": {
+  "lat": 42.45239,
+  "lng": -73.25182,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Boys & Girls Club of the Berkshires, 16, Melville Street, Pittsfield, Berkshire County, Massachusetts, 01201, United States",
+  "type": "sports_centre"
+ },
+ "Graz, Austria": {
+  "lat": 47.07087,
+  "lng": 15.43828,
+  "country": "Austria",
+  "countryCode": "AT",
+  "display": "Graz, Styria, Austria",
+  "type": "administrative"
+ },
+ "Dakar, Senegal": {
+  "lat": 14.69342,
+  "lng": -17.44794,
+  "country": "Senegal",
+  "countryCode": "SN",
+  "display": "Dakar, Dakar Region, Senegal",
+  "type": "administrative"
+ },
+ "Green Bay, Wisconsin": {
+  "lat": 44.51264,
+  "lng": -88.01258,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Green Bay, Brown County, Wisconsin, United States",
+  "type": "administrative"
+ },
+ "Lake Como, Italy": {
+  "lat": 45.99176,
+  "lng": 9.26488,
+  "country": "Italy",
+  "countryCode": "IT",
+  "display": "Lake Como, Como, Lombardy, Italy",
+  "type": "lake"
+ },
+ "Nice, France": {
+  "lat": 43.70094,
+  "lng": 7.26839,
+  "country": "France",
+  "countryCode": "FR",
+  "display": "Nice, Maritime Alps, Provence-Alpes-Côte d'Azur, Metropolitan France, France",
+  "type": "administrative"
+ },
+ "Central Park, Manhattan, Ny": {
+  "lat": 40.78277,
+  "lng": -73.96536,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Central Park, New York County, New York, 11025, United States",
+  "type": "park"
+ },
+ "Strasbourg": {
+  "lat": 48.58461,
+  "lng": 7.75071,
+  "country": "France",
+  "countryCode": "FR",
+  "display": "Strasbourg, Bas-Rhin, European Collectivity of Alsace, Great East, Metropolitan France, France",
+  "type": "administrative"
+ },
+ "Strasbourg, France": {
+  "lat": 48.58461,
+  "lng": 7.75071,
+  "country": "France",
+  "countryCode": "FR",
+  "display": "Strasbourg, Bas-Rhin, European Collectivity of Alsace, Great East, Metropolitan France, France",
+  "type": "administrative"
+ },
+ "Casablanca, Morocco": {
+  "lat": 33.59451,
+  "lng": -7.62003,
+  "country": "Morocco",
+  "countryCode": "MA",
+  "display": "Casablanca, Pachalik de Casablanca باشوية الدار البيضاء, Prefecture of Casablanca, Casablanca-Settat, Morocco",
+  "type": "administrative"
+ },
+ "Memphis, Tennessee": {
+  "lat": 35.14603,
+  "lng": -90.05178,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Memphis, Shelby County, West Tennessee, Tennessee, United States",
+  "type": "administrative"
+ },
+ "Belfast, Northern Ireland": {
+  "lat": 54.59639,
+  "lng": -5.93018,
+  "country": "United Kingdom",
+  "countryCode": "GB",
+  "display": "Belfast City District, County Antrim, Northern Ireland, United Kingdom",
+  "type": "administrative"
+ },
+ "Anguilla": {
+  "lat": 18.19549,
+  "lng": -63.07502,
+  "country": "Anguilla",
+  "countryCode": "AI",
+  "display": "Anguilla",
+  "type": "administrative"
+ },
+ "Koreatown, Los Angeles": {
+  "lat": 34.06179,
+  "lng": -118.30545,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Koreatown, Los Angeles, Los Angeles County, California, 90005, United States",
+  "type": "suburb"
+ },
+ "Los Cabos, Mexico": {
+  "lat": 21.16612,
+  "lng": -100.93644,
+  "country": "Mexico",
+  "countryCode": "MX",
+  "display": "Los Cabos, Dolores Hidalgo, Guanajuato, 37807, Mexico",
+  "type": "quarter"
+ },
+ "Los Cabos": {
+  "lat": 43.51236,
+  "lng": -6.0974,
+  "country": "Spain",
+  "countryCode": "ES",
+  "display": "Los Cabos, Carretera de Pravia a Somao, Bances, Santianes, Pravia, Asturias, 33138, Spain",
+  "type": "halt"
+ },
+ "Dubai, United Arab Emirates": {
+  "lat": 25.07428,
+  "lng": 55.18856,
+  "country": "United Arab Emirates",
+  "countryCode": "AE",
+  "display": "Dubai, Dubai Emirate, United Arab Emirates",
+  "type": "administrative"
+ },
+ "Antigua, Guatemala": {
+  "lat": 14.55678,
+  "lng": -90.73373,
+  "country": "Guatemala",
+  "countryCode": "GT",
+  "display": "Antigua Guatemala, Sacatepéquez, Guatemala",
+  "type": "administrative"
+ },
+ "on the Left Bank, Paris": null,
+ "Medellín, Colombia": {
+  "lat": 6.26973,
+  "lng": -75.60256,
+  "country": "Colombia",
+  "countryCode": "CO",
+  "display": "Medellín, Valle de Aburrá, Antioquia, RAP del Agua y la Montaña, 0500, Colombia",
+  "type": "administrative"
+ },
+ "Medellín": {
+  "lat": 6.26973,
+  "lng": -75.60256,
+  "country": "Colombia",
+  "countryCode": "CO",
+  "display": "Medellín, Valle de Aburrá, Antioquia, RAP del Agua y la Montaña, 0500, Colombia",
+  "type": "administrative"
+ },
+ "Bilbao, Spain": {
+  "lat": 43.263,
+  "lng": -2.935,
+  "country": "Spain",
+  "countryCode": "ES",
+  "display": "Bilbao, Biscay, Autonomous Community of the Basque Country, Spain",
+  "type": "administrative"
+ },
+ "Chapel Hill, North Carolina": {
+  "lat": 35.91315,
+  "lng": -79.05578,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Chapel Hill, Orange County, North Carolina, United States",
+  "type": "administrative"
+ },
+ "Zagreb": {
+  "lat": 45.8131,
+  "lng": 15.97728,
+  "country": "Croatia",
+  "countryCode": "HR",
+  "display": "City of Zagreb, Croatia",
+  "type": "administrative"
+ },
+ "Split, Croatia": {
+  "lat": 43.51164,
+  "lng": 16.43997,
+  "country": "Croatia",
+  "countryCode": "HR",
+  "display": "Split, Grad Split, Split-Dalmatia County, Croatia",
+  "type": "administrative"
+ },
+ "Chengdu, China": {
+  "lat": 30.65987,
+  "lng": 104.06332,
+  "country": "China",
+  "countryCode": "CN",
+  "display": "Chengdu, Sichuan, China",
+  "type": "administrative"
+ },
+ "Vilnius, Lithuania": {
+  "lat": 54.68705,
+  "lng": 25.28291,
+  "country": "Lithuania",
+  "countryCode": "LT",
+  "display": "Vilnius, Vilnius city municipality, Vilnius County, Lithuania",
+  "type": "administrative"
+ },
+ "Provence, France": {
+  "lat": 44.05806,
+  "lng": 6.06385,
+  "country": "France",
+  "countryCode": "FR",
+  "display": "Provence-Alpes-Côte d'Azur, Metropolitan France, France",
+  "type": "administrative"
+ },
+ "on the Right Bank, Paris": null,
+ "East Tokyo": {
+  "lat": 35.6165,
+  "lng": 139.39518,
+  "country": "Japan",
+  "countryCode": "JP",
+  "display": "EAST, 町田平山八王子線, 37, Hachioji, Tokyo, 192-0363, Japan",
+  "type": "apartments"
+ },
+ "Eastern Tokyo": {
+  "lat": 43.13038,
+  "lng": 131.90129,
+  "country": "Russia",
+  "countryCode": "RU",
+  "display": "Tokyo, 8, Ostryakov Prospect, Первореченский район, Vladivostok, Vladivostok City District, Primorsky Krai, Far Eastern Federal District, 690000, Russia",
+  "type": "beauty"
+ },
+ "Adelaide, Australia": {
+  "lat": -34.92818,
+  "lng": 138.59993,
+  "country": "Australia",
+  "countryCode": "AU",
+  "display": "Adelaide, South Australia, Australia",
+  "type": "city"
+ },
+ "Tel Aviv, Israel": {
+  "lat": 32.0853,
+  "lng": 34.78181,
+  "country": "Israel",
+  "countryCode": "IL",
+  "display": "Tel-Aviv, Tel Aviv Subdistrict, Tel-Aviv District, Israel",
+  "type": "administrative"
+ },
+ "Havana, Cuba": {
+  "lat": 23.1353,
+  "lng": -82.35896,
+  "country": "Cuba",
+  "countryCode": "CU",
+  "display": "Havana, 10000, Cuba",
+  "type": "city"
+ },
+ "Tangier, Morocco": {
+  "lat": 35.76949,
+  "lng": -5.80447,
+  "country": "Morocco",
+  "countryCode": "MA",
+  "display": "Tangier, Pachalik de Tanger باشوية طنجة, Prefecture of Tangier - Assilah, Tangier-Tetouan-Al Hoceima, Morocco",
+  "type": "administrative"
+ },
+ "on the Amalfi Coast": null,
+ "Amalfi Coast, Italy": {
+  "lat": 40.66465,
+  "lng": 14.63645,
+  "country": "Italy",
+  "countryCode": "IT",
+  "display": "Amalfi Coast, Salerno, Campania, Italy",
+  "type": "protected_area"
+ },
+ "Southeast London": {
+  "lat": -22.5825,
+  "lng": -47.38728,
+  "country": "Brazil",
+  "countryCode": "BR",
+  "display": "London, Jardim São Luis, Jardim Nova Suiça, Limeira, São Paulo, Southeast Region, Brazil",
+  "type": "residential"
+ },
+ "on Oahu": null,
+ "Oahu, Hawaii": {
+  "lat": 21.48344,
+  "lng": -158.03651,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Oʻahu, Honolulu County, Hawaii, United States",
+  "type": "island"
+ },
+ "Philadelphia": {
+  "lat": 39.95272,
+  "lng": -75.16353,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Philadelphia, Philadelphia County, Pennsylvania, United States",
+  "type": "administrative"
+ },
+ "Los Angeles, California": {
+  "lat": 34.05369,
+  "lng": -118.24277,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Los Angeles, Los Angeles County, California, United States",
+  "type": "administrative"
+ },
+ "on the Beach in Barcelona": null,
+ "Parma, Italy": {
+  "lat": 44.6952,
+  "lng": 10.09799,
+  "country": "Italy",
+  "countryCode": "IT",
+  "display": "Parma, Emilia-Romagna, Italy",
+  "type": "administrative"
+ },
+ "Belgrade, Serbia": {
+  "lat": 44.81533,
+  "lng": 20.44566,
+  "country": "Serbia",
+  "countryCode": "RS",
+  "display": "Belgrade, City of Belgrade, Central Serbia, Serbia",
+  "type": "administrative"
+ },
+ "Burgundy, France": {
+  "lat": 47.27809,
+  "lng": 4.22249,
+  "country": "France",
+  "countryCode": "FR",
+  "display": "Burgundy, Metropolitan France, France",
+  "type": "historic"
+ },
+ "Malta": {
+  "lat": 35.93114,
+  "lng": 14.39516,
+  "country": "Malta",
+  "countryCode": "MT",
+  "display": "Malta",
+  "type": "administrative"
+ },
+ "Manhattan, New York City": {
+  "lat": 40.75796,
+  "lng": -73.98553,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Manhattan, New York County, New York, United States",
+  "type": "administrative"
+ },
+ "Miami, Florida": {
+  "lat": 25.77416,
+  "lng": -80.1936,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Miami, Miami-Dade County, Florida, United States",
+  "type": "administrative"
+ },
+ "Delhi, India": {
+  "lat": 28.66645,
+  "lng": 77.21698,
+  "country": "India",
+  "countryCode": "IN",
+  "display": "Delhi, Old Delhi, Delhi, India",
+  "type": "administrative"
+ },
+ "Puerto Vallarta, Mexico": {
+  "lat": 20.64072,
+  "lng": -105.22031,
+  "country": "Mexico",
+  "countryCode": "MX",
+  "display": "Puerto Vallarta, Región Costa Norte, Jalisco, 48300, Mexico",
+  "type": "city"
+ },
+ "Amman, Jordan": {
+  "lat": 31.95157,
+  "lng": 35.92396,
+  "country": "Jordan",
+  "countryCode": "JO",
+  "display": "Amman, Amman Sub-District, Amman Qasabah District, Amman, 11110, Jordan",
+  "type": "city"
+ },
+ "Fez, Morocco": {
+  "lat": 34.03465,
+  "lng": -5.01619,
+  "country": "Morocco",
+  "countryCode": "MA",
+  "display": "Fez, Pachalik du Fes باشوية فاس, Fez Prefecture, Fez-Meknes, Morocco",
+  "type": "administrative"
+ },
+ "Sapporo, Japan": {
+  "lat": 43.06194,
+  "lng": 141.35429,
+  "country": "Japan",
+  "countryCode": "JP",
+  "display": "Sapporo, Ishikari Subprefecture, Hokkaido Prefecture, Hokkaido Region, Japan",
+  "type": "administrative"
+ },
+ "St. Pete Beach, Fla. (and Environs)": null,
+ "Victoria Falls, Zimbabwe": {
+  "lat": -17.9229,
+  "lng": 25.84768,
+  "country": "Zimbabwe",
+  "countryCode": "ZW",
+  "display": "Devil's Cataract, Victoria Falls, Hwange, Matabeleland North Province, Zimbabwe",
+  "type": "cliff"
+ },
+ "Cyprus": {
+  "lat": 34.9823,
+  "lng": 33.14513,
+  "country": "Cyprus",
+  "countryCode": "CY",
+  "display": "Cyprus",
+  "type": "administrative"
+ },
+ "the Golden Triangle, Thailand": {
+  "lat": 20.35485,
+  "lng": 100.08056,
+  "country": "Thailand",
+  "countryCode": "TH",
+  "display": "The Imperial Golden Triangle Resort, 222, ถนนเชียงแสน-แม่สาย, Sob ruak, Ban Sob Ruak, Chiang Saen District, Wiang, Chiang Rai Province, Thailand",
+  "type": "hotel"
+ },
+ "Indianapolis, Indiana": {
+  "lat": 39.76833,
+  "lng": -86.15835,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Indianapolis, Center Township, Marion County, Indiana, United States",
+  "type": "administrative"
+ },
+ "Canterbury, England": {
+  "lat": 51.28003,
+  "lng": 1.08025,
+  "country": "United Kingdom",
+  "countryCode": "GB",
+  "display": "Canterbury, Kent, England, CT1 2JA, United Kingdom",
+  "type": "city"
+ },
+ "the Finger Lakes Region of New York": null,
+ "Finger Lakes Region, New York": {
+  "lat": 42.93488,
+  "lng": -76.5671,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Holiday Inn Auburn - Finger Lakes Region, 75, North Street, City of Auburn, Cayuga County, New York, 13021, United States",
+  "type": "hotel"
+ },
+ "Bergen, Norway": {
+  "lat": 60.39431,
+  "lng": 5.32592,
+  "country": "Norway",
+  "countryCode": "NO",
+  "display": "Bergen, Vestland, Norway",
+  "type": "administrative"
+ },
+ "on Shelter Island, N.Y.": {
+  "lat": 41.08146,
+  "lng": -72.35348,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "House On Chase Creek, 3, Locust Avenue, Shelter Island Heights, Town of Shelter Island, Suffolk County, New York, 11965, United States",
+  "type": "hotel"
+ },
+ "Baden-Baden, Germany": {
+  "lat": 48.75745,
+  "lng": 8.24374,
+  "country": "Germany",
+  "countryCode": "DE",
+  "display": "Baden-Baden, Baden-Württemberg, Germany",
+  "type": "administrative"
+ },
+ "the Upper Peninsula of Michigan": null,
+ "Upper Peninsula, Michigan": {
+  "lat": 45.76429,
+  "lng": -87.19316,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "MSU Upper Peninsula Forestry Innovation Center, Wells Township, Delta County, Michigan, United States",
+  "type": "forest"
+ },
+ "Michigan’s Upper Peninsula": {
+  "lat": 45.80906,
+  "lng": -88.03993,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Upper Peninsula State Bank, South Stephenson Avenue, Iron Mountain, Dickinson County, Michigan, 49802, United States",
+  "type": "bank"
+ },
+ "Anchorage, Alaska": {
+  "lat": 61.21631,
+  "lng": -149.89485,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Anchorage, Alaska, United States",
+  "type": "administrative"
+ },
+ "Granada, Spain": {
+  "lat": 37.1735,
+  "lng": -3.59953,
+  "country": "Spain",
+  "countryCode": "ES",
+  "display": "Granada, Comarca de la Vega de Granada, Granada, Andalusia, Spain",
+  "type": "administrative"
+ },
+ "Trieste, Italy": {
+  "lat": 45.64965,
+  "lng": 13.77728,
+  "country": "Italy",
+  "countryCode": "IT",
+  "display": "Trieste, Friuli – Venezia Giulia, 34121-34151, Italy",
+  "type": "administrative"
+ },
+ "Aarhus, Denmark": {
+  "lat": 56.14963,
+  "lng": 10.2134,
+  "country": "Denmark",
+  "countryCode": "DK",
+  "display": "Aarhus, Aarhus Municipality, Central Denmark Region, 8000, Denmark",
+  "type": "city"
+ },
+ "Latino NYC": {
+  "lat": 40.81676,
+  "lng": -73.8973,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Sabor Latino Supermarket, 1000, Longwood Avenue, The Bronx, Bronx County, New York, 10474, United States",
+  "type": "deli"
+ },
+ "Latino New York City": {
+  "lat": 40.81676,
+  "lng": -73.8973,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Sabor Latino Supermarket, 1000, Longwood Avenue, The Bronx, Bronx County, New York, 10474, United States",
+  "type": "deli"
+ },
+ "Asunción, Paraguay": {
+  "lat": -25.28005,
+  "lng": -57.63438,
+  "country": "Paraguay",
+  "countryCode": "PY",
+  "display": "Asuncion, Asunción, Distrito Capital, Región Oriental, 001013, Paraguay",
+  "type": "city"
+ },
+ "Manchester, England": {
+  "lat": 53.44246,
+  "lng": -2.23245,
+  "country": "United Kingdom",
+  "countryCode": "GB",
+  "display": "Manchester, Greater Manchester, England, United Kingdom",
+  "type": "administrative"
+ },
+ "Kigali, Rwanda": {
+  "lat": -1.95344,
+  "lng": 30.11401,
+  "country": "Rwanda",
+  "countryCode": "RW",
+  "display": "City of Kigali, Rwanda",
+  "type": "administrative"
+ },
+ "Calgary, Alberta": {
+  "lat": 51.04561,
+  "lng": -114.05754,
+  "country": "Canada",
+  "countryCode": "CA",
+  "display": "Calgary, Alberta, Canada",
+  "type": "administrative"
+ },
+ "Montgomery, Alabama": {
+  "lat": 32.37771,
+  "lng": -86.30908,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Montgomery, Montgomery County, Alabama, United States",
+  "type": "administrative"
+ },
+ "the Cotswolds": {
+  "lat": 33.46697,
+  "lng": -86.67599,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "The Cotswolds, Birmingham, Jefferson County, Alabama, United States",
+  "type": "residential"
+ },
+ "Tbilisi, Georgian Republic": null,
+ "Tbilisi": {
+  "lat": 41.69346,
+  "lng": 44.80145,
+  "country": "Georgia",
+  "countryCode": "GE",
+  "display": "Tbilisi, Georgia",
+  "type": "administrative"
+ },
+ "Greenport, Suffolk County, Ny": {
+  "lat": 41.1033,
+  "lng": -72.35931,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Village of Greenport, Town of Southold, Suffolk County, New York, 11944, United States",
+  "type": "administrative"
+ },
+ "St Andrews, Scotland": {
+  "lat": 56.34037,
+  "lng": -2.79504,
+  "country": "United Kingdom",
+  "countryCode": "GB",
+  "display": "St Andrews, Fife, Scotland, KY16 9NU, United Kingdom",
+  "type": "town"
+ },
+ "Traverse City, Michigan": {
+  "lat": 44.76065,
+  "lng": -85.6166,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Traverse City, Grand Traverse County, Michigan, United States",
+  "type": "administrative"
+ },
+ "Istria, Croatia": {
+  "lat": 45.19343,
+  "lng": 13.91505,
+  "country": "Croatia",
+  "countryCode": "HR",
+  "display": "Istra, Croatia",
+  "type": "peninsula"
+ },
+ "Thessaloniki, Greece": {
+  "lat": 40.64032,
+  "lng": 22.93527,
+  "country": "Greece",
+  "countryCode": "GR",
+  "display": "Thessaloniki, Thessaloniki Municipal Unit, Municipality of Thessaloniki, Thessaloniki Regional Unit, Central Macedonia, Macedonia and Thrace, 540 12, Greece",
+  "type": "city"
+ },
+ "the Dolomites": {
+  "lat": -34.06711,
+  "lng": 18.62291,
+  "country": "South Africa",
+  "countryCode": "ZA",
+  "display": "Dolomites Circle, Tafelsig, Cape Town Ward 82, Mitchells Plain, City of Cape Town, Western Cape, 7785, South Africa",
+  "type": "residential"
+ },
+ "Lugano, Switzerland": {
+  "lat": 46.0038,
+  "lng": 8.95123,
+  "country": "Switzerland",
+  "countryCode": "CH",
+  "display": "Lugano, Circolo di Lugano ovest, Distretto di Lugano, Ticino, Switzerland",
+  "type": "administrative"
+ },
+ "Bucharest, Romania": {
+  "lat": 44.43614,
+  "lng": 26.10268,
+  "country": "Romania",
+  "countryCode": "RO",
+  "display": "Bucharest, Romania",
+  "type": "administrative"
+ },
+ "Jaipur, India": {
+  "lat": 26.91546,
+  "lng": 75.81898,
+  "country": "India",
+  "countryCode": "IN",
+  "display": "Jaipur, Jaipur Municipal Corporation, Jaipur Tehsil, Jaipur, Rajasthan, 302001, India",
+  "type": "city"
+ },
+ "Kailua-Kona": {
+  "lat": 19.64194,
+  "lng": -155.99693,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Kailua, Hawaiʻi County, Hawaii, United States",
+  "type": "census"
+ },
+ "Chamonix-Mont-Blanc, France": {
+  "lat": 45.9231,
+  "lng": 6.87,
+  "country": "France",
+  "countryCode": "FR",
+  "display": "Chamonix-Mont-Blanc, Bonneville, Upper Savoy, Auvergne-Rhône-Alpes, Metropolitan France, 74400, France",
+  "type": "administrative"
+ },
+ "Anaheim, California": {
+  "lat": 33.83475,
+  "lng": -117.91173,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Anaheim, Orange County, California, United States",
+  "type": "administrative"
+ },
+ "St Moritz, Switzerland": {
+  "lat": 46.4979,
+  "lng": 9.83924,
+  "country": "Switzerland",
+  "countryCode": "CH",
+  "display": "St. Moritz, Maloja, Grisons, 7500, Switzerland",
+  "type": "administrative"
+ },
+ "Ghent, Belgium": {
+  "lat": 51.05383,
+  "lng": 3.72501,
+  "country": "Belgium",
+  "countryCode": "BE",
+  "display": "Ghent, Gent, East Flanders, Flanders, Belgium",
+  "type": "administrative"
+ },
+ "St. Augustine": {
+  "lat": 29.8947,
+  "lng": -81.31454,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Saint Augustine, Saint Johns County, Florida, 32084, United States",
+  "type": "administrative"
+ },
+ "Hoi An, Vietnam": {
+  "lat": 15.87959,
+  "lng": 108.33194,
+  "country": "Vietnam",
+  "countryCode": "VN",
+  "display": "Hoi An, Đà Nẵng, 51319, Vietnam",
+  "type": "city"
+ },
+ "Mendocino County, California": {
+  "lat": 39.31765,
+  "lng": -123.41264,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Mendocino County, California, United States",
+  "type": "administrative"
+ },
+ "Kobe, Japan": {
+  "lat": 34.69324,
+  "lng": 135.19438,
+  "country": "Japan",
+  "countryCode": "JP",
+  "display": "Kobe, Hyogo Prefecture, Japan",
+  "type": "administrative"
+ },
+ "Bend, Oregon": {
+  "lat": 44.05817,
+  "lng": -121.31531,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Bend, Deschutes County, Oregon, United States",
+  "type": "administrative"
+ },
+ "of New York City Pride": {
+  "lat": 40.93156,
+  "lng": -73.90341,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Buena Vista Pride Park, 109, City of Yonkers, Westchester County, New York, 10701, United States",
+  "type": "park"
+ },
+ "Rockaway Beach, Queens, Ny": {
+  "lat": 40.58098,
+  "lng": -73.82249,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Rockaway Beach, Queens, Queens County, New York, United States",
+  "type": "beach"
+ },
+ "Atlantic City, New Jersey": {
+  "lat": 39.36429,
+  "lng": -74.42294,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Atlantic City, Atlantic County, New Jersey, United States",
+  "type": "administrative"
+ },
+ "on Outer Cape Cod": null,
+ "Cape Cod, Massachusetts": {
+  "lat": 41.79876,
+  "lng": -69.99607,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Cape Cod, Barnstable County, Massachusetts, United States",
+  "type": "peninsula"
+ },
+ "Rennes, France": {
+  "lat": 48.11134,
+  "lng": -1.68002,
+  "country": "France",
+  "countryCode": "FR",
+  "display": "Rennes, Ille-et-Vilaine, Brittany, Metropolitan France, France",
+  "type": "administrative"
+ },
+ "Syracuse, Italy": {
+  "lat": 37.03158,
+  "lng": 15.21243,
+  "country": "Italy",
+  "countryCode": "IT",
+  "display": "Siracusa, Sicily, 96100, Italy",
+  "type": "administrative"
+ },
+ "Boone, North Carolina": {
+  "lat": 36.21879,
+  "lng": -81.684,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Boone, Watauga County, North Carolina, United States",
+  "type": "administrative"
+ },
+ "Yokohama, Japan": {
+  "lat": 35.45034,
+  "lng": 139.63438,
+  "country": "Japan",
+  "countryCode": "JP",
+  "display": "Yokohama, Kanagawa Prefecture, 231-0017, Japan",
+  "type": "administrative"
+ },
+ "Rijeka, Croatia": {
+  "lat": 45.3268,
+  "lng": 14.44221,
+  "country": "Croatia",
+  "countryCode": "HR",
+  "display": "Grad Rijeka, Primorje-Gorski Kotar County, Croatia",
+  "type": "administrative"
+ },
+ "Barolo, Italy": {
+  "lat": 44.61468,
+  "lng": 7.93944,
+  "country": "Italy",
+  "countryCode": "IT",
+  "display": "Barolo, Cuneo, Piedmont, Italy",
+  "type": "administrative"
+ },
+ "Hobart, Tasmania": {
+  "lat": -42.88251,
+  "lng": 147.32812,
+  "country": "Australia",
+  "countryCode": "AU",
+  "display": "Hobart, Tasmania, Australia",
+  "type": "city"
+ },
+ "King's Cross, London, England": {
+  "lat": 51.5324,
+  "lng": -0.12302,
+  "country": "United Kingdom",
+  "countryCode": "GB",
+  "display": "London King's Cross, Euston Road, King's Cross, London Borough of Camden, Greater London, England, N1C 4AP, United Kingdom",
+  "type": "station"
+ },
+ "Kochi, India": {
+  "lat": 9.9679,
+  "lng": 76.24444,
+  "country": "India",
+  "countryCode": "IN",
+  "display": "Kochi, Ernakulam, Kerala, 682001, India",
+  "type": "city"
+ },
+ "Recife, Brazil": {
+  "lat": -8.05849,
+  "lng": -34.88482,
+  "country": "Brazil",
+  "countryCode": "BR",
+  "display": "Recife, Pernambuco, Northeast Region, Brazil",
+  "type": "administrative"
+ },
+ "Curaçao": {
+  "lat": 12.11765,
+  "lng": -68.93093,
+  "country": "Curacao",
+  "countryCode": "NL",
+  "display": "Curacao, Netherlands",
+  "type": "administrative"
+ },
+ "Niseko, Japan": {
+  "lat": 42.80494,
+  "lng": 140.68805,
+  "country": "Japan",
+  "countryCode": "JP",
+  "display": "Niseko, Abuta County, Shiribeshi Subprefecture, Hokkaido Prefecture, Hokkaido Region, Japan",
+  "type": "administrative"
+ },
+ "Queenstown, New Zealand": {
+  "lat": -45.03219,
+  "lng": 168.661,
+  "country": "New Zealand",
+  "countryCode": "NZ",
+  "display": "Queenstown, Queenstown-Lakes District, Otago, 9348, New Zealand",
+  "type": "town"
+ },
+ "… Wherever You Are? We’re Turning to Our Readers": null,
+ "… Wherever You Are": {
+  "lat": 49.28166,
+  "lng": -123.12502,
+  "country": "Canada",
+  "countryCode": "CA",
+  "display": "Wherever You Are, 2026 (Michelle Sound), Burrard Street, Granville Entertainment District, Downtown, Vancouver, Metro Vancouver Regional District, British Columbia, V6Z 2R4, Canada",
+  "type": "artwork"
+ },
+ "Wellington, New Zealand": {
+  "lat": -41.2888,
+  "lng": 174.77721,
+  "country": "New Zealand",
+  "countryCode": "NZ",
+  "display": "Wellington, Wellington City, Wellington, 6011, New Zealand",
+  "type": "city"
+ },
+ "Essaouira, Morocco": {
+  "lat": 31.51183,
+  "lng": -9.76209,
+  "country": "Morocco",
+  "countryCode": "MA",
+  "display": "Essaouira, Pachalik d'Essaouira باشوية الصويرة, Essaouira Province, Marrakech-Safi, Morocco",
+  "type": "administrative"
+ },
+ "Nevis": {
+  "lat": 17.15088,
+  "lng": -62.58529,
+  "country": "Saint Kitts and Nevis",
+  "countryCode": "KN",
+  "display": "Nevis, Saint Kitts and Nevis",
+  "type": "administrative"
+ },
+ "Rotterdam, Netherlands": {
+  "lat": 51.92444,
+  "lng": 4.47775,
+  "country": "Netherlands",
+  "countryCode": "NL",
+  "display": "Rotterdam, South Holland, Netherlands",
+  "type": "administrative"
+ },
+ "Bath, England": {
+  "lat": 51.38139,
+  "lng": -2.3597,
+  "country": "United Kingdom",
+  "countryCode": "GB",
+  "display": "Bath, Bath and North East Somerset, West of England, England, United Kingdom",
+  "type": "city"
+ },
+ "on Martha’s Vineyard, Mass.": null,
+ "the Florida Panhandle": {
+  "lat": 30.19808,
+  "lng": -85.6491,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Panhandle Credit Union, SR 77, The Woods III, Panama City, Bay County, Florida, 32405, United States",
+  "type": "bank"
+ },
+ "on the North Fork, Long Island": null,
+ "Aquebogue, New York": {
+  "lat": 40.94406,
+  "lng": -72.61507,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Aquebogue, Town of Riverhead, Suffolk County, New York, 11931, United States",
+  "type": "census"
+ },
+ "Acadiana, Louisiana": {
+  "lat": 29.76639,
+  "lng": -90.81638,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Acadiana, 106 , Louisa Drive, Johnson Ridge, Thibodaux, Terrebonne Parish, Louisiana, 70301, United States",
+  "type": "apartments"
+ },
+ "at Joshua Tree": {
+  "lat": 33.26106,
+  "lng": -111.7042,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "South Joshua Tree Lane, The Bridges at Gilbert, Gilbert, Maricopa County, Arizona, 85412, United States",
+  "type": "residential"
+ },
+ "Córdoba, Spain": {
+  "lat": 37.88458,
+  "lng": -4.77601,
+  "country": "Spain",
+  "countryCode": "ES",
+  "display": "Córdoba, Andalusia, Spain",
+  "type": "administrative"
+ },
+ "Breckenridge, Colorado": {
+  "lat": 39.48291,
+  "lng": -106.04655,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Breckenridge, Summit County, Colorado, United States",
+  "type": "administrative"
+ },
+ "on Grenada": {
+  "lat": 43.74563,
+  "lng": -79.77276,
+  "country": "Canada",
+  "countryCode": "CA",
+  "display": "Grenada Lane, Rosedale Village, Brampton, Caledon, Peel Region, Ontario, L6R 2W8, Canada",
+  "type": "residential"
+ },
+ "on Maui": {
+  "lat": -42.42122,
+  "lng": 173.69244,
+  "country": "New Zealand",
+  "countryCode": "NZ",
+  "display": "Kaikōura Peninsula, Kaikōura, Kaikōura District, Canterbury, 7300, New Zealand",
+  "type": "peninsula"
+ },
+ "Colorado Springs, Colorado": {
+  "lat": 38.83396,
+  "lng": -104.82535,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Colorado Springs, El Paso County, Colorado, United States",
+  "type": "administrative"
+ },
+ "on Minorca": {
+  "lat": 31.57933,
+  "lng": -91.48179,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Minorca, Concordia Parish, Louisiana, 71373, United States",
+  "type": "hamlet"
+ },
+ "Brooklyn Bridge Park, Brooklyn, Ny": {
+  "lat": 40.69829,
+  "lng": -73.99993,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Brooklyn Bridge Park, 334, Brooklyn, Kings County, New York, 11201, United States",
+  "type": "park"
+ },
+ "Door County, Wisconsin": {
+  "lat": 44.76159,
+  "lng": -87.53297,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Door County, Wisconsin, United States",
+  "type": "administrative"
+ },
+ "Malmo, Sweden": {
+  "lat": 55.60529,
+  "lng": 13.00016,
+  "country": "Sweden",
+  "countryCode": "SE",
+  "display": "Malmö, Malmö kommun, Skåne County, Sweden",
+  "type": "administrative"
+ },
+ "Barbados": {
+  "lat": 13.15003,
+  "lng": -59.52503,
+  "country": "Barbados",
+  "countryCode": "BB",
+  "display": "Barbados",
+  "type": "administrative"
+ },
+ "Quebec City": {
+  "lat": 46.81374,
+  "lng": -71.20841,
+  "country": "Canada",
+  "countryCode": "CA",
+  "display": "Quebec, Urban agglomeration of Québec, Capitale-Nationale, Quebec, Canada",
+  "type": "administrative"
+ },
+ "Accra, Ghana": {
+  "lat": 5.55711,
+  "lng": -0.20124,
+  "country": "Ghana",
+  "countryCode": "GH",
+  "display": "Accra, Korle-Klottey Municipal District, Greater Accra Region, Ghana",
+  "type": "administrative"
+ },
+ "St. Petersburg, Fla.": {
+  "lat": 27.77123,
+  "lng": -82.63403,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Saint Petersburg, Pinellas County, Florida, United States",
+  "type": "administrative"
+ },
+ "Guadalajara, Mexico": {
+  "lat": 20.67845,
+  "lng": -103.33569,
+  "country": "Mexico",
+  "countryCode": "MX",
+  "display": "Guadalajara, Región Centro, Jalisco, Mexico",
+  "type": "administrative"
+ },
+ "Banff": {
+  "lat": 51.17508,
+  "lng": -115.57208,
+  "country": "Canada",
+  "countryCode": "CA",
+  "display": "Banff, Alberta, Canada",
+  "type": "administrative"
+ },
+ "Kathmandu": {
+  "lat": 27.70832,
+  "lng": 85.32058,
+  "country": "Nepal",
+  "countryCode": "NP",
+  "display": "Kathmandu Metropolitan City, Kathmandu, Bagamati Province, Nepal",
+  "type": "administrative"
+ },
+ "Hilo, Hawaii": {
+  "lat": 19.70737,
+  "lng": -155.08158,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Hilo, Hawaiʻi County, Hawaii, 96720, United States",
+  "type": "census"
+ },
+ "Budapest": {
+  "lat": 47.49788,
+  "lng": 19.04024,
+  "country": "Hungary",
+  "countryCode": "HU",
+  "display": "Budapest, Hungary",
+  "type": "administrative"
+ },
+ "Carmel, Calif.": {
+  "lat": 36.55527,
+  "lng": -121.92328,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Carmel-by-the-Sea, Monterey County, California, United States",
+  "type": "administrative"
+ },
+ "the Hudson Valley, N.Y.": {
+  "lat": 41.31612,
+  "lng": -74.12625,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "The Coach Coffee Shop, Red Apple Court, Woodbury Common Premium Outlets, Village of Woodbury, Town of Woodbury, Orange County, New York, 10917, United States",
+  "type": "cafe"
+ },
+ "Orlando, Fla.": {
+  "lat": 28.54212,
+  "lng": -81.37905,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Orlando, Orange County, Florida, United States",
+  "type": "administrative"
+ },
+ "Marfa, Texas": {
+  "lat": 30.31176,
+  "lng": -104.02315,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Marfa, Presidio County, Texas, 79843, United States",
+  "type": "administrative"
+ },
+ "Berlin": {
+  "lat": 52.51739,
+  "lng": 13.39513,
+  "country": "Germany",
+  "countryCode": "DE",
+  "display": "Berlin, Germany",
+  "type": "administrative"
+ },
+ "Santa Fe": {
+  "lat": -30.31547,
+  "lng": -61.16451,
+  "country": "Argentina",
+  "countryCode": "AR",
+  "display": "Santa Fe, Argentina",
+  "type": "administrative"
+ },
+ "Annapolis, Md.": {
+  "lat": 38.97864,
+  "lng": -76.49279,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Annapolis, Anne Arundel County, Maryland, United States",
+  "type": "administrative"
+ },
+ "Marseille": {
+  "lat": 43.2964,
+  "lng": 5.37779,
+  "country": "France",
+  "countryCode": "FR",
+  "display": "Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, Metropolitan France, France",
+  "type": "administrative"
+ },
+ "Detroit": {
+  "lat": 42.33155,
+  "lng": -83.04664,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Detroit, Wayne County, Michigan, United States",
+  "type": "administrative"
+ },
+ "on the Outer Banks, N.C.": null,
+ "Istanbul": {
+  "lat": 41.00638,
+  "lng": 28.97587,
+  "country": "Turkey",
+  "countryCode": "TR",
+  "display": "Istanbul, Fatih, Istanbul, Marmara Region, 34122, Turkey",
+  "type": "city"
+ },
+ "on Long Island’s East End": null,
+ "Brussels": {
+  "lat": 50.84674,
+  "lng": 4.35249,
+  "country": "Belgium",
+  "countryCode": "BE",
+  "display": "Brussels, Brussels-Capital, Belgium",
+  "type": "administrative"
+ },
+ "Reykjavik": {
+  "lat": 64.14598,
+  "lng": -21.94224,
+  "country": "Iceland",
+  "countryCode": "IS",
+  "display": "Reykjavik, Capital Region, Iceland",
+  "type": "administrative"
+ },
+ "Nantucket": {
+  "lat": 41.28444,
+  "lng": -70.09842,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Nantucket, Massachusetts, United States",
+  "type": "administrative"
+ },
+ "on Kefalonia": null,
+ "Jackson Hole": {
+  "lat": 37.51152,
+  "lng": -88.6103,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Jackson Hole, Pope County, Illinois, United States",
+  "type": "water"
+ },
+ "Normandy, France": {
+  "lat": 49.06777,
+  "lng": 0.31385,
+  "country": "France",
+  "countryCode": "FR",
+  "display": "Normandy, Metropolitan France, France",
+  "type": "administrative"
+ },
+ "Portland, Ore.": {
+  "lat": 45.52025,
+  "lng": -122.67419,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Portland, Multnomah County, Oregon, United States",
+  "type": "administrative"
+ },
+ "the Costa Brava, Spain": null,
+ "Sedona, Ariz.": {
+  "lat": 34.86886,
+  "lng": -111.76144,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Sedona, Coconino County, Arizona, United States",
+  "type": "administrative"
+ },
+ "Zadar, Croatia": {
+  "lat": 44.11686,
+  "lng": 15.23533,
+  "country": "Croatia",
+  "countryCode": "HR",
+  "display": "Zadar, Grad Zadar, Zadar County, Croatia",
+  "type": "administrative"
+ },
+ "Litchfield County, Connecticut": {
+  "lat": 41.7587,
+  "lng": -73.25978,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Litchfield County, Northwest Hills Planning Region, Connecticut, United States",
+  "type": "historic"
+ },
+ "Busan, South Korea": {
+  "lat": 35.17995,
+  "lng": 129.07524,
+  "country": "South Korea",
+  "countryCode": "KR",
+  "display": "Busan, South Korea",
+  "type": "administrative"
+ },
+ "Madison, Wis.": {
+  "lat": 43.07469,
+  "lng": -89.38417,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Madison, Dane County, Wisconsin, United States",
+  "type": "administrative"
+ },
+ "on Majorca, Spain": null,
+ "Miami": {
+  "lat": 25.77416,
+  "lng": -80.1936,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Miami, Miami-Dade County, Florida, United States",
+  "type": "administrative"
+ },
+ "on Kauai": {
+  "lat": 22.21551,
+  "lng": -159.46877,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Villas on the Green, Hanalei, Kauaʻi County, Hawaii, United States",
+  "type": "residential"
+ },
+ "on Cozumel, Mexico": null,
+ "Memphis": {
+  "lat": 35.14603,
+  "lng": -90.05178,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Memphis, Shelby County, West Tennessee, Tennessee, United States",
+  "type": "administrative"
+ },
+ "San Antonio": {
+  "lat": 29.4246,
+  "lng": -98.49514,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "San Antonio, Bexar County, Texas, United States",
+  "type": "administrative"
+ },
+ "San Luis Obispo County": {
+  "lat": 35.35402,
+  "lng": -120.37572,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "San Luis Obispo County, California, United States",
+  "type": "administrative"
+ },
+ "Cortina d’Ampezzo, Italy": {
+  "lat": 46.56851,
+  "lng": 12.13232,
+  "country": "Italy",
+  "countryCode": "IT",
+  "display": "Cortina d'Ampezzo, Belluno, Veneto, 32043, Italy",
+  "type": "administrative"
+ },
+ "Lagos, Nigeria": {
+  "lat": 6.45506,
+  "lng": 3.39418,
+  "country": "Nigeria",
+  "countryCode": "NG",
+  "display": "Lagos, Lagos Island, Lagos State, 100242, Nigeria",
+  "type": "city"
+ },
+ "Savannah, Ga.": {
+  "lat": 32.07901,
+  "lng": -81.09213,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Savannah, Chatham County, Georgia, United States",
+  "type": "administrative"
+ },
+ "Las Vegas": {
+  "lat": 36.16743,
+  "lng": -115.14841,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Las Vegas, Clark County, Nevada, United States",
+  "type": "administrative"
+ },
+ "Grand Junction, Colo.": {
+  "lat": 39.06726,
+  "lng": -108.56448,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Grand Junction, Mesa County, Colorado, United States",
+  "type": "administrative"
+ },
+ "Shanghai": {
+  "lat": 31.23127,
+  "lng": 121.47002,
+  "country": "China",
+  "countryCode": "CN",
+  "display": "Shanghai, China",
+  "type": "administrative"
+ },
+ "Raleigh, N.C.": {
+  "lat": 35.7804,
+  "lng": -78.6391,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Raleigh, Wake County, North Carolina, United States",
+  "type": "administrative"
+ },
+ "Santa Cruz, Calif.": {
+  "lat": 37.0501,
+  "lng": -121.99059,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Santa Cruz County, California, United States",
+  "type": "administrative"
+ },
+ "Richmond, Va.": {
+  "lat": 37.53851,
+  "lng": -77.43428,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Richmond, Virginia, United States",
+  "type": "administrative"
+ },
+ "Barcelona": {
+  "lat": 41.38258,
+  "lng": 2.17707,
+  "country": "Spain",
+  "countryCode": "ES",
+  "display": "Barcelona, Barcelonès, Barcelona, Catalonia, Spain",
+  "type": "administrative"
+ },
+ "Bentonville, Ark.": {
+  "lat": 36.37286,
+  "lng": -94.20879,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Bentonville, Benton County, Arkansas, United States",
+  "type": "administrative"
+ },
+ "on the Amalfi Coast, Italy": null,
+ "Providence, R.I.": {
+  "lat": 41.82399,
+  "lng": -71.41283,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Providence, Providence County, Rhode Island, United States",
+  "type": "administrative"
+ },
+ "Dallas": {
+  "lat": 32.77627,
+  "lng": -96.79686,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Dallas, Dallas County, Texas, United States",
+  "type": "administrative"
+ },
+ "on the Isle of Skye, Scotland": {
+  "lat": 57.53775,
+  "lng": -6.6131,
+  "country": "United Kingdom",
+  "countryCode": "GB",
+  "display": "Tigh Bata, Trumpan Road, Halistra, Highland, Scotland, IV55 8GN, United Kingdom",
+  "type": "chalet"
+ },
+ "Athens": {
+  "lat": 37.97556,
+  "lng": 23.73483,
+  "country": "Greece",
+  "countryCode": "GR",
+  "display": "Athens, Municipality of Athens, Regional Unit of Central Athens, Attica, 105 57, Greece",
+  "type": "city"
+ },
+ "the Catskills, N.Y.": {
+  "lat": 42.08222,
+  "lng": -74.00148,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Smokehouse of the Catskills, 724, Saugerties-Woodstock Road, Veteran, Town of Saugerties, Ulster County, New York, 12477, United States",
+  "type": "butcher"
+ },
+ "on the Oregon Coast": {
+  "lat": 44.98133,
+  "lng": -124.00824,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "The Grub's On, 2185, Oregon Coast Highway, Oceanlake, Lincoln City, Lincoln County, Oregon, 97367, United States",
+  "type": "restaurant"
+ },
+ "on Sifnos, Greece": null,
+ "Chicago": {
+  "lat": 41.87556,
+  "lng": -87.62442,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Chicago, South Chicago Township, Cook County, Illinois, United States",
+  "type": "administrative"
+ },
+ "Bozeman, Mont.": {
+  "lat": 45.67943,
+  "lng": -111.04405,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Bozeman, Gallatin County, Montana, United States",
+  "type": "administrative"
+ },
+ "Stockholm": {
+  "lat": 59.32512,
+  "lng": 18.07109,
+  "country": "Sweden",
+  "countryCode": "SE",
+  "display": "Stockholm, Stockholm Municipality, Stockholm County, 111 29, Sweden",
+  "type": "city"
+ },
+ "on Lake Como, Italy": {
+  "lat": 45.94815,
+  "lng": 9.20357,
+  "country": "Italy",
+  "countryCode": "IT",
+  "display": "Nest on the lake, 19, Località Sostra, Sossana, Chiesa, Lezzeno, Como, Lombardy, 22025, Italy",
+  "type": "apartment"
+ },
+ "New Orleans": {
+  "lat": 29.95747,
+  "lng": -90.06295,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "New Orleans, Orleans Parish, Louisiana, United States",
+  "type": "administrative"
+ },
+ "the Finger Lakes, N.Y.": {
+  "lat": 42.72398,
+  "lng": -77.9117,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Hit the Trail Passport, Letchworth Finger Lakes Trail, Town of Mount Morris, Livingston County, New York, 14510, United States",
+  "type": "checkpoint"
+ },
+ "Tunis": {
+  "lat": 36.80021,
+  "lng": 10.18578,
+  "country": "Tunisia",
+  "countryCode": "TN",
+  "display": "Tunis, Tunisia",
+  "type": "city"
+ },
+ "Kansas City, Mo.": {
+  "lat": 39.1001,
+  "lng": -94.57814,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Kansas City, Jackson County, Missouri, United States",
+  "type": "administrative"
+ },
+ "Buenos Aires": {
+  "lat": -34.60956,
+  "lng": -58.38879,
+  "country": "Argentina",
+  "countryCode": "AR",
+  "display": "Buenos Aires, Comuna 1, Autonomous City of Buenos Aires, Argentina",
+  "type": "administrative"
+ },
+ "Washington, D.C.": {
+  "lat": 38.8951,
+  "lng": -77.03638,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Washington, District of Columbia, United States",
+  "type": "city"
+ },
+ "San Juan Islands": {
+  "lat": 48.53709,
+  "lng": -123.09072,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "San Juan Islands, San Juan County, Washington, United States",
+  "type": "archipelago"
+ },
+ "San Juan Islands, Washington State": {
+  "lat": 48.53709,
+  "lng": -123.09072,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "San Juan Islands, San Juan County, Washington, United States",
+  "type": "archipelago"
+ },
+ "Space Coast": {
+  "lat": -28.09125,
+  "lng": 153.39349,
+  "country": "Australia",
+  "countryCode": "AU",
+  "display": "Space, 328, Scottsdale Drive, Robina Groves, Robina, Gold Coast, Queensland, 4226, Australia",
+  "type": "commercial"
+ },
+ "Broadway": {
+  "lat": 40.99509,
+  "lng": -73.87847,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Broadway, Mount Hope, Village of Hastings-on-Hudson, Town of Greenburgh, Westchester County, New York, 10522, United States",
+  "type": "primary"
+ },
+ "South End of Boston": {
+  "lat": 42.34283,
+  "lng": -71.07378,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "South End, Boston, Suffolk County, Massachusetts, 02118, United States",
+  "type": "suburb"
+ },
+ "Cinque Terre, Italy": {
+  "lat": 44.12221,
+  "lng": 9.71325,
+  "country": "Italy",
+  "countryCode": "IT",
+  "display": "Cinque Terre, Vernazza, La Spezia, Liguria, 19018, Italy",
+  "type": "region"
+ },
+ "Grand Canyon, Arizona": {
+  "lat": 36.09804,
+  "lng": -112.09628,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Grand Canyon, Coconino County, Arizona, United States",
+  "type": "valley"
+ },
+ "Hudson Valley, New York": {
+  "lat": 42.2503,
+  "lng": -73.63198,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Hudson Valley, New York, United States",
+  "type": "region"
+ },
+ "Berkshires, Massachusetts": {
+  "lat": 42.34247,
+  "lng": -73.26728,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Miraval Berkshires, Lenox Dale, Lenox, Berkshire County, Massachusetts, 01242, United States",
+  "type": "residential"
+ },
+ "Left Bank, Paris": {
+  "lat": 48.85319,
+  "lng": 2.33869,
+  "country": "France",
+  "countryCode": "FR",
+  "display": "Hôtel Left Bank Saint-Germain, Rue de l'Ancienne Comédie, Quartier de la Monnaie, 6th Arrondissement, Paris, Ile-de-France, Metropolitan France, 75006, France",
+  "type": "hotel"
+ },
+ "Right Bank, Paris": null,
+ "Beach in Barcelona": {
+  "lat": 41.45479,
+  "lng": 2.26031,
+  "country": "Spain",
+  "countryCode": "ES",
+  "display": "Platja del Cristall, Casagemes, Districte 1, Badalona, Barcelonès, Barcelona, Catalonia, Spain",
+  "type": "beach"
+ },
+ "Golden Triangle, Thailand": {
+  "lat": 20.35285,
+  "lng": 100.08306,
+  "country": "Thailand",
+  "countryCode": "TH",
+  "display": "Golden Triangle, ถนนเชียงแสน-แม่สาย, Sob ruak, Ban Sob Ruak, Chiang Saen District, Wiang, Chiang Rai Province, Thailand",
+  "type": "attraction"
+ },
+ "Shelter Island, New York": {
+  "lat": 41.06826,
+  "lng": -72.3389,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Town of Shelter Island, Suffolk County, New York, United States",
+  "type": "administrative"
+ },
+ "Cotswolds, England": {
+  "lat": 51.74894,
+  "lng": -0.23033,
+  "country": "United Kingdom",
+  "countryCode": "GB",
+  "display": "Cotswolds, Hilltop, South Hatfield, Hatfield, Welham Green, Welwyn Hatfield, Hertfordshire, England, AL10 8JR, United Kingdom",
+  "type": "residential"
+ },
+ "Dolomites": {
+  "lat": 46.29457,
+  "lng": 12.05132,
+  "country": "Italy",
+  "countryCode": "IT",
+  "display": "Dolomites, Veneto, Italy",
+  "type": "region"
+ },
+ "Outer Cape Cod": {
+  "lat": 41.92499,
+  "lng": -70.02521,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Outer Cape, Barnstable County, Massachusetts, United States",
+  "type": "region"
+ },
+ "Martha’s Vineyard, Mass.": {
+  "lat": 41.39205,
+  "lng": -70.62081,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Martha's Vineyard, West Tisbury, Dukes County, Massachusetts, United States",
+  "type": "island"
+ },
+ "Florida": {
+  "lat": 27.75677,
+  "lng": -81.46398,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Florida, United States",
+  "type": "administrative"
+ },
+ "North Fork, New York": {
+  "lat": 41.03909,
+  "lng": -72.47563,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "North Fork, Town of Southold, Suffolk County, New York, United States",
+  "type": "peninsula"
+ },
+ "Joshua Tree National Park, California": {
+  "lat": 33.89707,
+  "lng": -115.95112,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Joshua Tree National Park, California, United States",
+  "type": "nature_reserve"
+ },
+ "Grenada": {
+  "lat": 12.13604,
+  "lng": -61.6904,
+  "country": "Grenada",
+  "countryCode": "GD",
+  "display": "Grenada",
+  "type": "administrative"
+ },
+ "Minorca, Spain": {
+  "lat": 39.94926,
+  "lng": 4.04996,
+  "country": "Spain",
+  "countryCode": "ES",
+  "display": "Minorca, Menorca, Balearic Islands, Spain",
+  "type": "island"
+ },
+ "Hudson Valley, N.Y.": {
+  "lat": 42.2503,
+  "lng": -73.63198,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Hudson Valley, New York, United States",
+  "type": "region"
+ },
+ "Outer Banks, N.C.": {
+  "lat": 35.5669,
+  "lng": -75.46884,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Outer Banks, Waves, Dare County, North Carolina, 27982, United States",
+  "type": "island"
+ },
+ "Long Island’s East End": null,
+ "Kefalonia": {
+  "lat": 38.26603,
+  "lng": 20.53739,
+  "country": "Greece",
+  "countryCode": "GR",
+  "display": "Cephalonia, Kefallonia Regional Unit, Ioanian Islands, Peloponnese, Western Greece and the Ionian, Greece",
+  "type": "island"
+ },
+ "Costa Brava, Spain": {
+  "lat": 41.70377,
+  "lng": 2.94159,
+  "country": "Spain",
+  "countryCode": "ES",
+  "display": "Costa Brava, 17320, Spain",
+  "type": "region"
+ },
+ "Kauai": {
+  "lat": 22.05038,
+  "lng": -159.55886,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Kauai, Kauaʻi County, Hawaii, United States",
+  "type": "island"
+ },
+ "Cozumel, Mexico": {
+  "lat": 20.43206,
+  "lng": -86.92069,
+  "country": "Mexico",
+  "countryCode": "MX",
+  "display": "Isla Cozumel, Cozumel, Quintana Roo, Mexico",
+  "type": "island"
+ },
+ "Isle of Skye, Scotland": {
+  "lat": 57.36299,
+  "lng": -6.30232,
+  "country": "United Kingdom",
+  "countryCode": "GB",
+  "display": "Skye, Highland, Scotland, United Kingdom",
+  "type": "island"
+ },
+ "Catskills, N.Y.": {
+  "lat": 42.02798,
+  "lng": -74.26983,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Catskills Visitor Center, Beechford, Mount Tremper, Town of Shandaken, Ulster County, New York, United States",
+  "type": "park"
+ },
+ "Oregon Coast": {
+  "lat": -32.76469,
+  "lng": 18.0352,
+  "country": "South Africa",
+  "countryCode": "ZA",
+  "display": "Oregon Crescent, Saldanha Bay Ward 11, Saint Helena Bay, Saldanha Bay Local Municipality, West Coast District Municipality, Western Cape, 7390, South Africa",
+  "type": "residential"
+ },
+ "Sifnos, Greece": {
+  "lat": 36.9714,
+  "lng": 24.70811,
+  "country": "Greece",
+  "countryCode": "GR",
+  "display": "Municipality of Sifnos, Milos Regional Unit, South Aegean, Aegean, 840 03, Greece",
+  "type": "administrative"
+ },
+ "Cotswolds": {
+  "lat": 51.74894,
+  "lng": -0.23033,
+  "country": "United Kingdom",
+  "countryCode": "GB",
+  "display": "Cotswolds, Hilltop, South Hatfield, Hatfield, Welham Green, Welwyn Hatfield, Hertfordshire, England, AL10 8JR, United Kingdom",
+  "type": "residential"
+ },
+ "Finger Lakes, N.Y.": {
+  "lat": 42.50568,
+  "lng": -76.77238,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Finger Lakes National Forest, Town of Hector, Schuyler County, New York, 14818, United States",
+  "type": "nature_reserve"
+ },
+ "Saratoga, New York": {
+  "lat": 43.08332,
+  "lng": -73.87122,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Saratoga County, New York, United States",
+  "type": "administrative"
+ },
+ "Lenox, Massachusetts": {
+  "lat": 42.35682,
+  "lng": -73.28509,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Lenox, Berkshire County, Massachusetts, United States",
+  "type": "administrative"
+ },
+ "Palo Alto, California": {
+  "lat": 37.44433,
+  "lng": -122.15985,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Palo Alto, Santa Clara County, California, United States",
+  "type": "administrative"
+ },
+ "Morgantown, West Virginia": {
+  "lat": 39.62968,
+  "lng": -79.95594,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Morgantown, Monongalia County, West Virginia, United States",
+  "type": "administrative"
+ },
+ "North Myrtle Beach, South Carolina": {
+  "lat": 33.82784,
+  "lng": -78.68003,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "North Myrtle Beach, Horry County, South Carolina, United States",
+  "type": "administrative"
+ },
+ "St. Augustine, Florida": {
+  "lat": 29.8947,
+  "lng": -81.31454,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Saint Augustine, Saint Johns County, Florida, 32084, United States",
+  "type": "administrative"
+ },
+ "St. Petersburg, Florida": {
+  "lat": 27.77123,
+  "lng": -82.63403,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Saint Petersburg, Pinellas County, Florida, United States",
+  "type": "administrative"
+ },
+ "Sonoma, California": {
+  "lat": 38.51108,
+  "lng": -122.84734,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Sonoma County, California, United States",
+  "type": "administrative"
+ },
+ "Indianapolis": {
+  "lat": 39.76833,
+  "lng": -86.15835,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Indianapolis, Center Township, Marion County, Indiana, United States",
+  "type": "administrative"
+ },
+ "Silver City, New Mexico": {
+  "lat": 32.77118,
+  "lng": -108.27642,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Silver City, Grant County, New Mexico, United States",
+  "type": "administrative"
+ },
+ "Grand Forks, North Dakota": {
+  "lat": 47.92521,
+  "lng": -97.03063,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Grand Forks, Grand Forks County, North Dakota, United States",
+  "type": "administrative"
+ },
+ "St. John, V.I": {
+  "lat": 39.62438,
+  "lng": 19.9226,
+  "country": "Greece",
+  "countryCode": "GR",
+  "display": "Saint John, Νικηφόρου Θεοτόκη, Ag. Apostoli, Ag. Pateres, Old Town of Corfu, Corfu, Municipality of Central Corfu and Diapontia Islands, Corfu Regional Unit, Ioanian Islands, Peloponnese, Western Greece and the Ionian, 491 00, Greece",
+  "type": "place_of_worship"
+ },
+ "Winston-Salem, North Carolina": {
+  "lat": 36.09981,
+  "lng": -80.24405,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Winston-Salem, Forsyth County, North Carolina, United States",
+  "type": "administrative"
+ },
+ "North Bennington, Vermont": {
+  "lat": 42.93043,
+  "lng": -73.2427,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "North Bennington, Bennington, Bennington County, Vermont, 05257, United States",
+  "type": "administrative"
+ },
+ "Fayetteville, Arkansas": {
+  "lat": 36.06258,
+  "lng": -94.15743,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Fayetteville, Washington County, Arkansas, United States",
+  "type": "administrative"
+ },
+ "Gatlinburg, Tennessee": {
+  "lat": 35.71426,
+  "lng": -83.51016,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Gatlinburg, Sevier County, East Tennessee, Tennessee, United States",
+  "type": "administrative"
+ },
+ "Fresno, California": {
+  "lat": 36.73944,
+  "lng": -119.78483,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Fresno, Fresno County, California, United States",
+  "type": "administrative"
+ },
+ "New Bedford, Massachusetts": {
+  "lat": 41.63622,
+  "lng": -70.93421,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "New Bedford, Bristol County, Massachusetts, United States",
+  "type": "administrative"
+ },
+ "Clarksdale, Mississippi": {
+  "lat": 34.20065,
+  "lng": -90.57021,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Clarksdale, Coahoma County, Mississippi, 38614, United States",
+  "type": "administrative"
+ },
+ "Redding, California": {
+  "lat": 40.58636,
+  "lng": -122.39168,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Redding, Shasta County, California, United States",
+  "type": "administrative"
+ },
+ "South Beach, Florida": {
+  "lat": 25.77443,
+  "lng": -80.13324,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "South Beach, Miami Beach, Miami-Dade County, Florida, 33139, United States",
+  "type": "neighbourhood"
+ },
+ "Grand Rapids, Michigan": {
+  "lat": 42.96324,
+  "lng": -85.66786,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Grand Rapids, Kent County, Michigan, United States",
+  "type": "administrative"
+ },
+ "College Station, Texas": {
+  "lat": 30.61839,
+  "lng": -96.3456,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "College Station, Brazos County, Texas, United States",
+  "type": "administrative"
+ },
+ "Sutter Creek, California": {
+  "lat": 38.39297,
+  "lng": -120.80244,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Sutter Creek, Amador County, California, 95685, United States",
+  "type": "administrative"
+ },
+ "Rio": {
+  "lat": -22.91101,
+  "lng": -43.20937,
+  "country": "Brazil",
+  "countryCode": "BR",
+  "display": "Rio de Janeiro, Southeast Region, Brazil",
+  "type": "administrative"
+ },
+ "Kenya's Capital": {
+  "lat": 28.56125,
+  "lng": 77.16271,
+  "country": "India",
+  "countryCode": "IN",
+  "display": "Kenya High Commission, 14, A-15, Vasant Vihar, South, New Delhi, South Delhi, Delhi, 110057, India",
+  "type": "diplomatic"
+ },
+ "St. Petersburg, Russia": {
+  "lat": 59.96067,
+  "lng": 30.15866,
+  "country": "Russia",
+  "countryCode": "RU",
+  "display": "Saint Petersburg, Northwestern Federal District, Russia",
+  "type": "administrative"
+ },
+ "New York": {
+  "lat": 40.71273,
+  "lng": -74.00602,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "New York, United States",
+  "type": "administrative"
+ },
+ "Nassau, the Bahamas": {
+  "lat": 25.07823,
+  "lng": -77.33834,
+  "country": "Bahamas",
+  "countryCode": "BS",
+  "display": "Nassau, New Providence, Bahamas",
+  "type": "city"
+ },
+ "Napa Valley": {
+  "lat": 22.41123,
+  "lng": 113.98036,
+  "country": "China",
+  "countryCode": "CN",
+  "display": "Napa Valley, 18, Tuen Mun North, Tuen Mun District, New Territories, Hong Kong, China",
+  "type": "residential"
+ },
+ "Mont Tremblant, Quebec": {
+  "lat": 46.11588,
+  "lng": -74.58914,
+  "country": "Canada",
+  "countryCode": "CA",
+  "display": "Mont-Tremblant, Les Laurentides, Laurentides, Quebec, Canada",
+  "type": "administrative"
+ },
+ "Minneapolis-St. Paul": {
+  "lat": 44.87802,
+  "lng": -93.22093,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Minneapolis-Saint Paul International Airport, 4300, Glumack Drive, Minneapolis, Hennepin County, Minnesota, 55450, United States",
+  "type": "aerodrome"
+ },
+ "Carmel-by-the-Sea": {
+  "lat": 36.55527,
+  "lng": -121.92328,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Carmel-by-the-Sea, Monterey County, California, United States",
+  "type": "administrative"
+ },
+ "Antigua": {
+  "lat": 17.10372,
+  "lng": -61.79045,
+  "country": "Antigua and Barbuda",
+  "countryCode": "AG",
+  "display": "Antigua, Antigua and Barbuda",
+  "type": "administrative"
+ },
+ "Research Triangle, North Carolina": {
+  "lat": 35.87526,
+  "lng": -78.77513,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Research Triangle, Wake County, North Carolina, 27617, United States",
+  "type": "region"
+ },
+ "Turks and Caicos": {
+  "lat": 21.72175,
+  "lng": -71.55278,
+  "country": "Turks and Caicos Islands",
+  "countryCode": "TC",
+  "display": "Turks and Caicos Islands",
+  "type": "administrative"
+ },
+ "San Miguel de Allende, Mexico": {
+  "lat": 20.91305,
+  "lng": -100.73566,
+  "country": "Mexico",
+  "countryCode": "MX",
+  "display": "San Miguel de Allende, Guanajuato, Mexico",
+  "type": "administrative"
+ },
+ "Vieques": {
+  "lat": 18.12167,
+  "lng": -65.45712,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Vieques, Puerto Rico, 00765, United States",
+  "type": "administrative"
+ },
+ "Bogotá, Colombia": {
+  "lat": 4.65338,
+  "lng": -74.08363,
+  "country": "Colombia",
+  "countryCode": "CO",
+  "display": "Bogota, Bogota, Capital District, RAP (Especial) Central, Colombia",
+  "type": "administrative"
+ },
+ "St. Martin/St. Maarten": {
+  "lat": 18.08141,
+  "lng": -63.04671,
+  "country": "France",
+  "countryCode": "FR",
+  "display": "Saint Martin, 97150, France",
+  "type": "administrative"
+ },
+ "Mendocino Coast": {
+  "lat": 33.90303,
+  "lng": -118.39537,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Mendocino Farms, South Pacific Coast Highway, El Segundo, Los Angeles County, California, 90266, United States",
+  "type": "fast_food"
+ },
+ "Trinidad": {
+  "lat": 10.44266,
+  "lng": -61.26142,
+  "country": "Trinidad and Tobago",
+  "countryCode": "TT",
+  "display": "Trinidad, Couva-Tabaquite-Talparo, Trinidad and Tobago",
+  "type": "island"
+ },
+ "Queens, New York": {
+  "lat": 40.71351,
+  "lng": -73.82831,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Queens, Queens County, New York, United States",
+  "type": "administrative"
+ },
+ "Texas Hill Country": {
+  "lat": 29.58245,
+  "lng": -98.49085,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Hill Country Village, Bexar County, Texas, United States",
+  "type": "administrative"
+ },
+ "Hilton Head Island, South Carolina": {
+  "lat": 32.16185,
+  "lng": -80.75126,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Hilton Head Island, Beaufort County, South Carolina, United States",
+  "type": "administrative"
+ },
+ "Sarajevo, Bosnia and Herzegovina": {
+  "lat": 43.85707,
+  "lng": 18.41261,
+  "country": "Bosnia and Herzegovina",
+  "countryCode": "BA",
+  "display": "Sarajevo, Mjesna zajednica Trg oslobođenja-Centar, Centar Municipality, City of Sarajevo, Sarajevo Canton, Federation of Bosnia and Herzegovina, 71000, Bosnia and Herzegovina",
+  "type": "administrative"
+ },
+ "South Beach, Miami Beach": {
+  "lat": 25.77443,
+  "lng": -80.13324,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "South Beach, Miami Beach, Miami-Dade County, Florida, 33139, United States",
+  "type": "neighbourhood"
+ },
+ "Central Park, New York": {
+  "lat": 40.78277,
+  "lng": -73.96536,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Central Park, New York County, New York, 11025, United States",
+  "type": "park"
+ },
+ "Chapel Hill-Carrboro": {
+  "lat": 35.89398,
+  "lng": -79.08076,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Villages of Chapel Hill, Weatherhill, Carrboro, Orange County, North Carolina, United States",
+  "type": "residential"
+ },
+ "Chapel Hill-Carrboro, North Carolina": {
+  "lat": 35.94072,
+  "lng": -79.06653,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Carolina North Forest, Chapel Hill, Orange County, North Carolina, United States",
+  "type": "protected_area"
+ },
+ "Istanbul, Asian Side": null,
+ "Paris, Right Bank": null,
+ "Palermo, Sicily": {
+  "lat": 38.11123,
+  "lng": 13.35244,
+  "country": "Italy",
+  "countryCode": "IT",
+  "display": "Palermo, Sicily, Italy",
+  "type": "administrative"
+ },
+ "Manhattan, Below 59th Street": null,
+ "Miami and Miami Beach": {
+  "lat": 25.77489,
+  "lng": -80.13153,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Ocean Dr and 5th Street, Lummus Park Boardwalk, South Beach, Miami Beach, Miami-Dade County, Florida, 33139, United States",
+  "type": "bicycle_rental"
+ },
+ "Victoria Falls (Zimbabwe Side)": null,
+ "Finger Lakes Region of New York": {
+  "lat": 42.93488,
+  "lng": -76.5671,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Holiday Inn Auburn - Finger Lakes Region, 75, North Street, City of Auburn, Cayuga County, New York, 13021, United States",
+  "type": "hotel"
+ },
+ "Upper Peninsula of Michigan": {
+  "lat": 45.857,
+  "lng": -84.73626,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Taste of the Upper Peninsula, W236, US-2 West, Saint Ignace, Mackinac County, Michigan, 49781, United States",
+  "type": "gift"
+ },
+ "Cork, Ireland (and Beyond)": null,
+ "Greenport, N.Y. (and Beyond)": null,
+ "Boise (and Beyond)": null,
+ "Chamonix": {
+  "lat": 45.9231,
+  "lng": 6.87,
+  "country": "France",
+  "countryCode": "FR",
+  "display": "Chamonix-Mont-Blanc, Bonneville, Upper Savoy, Auvergne-Rhône-Alpes, Metropolitan France, 74400, France",
+  "type": "administrative"
+ },
+ "Bogotá": {
+  "lat": 4.65338,
+  "lng": -74.08363,
+  "country": "Colombia",
+  "countryCode": "CO",
+  "display": "Bogota, Bogota, Capital District, RAP (Especial) Central, Colombia",
+  "type": "administrative"
+ },
+ "Bend, Ore. (and Environs)": null,
+ "Camden and Rockport, Maine (and Environs)": null,
+ "Rockaway Beach, Queens": {
+  "lat": 40.58098,
+  "lng": -73.82249,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Rockaway Beach, Queens, Queens County, New York, United States",
+  "type": "beach"
+ },
+ "Santa Barbara County": {
+  "lat": 34.71365,
+  "lng": -119.98582,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Santa Barbara County, California, United States",
+  "type": "administrative"
+ },
+ "Rennes and St.-Malo": null,
+ "Brittany, France": {
+  "lat": 48.26408,
+  "lng": -2.92024,
+  "country": "France",
+  "countryCode": "FR",
+  "display": "Brittany, Metropolitan France, France",
+  "type": "administrative"
+ },
+ "Syracuse, Sicily": {
+  "lat": 37.03158,
+  "lng": 15.21243,
+  "country": "Italy",
+  "countryCode": "IT",
+  "display": "Siracusa, Sicily, 96100, Italy",
+  "type": "administrative"
+ },
+ "Boone, N.C. (and Environs)": null,
+ "Hobart (and Environs)": null,
+ "King’s Cross, London": {
+  "lat": 51.5324,
+  "lng": -0.12302,
+  "country": "United Kingdom",
+  "countryCode": "GB",
+  "display": "London King's Cross, Euston Road, King's Cross, London Borough of Camden, Greater London, England, N1C 4AP, United Kingdom",
+  "type": "station"
+ },
+ "Recife (and Environs)": null,
+ "Olinda, Brazil": {
+  "lat": -7.99864,
+  "lng": -34.84596,
+  "country": "Brazil",
+  "countryCode": "BR",
+  "display": "Olinda, Pernambuco, Northeast Region, Brazil",
+  "type": "administrative"
+ },
+ "Rotterdam, the Netherlands": {
+  "lat": 51.92444,
+  "lng": 4.47775,
+  "country": "Netherlands",
+  "countryCode": "NL",
+  "display": "Rotterdam, South Holland, Netherlands",
+  "type": "administrative"
+ },
+ "Martha’s Vineyard, Massachusetts": {
+  "lat": 41.39205,
+  "lng": -70.62081,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Martha's Vineyard, West Tisbury, Dukes County, Massachusetts, United States",
+  "type": "island"
+ },
+ "Florida Panhandle": {
+  "lat": 24.99763,
+  "lng": -80.72701,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Panhandle Key, Monroe County, Florida, United States",
+  "type": "island"
+ },
+ "North Fork, Long Island": null,
+ "Joshua Tree": {
+  "lat": 34.12338,
+  "lng": -116.31287,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Joshua Tree, San Bernardino County, California, United States",
+  "type": "census"
+ },
+ "Annapolis, Maryland": {
+  "lat": 38.97864,
+  "lng": -76.49279,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Annapolis, Anne Arundel County, Maryland, United States",
+  "type": "administrative"
+ },
+ "Outer Banks, North Carolina": {
+  "lat": 35.5669,
+  "lng": -75.46884,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Outer Banks, Waves, Dare County, North Carolina, 27982, United States",
+  "type": "island"
+ },
+ "Grand Junction, Colorado": {
+  "lat": 39.06726,
+  "lng": -108.56448,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Grand Junction, Mesa County, Colorado, United States",
+  "type": "administrative"
+ },
+ "Bentonville, Arkansas": {
+  "lat": 36.37286,
+  "lng": -94.20879,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Bentonville, Benton County, Arkansas, United States",
+  "type": "administrative"
+ },
+ "Catskills, New York": {
+  "lat": 42.02798,
+  "lng": -74.26983,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Catskills Visitor Center, Beechford, Mount Tremper, Town of Shandaken, Ulster County, New York, United States",
+  "type": "park"
+ },
+ "Bozeman, Montana": {
+  "lat": 45.67943,
+  "lng": -111.04405,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Bozeman, Gallatin County, Montana, United States",
+  "type": "administrative"
+ },
+ "Finger Lakes, New York": {
+  "lat": 42.50568,
+  "lng": -76.77238,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Finger Lakes National Forest, Town of Hector, Schuyler County, New York, 14818, United States",
+  "type": "nature_reserve"
+ }
+}
