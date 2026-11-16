@@ -103,7 +103,8 @@ export default function MapView({ locations, selectedId, onSelect, fitKey, onVie
     const apply = () => {
       m.setFilter('selected', ['==', ['get', 'id'], selectedId || '']);
       const loc = latest.current.locations.find((l) => l.id === selectedId);
-      if (loc) m.easeTo({ center: [loc.lng, loc.lat], zoom: Math.max(m.getZoom(), 6), offset: [window.innerWidth > 760 ? 180 : 0, 0] });
+      // Keep the current zoom; only pan if the place is outside the visible map.
+      if (loc && !m.getBounds().contains([loc.lng, loc.lat])) m.easeTo({ center: [loc.lng, loc.lat] });
     };
     ready.current ? apply() : m.once('app-ready', apply);
   }, [selectedId]);
