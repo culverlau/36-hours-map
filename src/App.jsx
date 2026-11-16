@@ -8,6 +8,7 @@ export default function App() {
   const [selectedId, setSelectedId] = useState(null);
   const [query, setQuery] = useState('');
   const [yearRange, setYearRange] = useState(null);
+  const [view, setView] = useState(null); // [west, south, east, north]
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/articles.json`)
@@ -42,11 +43,18 @@ export default function App() {
       .filter((l) => !q || `${l.name} ${l.country ?? ''} ${l.articles.map((a) => a.title).join(' ')}`.toLowerCase().includes(q));
   }, [data, query, yearRange]);
 
+  const visible = useMemo(() => {
+    if (!view) return filtered;
+    const [w, s, e, n] = view;
+    const wholeWorld = e - w >= 360;
+    return filtered.filter((l) => l.lat >= s && l.lat <= n && (wholeWorld || (l.lng >= w && l.lng <= e)));
+  }, [filtered, view]);
+
   if (error) return <div className="status">Could not load data: {error.message}</div>;
   if (!data) return <div className="status">Loading…</div>;
 
   const selected = filtered.find((l) => l.id === selectedId) || null;
-  const total = filtered.reduce((n, l) => n + l.articles.length, 0);
+  const total = visible.reduce((n, l) => n + l.articles.length, 0);
 
   return (
     <div className="app">
@@ -58,11 +66,11 @@ export default function App() {
         yearRange={yearRange}
         setYearRange={setYearRange}
         bounds={bounds}
-        results={filtered}
+        results={visible}
         total={total}
         onPick={setSelectedId}
       />
-      <MapView fitKey={query.trim() ? query.trim().toLowerCase() : ''} locations={filtered} selectedId={selectedId} onSelect={setSelectedId} />
+      <MapView onViewChange={setView} fitKey={query.trim() ? query.trim().toLowerCase() : ''} locations={filtered} selectedId={selectedId} onSelect={setSelectedId} />
     </div>
   );
 }

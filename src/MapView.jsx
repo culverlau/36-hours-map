@@ -11,12 +11,12 @@ const toGeoJSON = (locations) => ({
   })),
 });
 
-export default function MapView({ locations, selectedId, onSelect, fitKey }) {
+export default function MapView({ locations, selectedId, onSelect, fitKey, onViewChange }) {
   const el = useRef(null);
   const map = useRef(null);
   const ready = useRef(false);
-  const latest = useRef({ locations, onSelect });
-  latest.current = { locations, onSelect };
+  const latest = useRef({ locations, onSelect, onViewChange });
+  latest.current = { locations, onSelect, onViewChange };
 
   useEffect(() => {
     const m = new maplibregl.Map({
@@ -68,6 +68,12 @@ export default function MapView({ locations, selectedId, onSelect, fitKey }) {
         m.on('mouseenter', layer, () => (m.getCanvas().style.cursor = 'pointer'));
         m.on('mouseleave', layer, () => (m.getCanvas().style.cursor = ''));
       }
+      const report = () => {
+        const b = m.getBounds();
+        latest.current.onViewChange?.([b.getWest(), b.getSouth(), b.getEast(), b.getNorth()]);
+      };
+      m.on('moveend', report);
+      report();
       ready.current = true;
       m.fire('app-ready');
     });

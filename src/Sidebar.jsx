@@ -33,7 +33,7 @@ export default function Sidebar({ selected, onClose, query, setQuery, yearRange,
             </select>
           </label>
         </div>
-        <p className="count">{total} articles in {results.length} places</p>
+        <p className="count">{total} articles in {results.length} places in view</p>
       </div>
 
       {selected ? (
