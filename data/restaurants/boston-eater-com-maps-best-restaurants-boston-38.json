@@ -1,0 +1,11 @@
+{
+ "source": "eater",
+ "city": "Boston",
+ "url": "https://boston.eater.com/maps/best-restaurants-boston-38",
+ "label": "Best Restaurants Boston 38",
+ "title": "The 38 Essential Restaurants in Boston",
+ "fetchedAt": "2026-11-16T21:00:19.499Z",
+ "count": 38,
+ "lat": 42.351359,
+ "lng": -71.093514
+}

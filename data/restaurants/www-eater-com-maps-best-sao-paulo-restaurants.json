@@ -1,0 +1,12 @@
+{
+ "source": "eater",
+ "city": "Sao Paulo",
+ "url": "https://www.eater.com/maps/best-sao-paulo-restaurants",
+ "label": "Best Sao Paulo Restaurants",
+ "main": true,
+ "title": "The 35 Best São Paulo Restaurants",
+ "count": 35,
+ "lat": -23.560529,
+ "lng": -46.6615932,
+ "fetchedAt": "2026-11-16T21:57:21.101Z"
+}

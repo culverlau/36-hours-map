@@ -1,0 +1,12 @@
+{
+ "source": "eater",
+ "city": "Calgary",
+ "url": "https://www.eater.com/maps/best-restaurants-calgary",
+ "label": "Best Restaurants Calgary",
+ "main": true,
+ "title": "The 38 Essential Calgary Restaurants",
+ "count": 38,
+ "lat": 51.0431436,
+ "lng": -114.0709507,
+ "fetchedAt": "2026-11-16T21:57:57.348Z"
+}

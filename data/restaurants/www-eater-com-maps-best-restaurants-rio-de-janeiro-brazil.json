@@ -1,0 +1,12 @@
+{
+ "source": "eater",
+ "city": "Rio De Janeiro",
+ "url": "https://www.eater.com/maps/best-restaurants-rio-de-janeiro-brazil",
+ "label": "Best Restaurants Rio De Janeiro Brazil",
+ "main": true,
+ "title": "The 33 Best Rio de Janeiro Restaurants",
+ "count": 33,
+ "lat": -22.9574445,
+ "lng": -43.1942978,
+ "fetchedAt": "2026-11-16T21:57:46.995Z"
+}

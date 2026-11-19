@@ -13,6 +13,14 @@ const STATES = {
 };
 
 const STATES_LC = Object.fromEntries(Object.entries(STATES).map(([k, v]) => [k.toLowerCase(), v]));
+const URL_FILLER = new Set(['hotel', 'hotels', 'food', 'travel', 'guide', 'restaurants', 'restaurant', 'art', 'ski', 'layover', 'with', 'an', 'airplane', 'pilot', 'where', 'to', 'go', 'in', 'district', 'tiny', 'oranges', 'pink', 'sunsets', 'night', 'market', 'beaches', 'flocking', 'the', 'a', 'and', 'of', 'things', 'do', 'what', 'see', 'eat']);
+
+/** "salvador-brazil-travel-guide.html" -> "salvador brazil" */
+export function placeFromUrl(url = '') {
+  const slug = (url.split('/').pop() || '').replace(/\.html$/, '');
+  return slug.split('-').filter((w) => w && !URL_FILLER.has(w)).join(' ');
+}
+
 const clean = (s) => s.replace(/\s+/g, ' ').trim();
 const titleCase = (s) => s.toLowerCase().replace(/(^|[\s(-])([a-zà-ÿ])/g, (_, a, b) => a + b.toUpperCase());
 
@@ -41,6 +49,19 @@ const norm = (s) => s.toLowerCase().replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, 
  * place (gives us the state/country); otherwise fall back to the title text.
  */
 export function pickQuery(article) {
+  // Other series don't put the place in a fixed title format, so lean on NYT's location tags,
+  // preferring a tag whose name appears in the headline.
+  if (article.series && article.series !== '36-hours') {
+    const t = ` ${norm(article.title)} `;
+    const tags = article.glocations || [];
+    const named = tags.find((g) => {
+      const gn = norm(g.replace(/\(.*\)/, ''));
+      return gn && t.includes(` ${gn} `);
+    });
+    const g = named || tags[0];
+    // T Magazine articles carry no place tags; the place is in the web address (salvador-brazil-travel-guide).
+    return { query: g ? expandGlocation(g) : placeFromUrl(article.url), titlePlace: null };
+  }
   const titlePlace = placeFromTitle(article.title);
   const parts = titlePlace.split(',').map((x) => x.trim());
   // "Savannah, Ga." / "Ljubljana, Slovenia": the title already says where; just expand AP abbreviations.
@@ -61,7 +82,7 @@ export function pickQuery(article) {
 export function dedupe(articles) {
   const byPlace = new Map();
   for (const a of articles) {
-    const key = norm(a.query);
+    const key = `${a.series || '36-hours'}|${norm(a.query)}`;
     if (!byPlace.has(key)) byPlace.set(key, []);
     byPlace.get(key).push(a);
   }

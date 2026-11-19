@@ -1,0 +1,12 @@
+{
+ "source": "eater",
+ "city": "Oaxaca",
+ "url": "https://www.eater.com/maps/best-restaurants-oaxaca-mexico",
+ "label": "Best Restaurants Oaxaca Mexico",
+ "main": true,
+ "title": "The 32 Best Restaurants in Oaxaca",
+ "count": 32,
+ "lat": 17.0635129,
+ "lng": -96.724152,
+ "fetchedAt": "2026-11-16T21:57:59.487Z"
+}

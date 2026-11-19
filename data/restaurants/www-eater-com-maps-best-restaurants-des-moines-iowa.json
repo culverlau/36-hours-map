@@ -1,0 +1,12 @@
+{
+ "source": "eater",
+ "city": "Des Moines",
+ "url": "https://www.eater.com/maps/best-restaurants-des-moines-iowa",
+ "label": "Best Restaurants Des Moines Iowa",
+ "main": true,
+ "title": "The 18 Best Restaurants in Des Moines, According to 2020 Campaign Operatives",
+ "count": 18,
+ "lat": 41.5862459,
+ "lng": -93.628674,
+ "fetchedAt": "2026-11-16T21:58:27.341Z"
+}

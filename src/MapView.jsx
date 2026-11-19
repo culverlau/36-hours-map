@@ -11,7 +11,7 @@ const toGeoJSON = (locations) => ({
   })),
 });
 
-export default function MapView({ locations, selectedId, onSelect, fitKey, onViewChange, clusterId, onClusterSelect, onBlankClick, onClusterClear, flyTo }) {
+export default function MapView({ locations, selectedId, onSelect, fitKey, onViewChange, clusterId, onClusterSelect, onBlankClick, onClusterClear, flyTo, accent = '#c8102e' }) {
   const el = useRef(null);
   const map = useRef(null);
   const ready = useRef(false);
@@ -126,6 +126,15 @@ export default function MapView({ locations, selectedId, onSelect, fitKey, onVie
     };
     ready.current ? apply() : m.once('app-ready', apply);
   }, [selectedId]);
+
+  useEffect(() => {
+    const m = map.current;
+    const apply = () => {
+      m.setPaintProperty('clusters', 'circle-color', accent);
+      m.setPaintProperty('points', 'circle-color', accent);
+    };
+    ready.current ? apply() : m.once('app-ready', apply);
+  }, [accent]);
 
   // Picking a place from the list zooms to it (clicking a dot on the map does not).
   useEffect(() => {

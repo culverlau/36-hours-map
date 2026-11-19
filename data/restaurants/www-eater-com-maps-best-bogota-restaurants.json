@@ -1,0 +1,12 @@
+{
+ "source": "eater",
+ "city": "Bogota",
+ "url": "https://www.eater.com/maps/best-bogota-restaurants",
+ "label": "Best Bogota Restaurants",
+ "main": true,
+ "title": "The 33 Best Restaurants in Bogotá",
+ "count": 33,
+ "lat": 4.656793,
+ "lng": -74.0555457,
+ "fetchedAt": "2026-11-16T21:57:16.825Z"
+}

@@ -1,0 +1,12 @@
+{
+ "source": "eater",
+ "city": "Taos",
+ "url": "https://www.eater.com/maps/best-restaurants-taos-new-mexico",
+ "label": "Best Restaurants Taos New Mexico",
+ "main": true,
+ "title": "The 8 Best Restaurants in Taos, New Mexico",
+ "count": 8,
+ "lat": 36.4085092,
+ "lng": -105.5737793,
+ "fetchedAt": "2026-11-16T21:59:01.497Z"
+}

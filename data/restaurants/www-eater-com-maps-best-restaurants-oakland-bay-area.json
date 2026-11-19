@@ -1,0 +1,12 @@
+{
+ "source": "eater",
+ "city": "Oakland Bay Area",
+ "url": "https://www.eater.com/maps/best-restaurants-oakland-bay-area",
+ "label": "Best Restaurants Oakland Bay Area",
+ "main": true,
+ "title": "The 17 Best Restaurants in Oakland",
+ "count": 17,
+ "lat": 37.8060199,
+ "lng": -122.2598056,
+ "fetchedAt": "2026-11-16T21:58:48.032Z"
+}

@@ -1,0 +1,11 @@
+{
+ "source": "eater",
+ "city": "Omaha",
+ "url": "https://www.eater.com/maps/best-omaha-restaurants",
+ "label": "Best Omaha Restaurants",
+ "title": "The 38 Best Restaurants in Omaha",
+ "count": 38,
+ "lat": 41.255606,
+ "lng": -95.959099,
+ "fetchedAt": "2026-11-16T21:13:39.688Z"
+}

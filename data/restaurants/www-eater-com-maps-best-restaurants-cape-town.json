@@ -1,0 +1,12 @@
+{
+ "source": "eater",
+ "city": "Cape Town",
+ "url": "https://www.eater.com/maps/best-restaurants-cape-town",
+ "label": "Best Restaurants Cape Town",
+ "main": true,
+ "title": "The 18 Best Restaurants in Cape Town, South Africa",
+ "count": 18,
+ "lat": -33.9215058,
+ "lng": 18.4167099,
+ "fetchedAt": "2026-11-16T21:57:19.412Z"
+}

@@ -2,19 +2,39 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-export const CACHE_DIR = path.resolve(process.env.MONTHS_DIR || 'data/months');
+// 36 Hours and the other guide types are stored separately, one small file per month in each.
+export const SERIES_ROOT = path.resolve(process.env.SERIES_ROOT || 'data/series');
+export const kindOf = (series) => (series === '36-hours' ? '36-hours' : 'other');
+export const kindDir = (kind) => path.join(SERIES_ROOT, kind);
 
-export function isThirtySixHours(doc) {
-  const main = doc.headline?.main || '';
+// Which guide series (if any) an archive item belongs to.
+export const SERIES = {
+  '36-hours': '36 Hours',
+  'whats-new': 'What’s New',
+  layover: 'Layover',
+  'flocking-to': 'Flocking To',
+  'five-places': '5 Places',
+};
+
+export function classify(doc) {
+  const main = (doc.headline?.main || '').trim();
+  const kicker = (doc.headline?.kicker || '').trim();
   const url = doc.web_url || '';
-  if (!/^36 hours\b/i.test(main.trim())) return false;
-  if (/\/video\//.test(url)) return true; // kept so we can merge, dropped later
+  if (/\/slideshow\//.test(url)) return null; // photo versions of existing guides
   const travel = /travel/i.test(doc.section_name || '') || /\/travel\//.test(url);
-  return travel;
+  if (/^36 hours\b/i.test(main)) return travel || /\/video\//.test(url) ? '36-hours' : null;
+  // T Magazine's city guides live outside the Travel section.
+  if (/^flocking to\b/i.test(kicker) && /t-magazine/.test(url)) return 'flocking-to';
+  if (!travel) return null;
+  if (/^what[’']s new\b/i.test(kicker)) return 'whats-new';
+  if (/^layover$/i.test(kicker)) return 'layover';
+  if (/^5 places$/i.test(kicker)) return 'five-places';
+  return null;
 }
 
-export function slimDoc(doc) {
+export function slimDoc(doc, series) {
   return {
+    series,
     id: doc._id,
     title: doc.headline?.main || '',
     kicker: doc.headline?.kicker || null,
@@ -43,19 +63,24 @@ export async function fetchMonth(year, month, apiKey, { retries = 4 } = {}) {
     }
     const data = await res.json();
     const docs = data.response?.docs ?? data.docs ?? [];
-    return docs.filter(isThirtySixHours).map(slimDoc);
+    return docs.map((d) => [classify(d), d]).filter(([c]) => c).map(([c, d]) => slimDoc(d, c));
   }
   throw new Error(`Archive ${year}/${month}: rate limited too many times`);
 }
 
-export function monthFile(year, month) {
-  return path.join(CACHE_DIR, `${year}-${String(month).padStart(2, '0')}.json`);
+export function monthFile(kind, year, month) {
+  return path.join(kindDir(kind), `${year}-${String(month).padStart(2, '0')}.json`);
 }
 
-export function loadAllCachedMonths() {
-  if (!fs.existsSync(CACHE_DIR)) return [];
-  return fs
-    .readdirSync(CACHE_DIR)
-    .filter((f) => f.endsWith('.json'))
-    .flatMap((f) => JSON.parse(fs.readFileSync(path.join(CACHE_DIR, f), 'utf8')));
+/** kind: '36-hours' | 'other' | 'all' */
+export function loadAllCachedMonths(kind = 'all') {
+  const kinds = kind === 'all' ? ['36-hours', 'other'] : [kind];
+  return kinds.flatMap((k) => {
+    const dir = kindDir(k);
+    if (!fs.existsSync(dir)) return [];
+    return fs
+      .readdirSync(dir)
+      .filter((f) => f.endsWith('.json'))
+      .flatMap((f) => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')));
+  });
 }

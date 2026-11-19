@@ -10,7 +10,10 @@
     "fetch": "node scripts/fetch-articles.js",
     "fetch:recent": "node scripts/fetch-articles.js --recent",
     "build-data": "node scripts/build-data.js",
-    "test": "node --test tests/"
+    "test": "node --test tests/",
+    "restaurants:discover": "node scripts/restaurants/discover.js && node scripts/restaurants/curate.js",
+    "restaurants": "node scripts/restaurants/fetch.js --refresh && node scripts/restaurants/build.js",
+    "restaurants:update": "node scripts/restaurants/infatuation-sitemap.js && node scripts/restaurants/eater-sitemap.js --recent && node scripts/restaurants/curate.js && node scripts/restaurants/fetch.js && node scripts/restaurants/build.js"
   },
   "dependencies": {
     "maplibre-gl": "^4.7.1",

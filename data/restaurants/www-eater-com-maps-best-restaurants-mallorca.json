@@ -1,0 +1,12 @@
+{
+ "source": "eater",
+ "city": "Mallorca",
+ "url": "https://www.eater.com/maps/best-restaurants-mallorca",
+ "label": "Best Restaurants Mallorca",
+ "main": true,
+ "title": "The 17 Essential Mallorca Restaurants",
+ "count": 17,
+ "lat": 39.7103126,
+ "lng": 2.649228,
+ "fetchedAt": "2026-11-16T21:58:11.262Z"
+}

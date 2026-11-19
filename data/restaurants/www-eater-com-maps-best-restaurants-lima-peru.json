@@ -1,0 +1,12 @@
+{
+ "source": "eater",
+ "city": "Lima Peru",
+ "url": "https://www.eater.com/maps/best-restaurants-lima-peru",
+ "label": "Best Restaurants Lima Peru",
+ "main": true,
+ "title": "The 38 Best Restaurants in Lima",
+ "count": 38,
+ "lat": -12.113128,
+ "lng": -77.03475952148438,
+ "fetchedAt": "2026-11-16T21:58:55.039Z"
+}

@@ -1,0 +1,12 @@
+{
+ "source": "eater",
+ "city": "Nagoya",
+ "url": "https://www.eater.com/maps/best-restaurants-nagoya-japan",
+ "label": "Best Restaurants Nagoya Japan",
+ "main": true,
+ "title": "The 27 Best Restaurants in Nagoya, Japan",
+ "count": 27,
+ "lat": 35.16593900000001,
+ "lng": 136.9062466,
+ "fetchedAt": "2026-11-16T21:58:29.954Z"
+}

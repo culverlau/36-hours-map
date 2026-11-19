@@ -1,0 +1,12 @@
+{
+ "source": "eater",
+ "city": "Istanbul",
+ "url": "https://www.eater.com/maps/best-restaurants-istanbul-38",
+ "label": "Best Restaurants Istanbul 38",
+ "main": true,
+ "title": "The 38 Best Istanbul Restaurants",
+ "count": 38,
+ "lat": 41.0305667,
+ "lng": 28.9802225,
+ "fetchedAt": "2026-11-16T21:57:45.291Z"
+}

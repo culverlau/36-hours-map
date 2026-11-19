@@ -1,0 +1,12 @@
+{
+ "source": "eater",
+ "city": "Cancun",
+ "url": "https://www.eater.com/maps/best-restaurants-cancun",
+ "label": "Best Restaurants Cancun",
+ "main": true,
+ "title": "The 13 Essential Cancún Restaurants",
+ "count": 13,
+ "lat": 21.1589463,
+ "lng": -86.83406389999999,
+ "fetchedAt": "2026-11-16T21:58:16.844Z"
+}

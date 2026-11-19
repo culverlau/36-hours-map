@@ -1,0 +1,12 @@
+{
+ "source": "eater",
+ "city": "New Orleans",
+ "url": "https://nola.eater.com/maps/best-restaurants-new-orleans-38-map-nola",
+ "label": "Best Restaurants New Orleans 38 Map Nola",
+ "main": true,
+ "title": "The 38 Best Restaurants in New Orleans",
+ "count": 38,
+ "lat": 29.955545,
+ "lng": -90.077948,
+ "fetchedAt": "2026-11-16T21:33:09.305Z"
+}

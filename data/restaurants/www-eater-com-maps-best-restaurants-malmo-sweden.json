@@ -1,0 +1,12 @@
+{
+ "source": "eater",
+ "city": "Malmo",
+ "url": "https://www.eater.com/maps/best-restaurants-malmo-sweden",
+ "label": "Best Restaurants Malmo Sweden",
+ "main": true,
+ "title": "The 22 Best Restaurants in Malmö, Sweden",
+ "count": 22,
+ "lat": 55.6045208,
+ "lng": 12.9991922,
+ "fetchedAt": "2026-11-16T21:58:48.858Z"
+}

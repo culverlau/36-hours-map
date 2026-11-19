@@ -1,0 +1,12 @@
+{
+ "source": "eater",
+ "city": "Beijing",
+ "url": "https://www.eater.com/maps/best-beijing-restaurants",
+ "label": "Best Beijing Restaurants",
+ "main": true,
+ "title": "The 38 Best Restaurants in Beijing",
+ "count": 38,
+ "lat": 39.93473325602053,
+ "lng": 116.44499307155296,
+ "fetchedAt": "2026-11-16T21:59:11.257Z"
+}

@@ -1,0 +1,12 @@
+{
+ "source": "eater",
+ "city": "Monterrey",
+ "url": "https://www.eater.com/maps/best-restaurants-monterrey-mexico",
+ "label": "Best Restaurants Monterrey Mexico",
+ "main": true,
+ "title": "The 24 Essential Restaurants of Monterrey, Mexico",
+ "count": 24,
+ "lat": 25.6584219,
+ "lng": -100.3585983,
+ "fetchedAt": "2026-11-16T21:58:19.560Z"
+}

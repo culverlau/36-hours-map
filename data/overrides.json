@@ -1,16 +1,87 @@
 {
-  "Long Island’s East End": { "lat": 40.949, "lng": -72.3, "country": "United States" },
-  "Space Coast": { "lat": 28.39, "lng": -80.6, "country": "United States" },
-  "Downtown Manhattan": { "lat": 40.7075, "lng": -74.0113, "country": "United States" },
-  "Upper Manhattan": { "lat": 40.8116, "lng": -73.9465, "country": "United States" },
-  "St Lucia": { "lat": 13.9094, "lng": -60.9789, "country": "Saint Lucia" },
-  "East London": { "lat": 51.5273, "lng": -0.0317, "country": "United Kingdom" },
-  "Southeast London": { "lat": 51.4615, "lng": -0.0556, "country": "United Kingdom" },
-  "Los Cabos": { "lat": 22.8905, "lng": -109.9167, "country": "Mexico" },
-  "Eastern Tokyo": { "lat": 35.7, "lng": 139.82, "country": "Japan" },
-  "Oregon Coast": { "lat": 44.6, "lng": -124.05, "country": "United States" },
-  "Santa Fe": { "lat": 35.687, "lng": -105.9378, "country": "United States" },
-  "Napa Valley": { "lat": 38.5025, "lng": -122.2654, "country": "United States" },
-  "Kenya's Capital": { "lat": -1.2921, "lng": 36.8219, "country": "Kenya" },
-  "St. John, V.I": { "lat": 18.3358, "lng": -64.7281, "country": "U.S. Virgin Islands" }
+  "Long Island’s East End": {
+    "lat": 40.949,
+    "lng": -72.3,
+    "country": "United States"
+  },
+  "Space Coast": {
+    "lat": 28.39,
+    "lng": -80.6,
+    "country": "United States"
+  },
+  "Downtown Manhattan": {
+    "lat": 40.7075,
+    "lng": -74.0113,
+    "country": "United States"
+  },
+  "Upper Manhattan": {
+    "lat": 40.8116,
+    "lng": -73.9465,
+    "country": "United States"
+  },
+  "St Lucia": {
+    "lat": 13.9094,
+    "lng": -60.9789,
+    "country": "Saint Lucia"
+  },
+  "East London": {
+    "lat": 51.5273,
+    "lng": -0.0317,
+    "country": "United Kingdom"
+  },
+  "Southeast London": {
+    "lat": 51.4615,
+    "lng": -0.0556,
+    "country": "United Kingdom"
+  },
+  "Los Cabos": {
+    "lat": 22.8905,
+    "lng": -109.9167,
+    "country": "Mexico"
+  },
+  "Eastern Tokyo": {
+    "lat": 35.7,
+    "lng": 139.82,
+    "country": "Japan"
+  },
+  "Oregon Coast": {
+    "lat": 44.6,
+    "lng": -124.05,
+    "country": "United States"
+  },
+  "Santa Fe": {
+    "lat": 35.687,
+    "lng": -105.9378,
+    "country": "United States"
+  },
+  "Napa Valley": {
+    "lat": 38.5025,
+    "lng": -122.2654,
+    "country": "United States"
+  },
+  "Kenya's Capital": {
+    "lat": -1.2921,
+    "lng": 36.8219,
+    "country": "Kenya"
+  },
+  "St. John, V.I": {
+    "lat": 18.3358,
+    "lng": -64.7281,
+    "country": "U.S. Virgin Islands"
+  },
+  "Dolomite Mountains, Italy": {
+    "lat": 46.43,
+    "lng": 11.85,
+    "country": "Italy"
+  },
+  "austrian alps": {
+    "lat": 47.1,
+    "lng": 11.4,
+    "country": "Austria"
+  },
+  "lake michigan coast dunes": {
+    "lat": 42.45,
+    "lng": -86.28,
+    "country": "United States"
+  }
 }

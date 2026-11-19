@@ -1,0 +1,12 @@
+{
+ "source": "eater",
+ "city": "Hobart",
+ "url": "https://www.eater.com/maps/best-restaurants-hobart-australia",
+ "label": "Best Restaurants Hobart Australia",
+ "main": true,
+ "title": "The 20 Best Restaurants in Hobart, Australia",
+ "count": 20,
+ "lat": -42.8818365,
+ "lng": 147.3271779,
+ "fetchedAt": "2026-11-16T21:58:33.727Z"
+}

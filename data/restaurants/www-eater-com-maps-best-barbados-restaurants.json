@@ -1,0 +1,12 @@
+{
+ "source": "eater",
+ "city": "Barbados",
+ "url": "https://www.eater.com/maps/best-barbados-restaurants",
+ "label": "Best Barbados Restaurants",
+ "main": true,
+ "title": "The 18 Best Restaurants in Barbados",
+ "count": 18,
+ "lat": 13.081738367990038,
+ "lng": -59.59466,
+ "fetchedAt": "2026-11-16T21:59:07.379Z"
+}

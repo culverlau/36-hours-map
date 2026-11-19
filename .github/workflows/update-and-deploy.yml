@@ -2,7 +2,8 @@ name: Update data and deploy
 
 on:
   schedule:
-    - cron: '0 6 * * 1' # Mondays 06:00 UTC
+    - cron: '0 6 * * 1' # Mondays 06:00 UTC: NYT articles
+    - cron: '0 7 1 * *' # 1st of the month 07:00 UTC: restaurant lists
   workflow_dispatch:
   push:
     branches: [main]
@@ -32,8 +33,8 @@ jobs:
       - run: npm test
 
       # Weekly only: pull the latest NYT months, geocode new items, commit the data.
-      - name: Refresh data
-        if: github.event_name != 'push'
+      - name: Refresh NYT data
+        if: github.event_name != 'push' && github.event.schedule != '0 7 1 * *'
         env:
           NYT_API_KEY: ${{ secrets.NYT_API_KEY }}
         run: |
@@ -43,6 +44,21 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data public/data
           git diff --cached --quiet || git commit -m "Update 36 Hours data"
+          git push
+
+      # Monthly: look for NEW city guides on Eater / The Infatuation and fetch only those (saved guides are
+      # not re-read). A failed fetch never overwrites saved data,
+      # and the run is marked failed at the end (after deploying) so GitHub emails you.
+      - name: Refresh restaurant lists
+        id: food
+        if: github.event.schedule == '0 7 1 * *' || github.event_name == 'workflow_dispatch'
+        continue-on-error: true
+        run: |
+          npm run restaurants:update
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data public/data
+          git diff --cached --quiet || git commit -m "Update restaurant lists"
           git push
 
       - name: Build site
@@ -55,3 +71,9 @@ jobs:
           path: dist
       - id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Report restaurant refresh failure
+        if: steps.food.outcome == 'failure'
+        run: |
+          echo "Restaurant list refresh failed; see the step above. The site was still deployed with the last saved data."
+          exit 1

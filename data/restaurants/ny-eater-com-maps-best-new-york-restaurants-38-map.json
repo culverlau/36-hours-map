@@ -1,0 +1,11 @@
+{
+ "source": "eater",
+ "city": "New York",
+ "url": "https://ny.eater.com/maps/best-new-york-restaurants-38-map",
+ "label": "Best New York Restaurants 38 Map",
+ "title": "The 38 Best Restaurants in New York City",
+ "fetchedAt": "2026-11-16T21:00:49.526Z",
+ "count": 38,
+ "lat": 40.726842,
+ "lng": -73.984193
+}

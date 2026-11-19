@@ -1,0 +1,12 @@
+{
+ "source": "eater",
+ "city": "Nantes",
+ "url": "https://www.eater.com/maps/best-restaurants-nantes-france",
+ "label": "Best Restaurants Nantes France",
+ "main": true,
+ "title": "The 15 Essential Nantes Restaurants",
+ "count": 15,
+ "lat": 47.2133004,
+ "lng": -1.5552569,
+ "fetchedAt": "2026-11-16T21:58:09.449Z"
+}

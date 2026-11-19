@@ -5990,5 +5990,384 @@
   "countryCode": "US",
   "display": "Finger Lakes National Forest, Town of Hector, Schuyler County, New York, 14818, United States",
   "type": "nature_reserve"
+ },
+ "Rapid City, South Dakota": {
+  "lat": 44.0806,
+  "lng": -103.22802,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Rapid City, Pennington County, South Dakota, United States",
+  "type": "administrative"
+ },
+ "La Paz, Bolivia": {
+  "lat": -16.49555,
+  "lng": -68.13362,
+  "country": "Bolivia",
+  "countryCode": "BO",
+  "display": "La Paz, Provincia Pedro Domingo Murillo, La Paz, Bolivia",
+  "type": "administrative"
+ },
+ "Somerville, Massachusetts": {
+  "lat": 42.3876,
+  "lng": -71.0995,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Somerville, Middlesex County, Massachusetts, United States",
+  "type": "administrative"
+ },
+ "Bendigo, Australia": {
+  "lat": -36.75902,
+  "lng": 144.28267,
+  "country": "Australia",
+  "countryCode": "AU",
+  "display": "Bendigo, Victoria, 3550, Australia",
+  "type": "city"
+ },
+ "Greenville, South Carolina": {
+  "lat": 34.85135,
+  "lng": -82.39849,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Greenville, Greenville County, South Carolina, United States",
+  "type": "administrative"
+ },
+ "Hudson River": {
+  "lat": 42.61124,
+  "lng": -73.76075,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Hudson River, New York, United States",
+  "type": "river"
+ },
+ "Decatur, Georgia": {
+  "lat": 30.87366,
+  "lng": -84.5741,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Decatur County, Georgia, United States",
+  "type": "administrative"
+ },
+ "Lancaster County, Pennsylvania": {
+  "lat": 40.08067,
+  "lng": -76.24113,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Lancaster County, Pennsylvania, United States",
+  "type": "administrative"
+ },
+ "Ballston Spa, New York": {
+  "lat": 43.00091,
+  "lng": -73.84901,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Village of Ballston Spa, Town of Milton, Saratoga County, New York, 12020, United States",
+  "type": "administrative"
+ },
+ "Jersey City, New Jersey": {
+  "lat": 40.72157,
+  "lng": -74.04745,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Jersey City, Hudson County, New Jersey, United States",
+  "type": "administrative"
+ },
+ "Manila, Philippines": {
+  "lat": 14.59045,
+  "lng": 120.98036,
+  "country": "Philippines",
+  "countryCode": "PH",
+  "display": "Manila, Capital District, Metro Manila, Philippines",
+  "type": "administrative"
+ },
+ "Versailles, France": {
+  "lat": 48.80354,
+  "lng": 2.12669,
+  "country": "France",
+  "countryCode": "FR",
+  "display": "Versailles, Yvelines, Ile-de-France, Metropolitan France, 78000, France",
+  "type": "administrative"
+ },
+ "Guatemala City, Guatemala": {
+  "lat": 14.64161,
+  "lng": -90.51328,
+  "country": "Guatemala",
+  "countryCode": "GT",
+  "display": "Guatemala City, Zona 2, Guatemala Department, Guatemala",
+  "type": "administrative"
+ },
+ "Hamilton, Ontario": {
+  "lat": 43.25608,
+  "lng": -79.87286,
+  "country": "Canada",
+  "countryCode": "CA",
+  "display": "Hamilton, Ontario, Canada",
+  "type": "administrative"
+ },
+ "Diani Beach, Kenya": {
+  "lat": -4.31249,
+  "lng": 39.57936,
+  "country": "Kenya",
+  "countryCode": "KE",
+  "display": "Diani Beach, Ukunda, Ukunda ward, Msambweni, Kwale, 80401, Kenya",
+  "type": "beach"
+ },
+ "San Sebastian, Spain": {
+  "lat": 43.32242,
+  "lng": -1.98389,
+  "country": "Spain",
+  "countryCode": "ES",
+  "display": "San Sebastián, Gipuzkoa, Autonomous Community of the Basque Country, Spain",
+  "type": "administrative"
+ },
+ "Montmartre, Paris, France": {
+  "lat": 48.88546,
+  "lng": 2.33915,
+  "country": "France",
+  "countryCode": "FR",
+  "display": "Montmartre, Paris, Ile-de-France, Metropolitan France, France",
+  "type": "tourist_zone"
+ },
+ "Bantam, Connecticut": {
+  "lat": 41.72495,
+  "lng": -73.24226,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Bantam, Litchfield, Northwest Hills Planning Region, Connecticut, 06750, United States",
+  "type": "administrative"
+ },
+ "San Jose, Costa Rica": {
+  "lat": 9.93274,
+  "lng": -84.07967,
+  "country": "Costa Rica",
+  "countryCode": "CR",
+  "display": "San José, San Jose Province, Costa Rica",
+  "type": "administrative"
+ },
+ "Lincoln, Nebraska": {
+  "lat": 40.80889,
+  "lng": -96.70778,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Lincoln, Lancaster County, Nebraska, United States",
+  "type": "administrative"
+ },
+ "Arusha, Tanzania": {
+  "lat": -3.36968,
+  "lng": 36.68808,
+  "country": "Tanzania",
+  "countryCode": "TZ",
+  "display": "Arusha, Arusha Municipal, Arusha, Northern Zone, 23103, Tanzania",
+  "type": "city"
+ },
+ "Jerusalem, Israel": {
+  "lat": 31.77885,
+  "lng": 35.22579,
+  "country": "Israel",
+  "countryCode": "IL",
+  "display": "Jerusalem, Jerusalem Subdistrict, Jerusalem District, Israel",
+  "type": "administrative"
+ },
+ "Dolomite Mountains, Italy": null,
+ "Oporto, Portugal": {
+  "lat": 41.15022,
+  "lng": -8.61035,
+  "country": "Portugal",
+  "countryCode": "PT",
+  "display": "Porto, Portugal",
+  "type": "administrative"
+ },
+ "Kagoshima, Japan": {
+  "lat": 31.52159,
+  "lng": 130.54741,
+  "country": "Japan",
+  "countryCode": "JP",
+  "display": "Kagoshima Prefecture, Japan",
+  "type": "administrative"
+ },
+ "Cap Ferret, France": {
+  "lat": 44.79511,
+  "lng": -1.14721,
+  "country": "France",
+  "countryCode": "FR",
+  "display": "Lège-Cap-Ferret, Arcachon, Gironde, Nouvelle-Aquitaine, Metropolitan France, France",
+  "type": "administrative"
+ },
+ "Tasmania, Australia": {
+  "lat": -42.03507,
+  "lng": 146.63669,
+  "country": "Australia",
+  "countryCode": "AU",
+  "display": "Tasmania, Australia",
+  "type": "administrative"
+ },
+ "Serifos, Greece": {
+  "lat": 37.1594,
+  "lng": 24.47352,
+  "country": "Greece",
+  "countryCode": "GR",
+  "display": "Serifos, Municipality of Serifos, Milos Regional Unit, South Aegean, Aegean, 840 05, Greece",
+  "type": "island"
+ },
+ "Chiang Rai Province, Thailand": {
+  "lat": 19.75895,
+  "lng": 99.67346,
+  "country": "Thailand",
+  "countryCode": "TH",
+  "display": "Chiang Rai Province, Thailand",
+  "type": "administrative"
+ },
+ "Cornwall, England": {
+  "lat": 50.44335,
+  "lng": -4.62466,
+  "country": "United Kingdom",
+  "countryCode": "GB",
+  "display": "Cornwall, England, United Kingdom",
+  "type": "administrative"
+ },
+ "Philippines": {
+  "lat": 12.75035,
+  "lng": 122.73121,
+  "country": "Philippines",
+  "countryCode": "PH",
+  "display": "Philippines",
+  "type": "administrative"
+ },
+ "la brea los angeles": {
+  "lat": 34.06374,
+  "lng": -118.35612,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "La Brea Tar Pits and Museum, South Spaulding Avenue, Mid-Wilshire, Los Angeles, Los Angeles County, California, 90036, United States",
+  "type": "museum"
+ },
+ "austrian alps": null,
+ "kingston jamaica": {
+  "lat": 17.97121,
+  "lng": -76.79281,
+  "country": "Jamaica",
+  "countryCode": "JM",
+  "display": "Kingston, Surrey County, Jamaica",
+  "type": "city"
+ },
+ "colombo sri lanka": {
+  "lat": 6.93886,
+  "lng": 79.8542,
+  "country": "Sri Lanka",
+  "countryCode": "LK",
+  "display": "Colombo, Colombo District, Western Province, Sri Lanka",
+  "type": "administrative"
+ },
+ "taos new mexico": {
+  "lat": 36.40724,
+  "lng": -105.57328,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Taos, Taos County, New Mexico, 87571, United States",
+  "type": "administrative"
+ },
+ "trondheim norway": {
+  "lat": 63.43045,
+  "lng": 10.39521,
+  "country": "Norway",
+  "countryCode": "NO",
+  "display": "Trondheim, Trøndelag, Norway",
+  "type": "administrative"
+ },
+ "costa brava spain": {
+  "lat": 41.70377,
+  "lng": 2.94159,
+  "country": "Spain",
+  "countryCode": "ES",
+  "display": "Costa Brava, 17320, Spain",
+  "type": "region"
+ },
+ "salvador brazil": {
+  "lat": -12.98225,
+  "lng": -38.48128,
+  "country": "Brazil",
+  "countryCode": "BR",
+  "display": "Salvador, Bahia, Northeast Region, Brazil",
+  "type": "administrative"
+ },
+ "puerto escondido oaxaca": {
+  "lat": 15.86933,
+  "lng": -97.07264,
+  "country": "Mexico",
+  "countryCode": "MX",
+  "display": "Puerto Escondido, San Pedro Mixtepec, Oaxaca, 71800, Mexico",
+  "type": "city"
+ },
+ "jeddah saudi arabia": {
+  "lat": 21.55044,
+  "lng": 39.17424,
+  "country": "Saudi Arabia",
+  "countryCode": "SA",
+  "display": "Jeddah, Governorate of Jeddah, Makkah Region, 23124, Saudi Arabia",
+  "type": "city"
+ },
+ "turin italy": {
+  "lat": 45.06776,
+  "lng": 7.68249,
+  "country": "Italy",
+  "countryCode": "IT",
+  "display": "Turin, Piedmont, Italy",
+  "type": "administrative"
+ },
+ "montreal": {
+  "lat": 45.50318,
+  "lng": -73.56981,
+  "country": "Canada",
+  "countryCode": "CA",
+  "display": "Montreal, Urban agglomeration of Montreal, Montreal (administrative region), Quebec, Canada",
+  "type": "administrative"
+ },
+ "arles france": {
+  "lat": 43.67762,
+  "lng": 4.63097,
+  "country": "France",
+  "countryCode": "FR",
+  "display": "Arles, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, Metropolitan France, 13200, France",
+  "type": "administrative"
+ },
+ "ojai california": {
+  "lat": 34.44805,
+  "lng": -119.24289,
+  "country": "United States",
+  "countryCode": "US",
+  "display": "Ojai, Ventura County, California, 93023, United States",
+  "type": "administrative"
+ },
+ "osterlen sweden": {
+  "lat": 55.59933,
+  "lng": 14.11411,
+  "country": "Sweden",
+  "countryCode": "SE",
+  "display": "Österlen, Sweden",
+  "type": "region"
+ },
+ "bukhara uzbekistan": {
+  "lat": 39.77598,
+  "lng": 64.41515,
+  "country": "Uzbekistan",
+  "countryCode": "UZ",
+  "display": "Bukhara, Bukhara Region, Uzbekistan",
+  "type": "administrative"
+ },
+ "lake michigan coast dunes": null,
+ "crete": {
+  "lat": 35.3085,
+  "lng": 24.46334,
+  "country": "Greece",
+  "countryCode": "GR",
+  "display": "Crete, Region of Crete, Greece",
+  "type": "island"
+ },
+ "taipei taiwan": {
+  "lat": 25.03752,
+  "lng": 121.56368,
+  "country": "Taiwan",
+  "countryCode": "TW",
+  "display": "Taipei, Taiwan",
+  "type": "administrative"
  }
 }

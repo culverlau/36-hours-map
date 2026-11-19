@@ -1,0 +1,12 @@
+{
+ "source": "eater",
+ "city": "Singapore",
+ "url": "https://www.eater.com/maps/best-restaurants-singapore",
+ "label": "Best Restaurants Singapore",
+ "main": true,
+ "title": "The 38 Best Singapore Restaurants",
+ "count": 38,
+ "lat": 1.291771,
+ "lng": 103.8442677,
+ "fetchedAt": "2026-11-16T21:57:23.373Z"
+}

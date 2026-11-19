@@ -22,9 +22,9 @@ for (const [i, a] of articles.entries()) {
   if (!geo) { unresolved.push({ title: a.title, url: a.url, tried: candidates }); continue; }
   const key = `${geo.lat.toFixed(2)},${geo.lng.toFixed(2)}`;
   if (!groups.has(key)) {
-    groups.set(key, { id: key, name: a.query, lat: geo.lat, lng: geo.lng, country: geo.country ?? null, articles: [] });
+    groups.set(key, { id: key, name: a.query === a.query.toLowerCase() ? a.query.replace(/\b\w/g, (c) => c.toUpperCase()) : a.query, lat: geo.lat, lng: geo.lng, country: geo.country ?? null, articles: [] });
   }
-  groups.get(key).articles.push({ id: a.id, title: a.title, url: a.url, date: a.date, abstract: a.abstract });
+  groups.get(key).articles.push({ id: a.id, title: a.title, url: a.url, date: a.date, abstract: a.abstract, series: a.series || '36-hours' });
   if ((i + 1) % 50 === 0) console.log(`geocoded ${i + 1}/${articles.length}`);
 }
 
