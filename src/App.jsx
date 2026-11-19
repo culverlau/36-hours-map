@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import MapView from './MapView.jsx';
 import { SERIES } from './series.js';
 import Sidebar from './Sidebar.jsx';
+import { initialLang, makeT } from './i18n.js';
 
 const SOURCES = ['eater', 'infatuation'];
 const ACCENT = { nyt: '#c8102e', restaurants: '#4f46e5' }; // red for NYTimes, indigo for restaurants
@@ -14,6 +15,18 @@ const load = (file) =>
   });
 
 export default function App() {
+  const [lang, setLangState] = useState(() => initialLang(window.localStorage, navigator.language));
+  const t = useMemo(() => makeT(lang), [lang]);
+  const setLang = (next) => {
+    setLangState(next);
+    try { window.localStorage.setItem('lang', next); } catch { /* storage can be blocked */ }
+  };
+  useEffect(() => {
+    document.documentElement.lang = lang;
+    document.title = t('appTitle');
+    document.querySelector('meta[name="description"]')?.setAttribute('content', t('description'));
+  }, [lang, t]);
+
   const [tab, setTab] = useState('nyt'); // 'nyt' | 'restaurants'
   const [data, setData] = useState(null);
   const [restaurants, setRestaurants] = useState(null);
@@ -98,8 +111,8 @@ export default function App() {
     return filtered.filter((l) => l.lat >= s && l.lat <= n && (wholeWorld || (l.lng >= w && l.lng <= e)));
   }, [filtered, view, cluster]);
 
-  if (error) return <div className="status">Could not load data: {error.message}</div>;
-  if (!data) return <div className="status">Loading…</div>;
+  if (error) return <div className="status">{t('loadError')}: {error.message}</div>;
+  if (!data) return <div className="status">{t('loading')}</div>;
 
   const selected = filtered.find((l) => l.id === selectedId) || null;
   const total = visible.reduce((n, l) => n + l.articles.length, 0);
@@ -112,7 +125,7 @@ export default function App() {
         tab={tab}
         setTab={switchTab}
         loadingTab={tab === 'restaurants' && !restaurants && !foodError}
-        notice={tab === 'restaurants' && foodError ? 'Restaurant guides aren’t available yet.' : null}
+        notice={tab === 'restaurants' && foodError ? 'foodUnavailable' : null}
         selected={selected}
         onClose={() => setSelectedId(null)}
         query={query}
@@ -127,7 +140,10 @@ export default function App() {
         bounds={bounds}
         results={visible}
         total={total}
-        scope={cluster ? 'in this cluster' : 'in view'}
+        scope={cluster ? 'scopeCluster' : 'scopeView'}
+        t={t}
+        lang={lang}
+        setLang={setLang}
         onClearCluster={cluster ? () => setCluster(null) : null}
         onPick={(id) => {
           setSelectedId(id);

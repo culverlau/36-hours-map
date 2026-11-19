@@ -1,6 +1,6 @@
 import { SERIES, seriesLabel } from './series.js';
+import { LANGS } from './i18n.js';
 
-const fmt = (d) => new Date(d + 'T00:00').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
 const range = (a, b) => Array.from({ length: b - a + 1 }, (_, i) => a + i);
 const SOURCE_LABEL = { eater: 'Eater', infatuation: 'The Infatuation' };
 
@@ -25,37 +25,45 @@ const toggle = (set, id, setSet) => {
 export default function Sidebar({
   tab, setTab, loadingTab, notice, selected, onClose, query, setQuery, yearRange, setYearRange, bounds,
   results, total, onPick, scope, onClearCluster, series, setSeries, availableSeries, sources, setSources,
+  t, lang, setLang,
 }) {
   const nyt = tab === 'nyt';
   const years = range(bounds[0], bounds[1]);
-  const noun = nyt ? 'articles' : 'guides';
+  const noun = (n) => t.noun(nyt ? 'article' : 'guide', n);
 
   return (
     <aside className="sidebar">
       <header>
-        <h1>36 Hours Map</h1>
-        <div className="tabs" role="tablist">
-          <button role="tab" aria-selected={nyt} className={nyt ? 'tab on' : 'tab'} onClick={() => setTab('nyt')}>NYTimes</button>
-          <button role="tab" aria-selected={!nyt} className={!nyt ? 'tab on' : 'tab'} onClick={() => setTab('restaurants')}>Restaurants</button>
+        <div className="title-row">
+          <h1>{t('appTitle')}</h1>
+          <div className="lang" role="group" aria-label={t('language')}>
+            {LANGS.map((l) => (
+              <button key={l.id} type="button" className={lang === l.id ? 'lang-btn on' : 'lang-btn'} aria-pressed={lang === l.id} onClick={() => setLang(l.id)}>
+                {l.label}
+              </button>
+            ))}
+          </div>
         </div>
-        <p className="sub">
-          {nyt ? 'Every New York Times “36 Hours” guide, on a map.' : 'Best-restaurant guides from Eater and The Infatuation, by city.'}
-        </p>
+        <div className="tabs" role="tablist">
+          <button role="tab" aria-selected={nyt} className={nyt ? 'tab on' : 'tab'} onClick={() => setTab('nyt')}>{t('tabNyt')}</button>
+          <button role="tab" aria-selected={!nyt} className={!nyt ? 'tab on' : 'tab'} onClick={() => setTab('restaurants')}>{t('tabFood')}</button>
+        </div>
+        <p className="sub">{nyt ? t('subNyt') : t('subFood')}</p>
       </header>
 
       <div className="controls">
         <input
           type="search"
-          placeholder={nyt ? 'Search a city, country or title' : 'Search a city or guide'}
+          placeholder={nyt ? t('searchNyt') : t('searchFood')}
           value={query}
-          aria-label="Search"
+          aria-label={t('searchLabel')}
           onChange={(e) => setQuery(e.target.value)}
         />
         {nyt ? (
           <>
             {availableSeries.size > 1 && (
               <Chips
-                label="Guide types"
+                label={t('guideTypes')}
                 options={SERIES.filter((x) => availableSeries.has(x.id))}
                 active={series}
                 onToggle={(id) => toggle(series, id, setSeries)}
@@ -63,13 +71,13 @@ export default function Sidebar({
             )}
             <div className="years">
               <label>
-                From
+                {t('from')}
                 <select value={yearRange[0]} onChange={(e) => setYearRange([+e.target.value, Math.max(+e.target.value, yearRange[1])])}>
                   {years.map((y) => <option key={y}>{y}</option>)}
                 </select>
               </label>
               <label>
-                To
+                {t('to')}
                 <select value={yearRange[1]} onChange={(e) => setYearRange([Math.min(yearRange[0], +e.target.value), +e.target.value])}>
                   {years.map((y) => <option key={y}>{y}</option>)}
                 </select>
@@ -78,21 +86,21 @@ export default function Sidebar({
           </>
         ) : (
           <Chips
-            label="Sources"
+            label={t('sources')}
             options={Object.entries(SOURCE_LABEL).map(([id, label]) => ({ id, label }))}
             active={sources}
             onToggle={(id) => toggle(sources, id, setSources)}
           />
         )}
         <p className="count">
-          {notice ? notice : loadingTab ? 'Loading…' : <>{results.length} places · {total} {noun} {scope}</>}
-          {onClearCluster && <> · <button className="back" onClick={onClearCluster}>Show all in view</button></>}
+          {notice ? t(notice) : loadingTab ? t('loading') : <>{results.length} {t('places')} · {total} {noun(total)} {t(scope)}</>}
+          {onClearCluster && <> · <button className="back" onClick={onClearCluster}>{t('showAllInView')}</button></>}
         </p>
       </div>
 
       {selected ? (
         <section className="detail">
-          <button className="back" onClick={onClose}>← All places</button>
+          <button className="back" onClick={onClose}>{t('allPlaces')}</button>
           <h2>{selected.name}</h2>
           {selected.country && <p className="country">{selected.country}</p>}
           <ul>
@@ -101,7 +109,7 @@ export default function Sidebar({
                 <a href={a.url} target="_blank" rel="noopener noreferrer">{a.title}</a>
                 <time>
                   {nyt
-                    ? `${fmt(a.date)}${a.series && a.series !== '36-hours' ? ` · ${seriesLabel(a.series)}` : ''}`
+                    ? `${t.date(a.date)}${a.series && a.series !== '36-hours' ? ` · ${seriesLabel(a.series)}` : ''}`
                     : SOURCE_LABEL[a.source]}
                 </time>
                 {a.abstract && <p>{a.abstract}</p>}
@@ -117,8 +125,8 @@ export default function Sidebar({
                 <span>{l.name}</span>
                 <small>
                   {nyt
-                    ? `${l.articles[0].date.slice(0, 4)}${l.articles.length > 1 ? ` · ${l.articles.length} articles` : ''}`
-                    : `${l.articles.length} ${l.articles.length === 1 ? 'guide' : 'guides'}`}
+                    ? `${l.articles[0].date.slice(0, 4)}${l.articles.length > 1 ? ` · ${t.count('article', l.articles.length)}` : ''}`
+                    : t.count('guide', l.articles.length)}
                 </small>
               </button>
             </li>
@@ -126,9 +134,7 @@ export default function Sidebar({
         </ul>
       )}
       <footer>
-        {nyt
-          ? 'Data © The New York Times. Links open nytimes.com. Unofficial fan project.'
-          : 'Links go to the original guides on Eater and The Infatuation. Unofficial fan project.'}
+        {nyt ? t('footerNyt') : t('footerFood')}
       </footer>
     </aside>
   );
