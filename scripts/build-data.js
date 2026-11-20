@@ -3,6 +3,7 @@
 import fs from 'node:fs';
 import { loadAllCachedMonths } from './lib/archive.js';
 import { pickQuery, dedupe, expandGlocation } from './lib/places.js';
+import { tagline } from './lib/tagline.js';
 import { geocode, loadCache, loadOverrides } from './lib/geocode.js';
 
 const skipGeocode = process.argv.includes('--no-geocode');
@@ -24,7 +25,7 @@ for (const [i, a] of articles.entries()) {
   if (!groups.has(key)) {
     groups.set(key, { id: key, name: a.query === a.query.toLowerCase() ? a.query.replace(/\b\w/g, (c) => c.toUpperCase()) : a.query, lat: geo.lat, lng: geo.lng, country: geo.country ?? null, articles: [] });
   }
-  groups.get(key).articles.push({ id: a.id, title: a.title, url: a.url, date: a.date, abstract: a.abstract, series: a.series || '36-hours' });
+  groups.get(key).articles.push({ id: a.id, title: a.title, url: a.url, date: a.date, abstract: tagline(a.abstract), series: a.series || '36-hours' });
   if ((i + 1) % 50 === 0) console.log(`geocoded ${i + 1}/${articles.length}`);
 }
 
