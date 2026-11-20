@@ -32,6 +32,7 @@ export const STRINGS = {
     article: { one: 'article', other: 'articles' },
     guide: { one: 'guide', other: 'guides' },
     language: 'Language',
+    filters: 'Filters',
   },
   es: {
     appTitle: 'Mapa de 36 Hours',
@@ -60,6 +61,7 @@ export const STRINGS = {
     article: { one: 'artículo', other: 'artículos' },
     guide: { one: 'guía', other: 'guías' },
     language: 'Idioma',
+    filters: 'Filtros',
   },
 };
 

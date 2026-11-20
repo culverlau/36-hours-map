@@ -1,3 +1,4 @@
+import { useRef, useState } from 'react';
 import { SERIES, seriesLabel } from './series.js';
 import { LANGS } from './i18n.js';
 
@@ -22,6 +23,18 @@ const toggle = (set, id, setSet) => {
   if (next.size) setSet(next);
 };
 
+function LangSwitch({ lang, setLang, t }) {
+  return (
+    <div className="lang" role="group" aria-label={t('language')}>
+      {LANGS.map((l) => (
+        <button key={l.id} type="button" className={lang === l.id ? 'lang-btn on' : 'lang-btn'} aria-pressed={lang === l.id} onClick={() => setLang(l.id)}>
+          {l.label}
+        </button>
+      ))}
+    </div>
+  );
+}
+
 export default function Sidebar({
   tab, setTab, loadingTab, notice, selected, onClose, query, setQuery, yearRange, setYearRange, bounds,
   results, total, onPick, scope, onClearCluster, series, setSeries, availableSeries, sources, setSources,
@@ -31,18 +44,21 @@ export default function Sidebar({
   const years = range(bounds[0], bounds[1]);
   const noun = (n) => t.noun(nyt ? 'article' : 'guide', n);
 
+  const [filtersOpen, setFiltersOpen] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
+  const searchRef = useRef(null);
+  const toggleSearch = () => {
+    if (searchOpen) { setSearchOpen(false); return; }
+    setSearchOpen(true);
+    setTimeout(() => searchRef.current?.focus(), 0);
+  };
+
   return (
     <aside className="sidebar">
       <header>
         <div className="title-row">
           <h1>{t('appTitle')}</h1>
-          <div className="lang" role="group" aria-label={t('language')}>
-            {LANGS.map((l) => (
-              <button key={l.id} type="button" className={lang === l.id ? 'lang-btn on' : 'lang-btn'} aria-pressed={lang === l.id} onClick={() => setLang(l.id)}>
-                {l.label}
-              </button>
-            ))}
-          </div>
+          <LangSwitch lang={lang} setLang={setLang} t={t} />
         </div>
         <div className="tabs" role="tablist">
           <button role="tab" aria-selected={nyt} className={nyt ? 'tab on' : 'tab'} onClick={() => setTab('nyt')}>{t('tabNyt')}</button>
@@ -52,50 +68,64 @@ export default function Sidebar({
       </header>
 
       <div className="controls">
+        <div className="summary">
+          <p className="count">
+            {notice ? t(notice) : loadingTab ? t('loading') : <>{results.length} {t('places')} · {total} {noun(total)} {t(scope)}</>}
+            {onClearCluster && <> · <button className="back" onClick={onClearCluster}>{t('showAllInView')}</button></>}
+          </p>
+          <button type="button" className="filters-btn" aria-expanded={searchOpen || !!query} onClick={toggleSearch}>
+            <svg className="icon" viewBox="0 0 24 24" width="13" height="13" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"><circle cx="10.5" cy="10.5" r="6.5" /><path d="M15.5 15.5L21 21" /></svg>
+            {t('searchLabel')}
+          </button>
+          <button type="button" className="filters-btn" aria-expanded={filtersOpen} onClick={() => setFiltersOpen((o) => !o)}>
+            <svg className="icon" viewBox="0 0 24 24" width="13" height="13" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"><path d="M4 7h16M7 12h10M10 17h4" /></svg>
+            {t('filters')}
+          </button>
+        </div>
         <input
+          ref={searchRef}
+          className={searchOpen || query ? 'search open' : 'search'}
           type="search"
           placeholder={nyt ? t('searchNyt') : t('searchFood')}
           value={query}
           aria-label={t('searchLabel')}
           onChange={(e) => setQuery(e.target.value)}
         />
-        {nyt ? (
-          <>
-            {availableSeries.size > 1 && (
-              <Chips
-                label={t('guideTypes')}
-                options={SERIES.filter((x) => availableSeries.has(x.id))}
-                active={series}
-                onToggle={(id) => toggle(series, id, setSeries)}
-              />
-            )}
-            <div className="years">
-              <label>
-                {t('from')}
-                <select value={yearRange[0]} onChange={(e) => setYearRange([+e.target.value, Math.max(+e.target.value, yearRange[1])])}>
-                  {years.map((y) => <option key={y}>{y}</option>)}
-                </select>
-              </label>
-              <label>
-                {t('to')}
-                <select value={yearRange[1]} onChange={(e) => setYearRange([Math.min(yearRange[0], +e.target.value), +e.target.value])}>
-                  {years.map((y) => <option key={y}>{y}</option>)}
-                </select>
-              </label>
-            </div>
-          </>
-        ) : (
-          <Chips
-            label={t('sources')}
-            options={Object.entries(SOURCE_LABEL).map(([id, label]) => ({ id, label }))}
-            active={sources}
-            onToggle={(id) => toggle(sources, id, setSources)}
-          />
-        )}
-        <p className="count">
-          {notice ? t(notice) : loadingTab ? t('loading') : <>{results.length} {t('places')} · {total} {noun(total)} {t(scope)}</>}
-          {onClearCluster && <> · <button className="back" onClick={onClearCluster}>{t('showAllInView')}</button></>}
-        </p>
+        <div className={filtersOpen ? 'filters open' : 'filters'}>
+          {nyt ? (
+            <>
+              {availableSeries.size > 1 && (
+                <Chips
+                  label={t('guideTypes')}
+                  options={SERIES.filter((x) => availableSeries.has(x.id))}
+                  active={series}
+                  onToggle={(id) => toggle(series, id, setSeries)}
+                />
+              )}
+              <div className="years">
+                <label>
+                  {t('from')}
+                  <select value={yearRange[0]} onChange={(e) => setYearRange([+e.target.value, Math.max(+e.target.value, yearRange[1])])}>
+                    {years.map((y) => <option key={y}>{y}</option>)}
+                  </select>
+                </label>
+                <label>
+                  {t('to')}
+                  <select value={yearRange[1]} onChange={(e) => setYearRange([Math.min(yearRange[0], +e.target.value), +e.target.value])}>
+                    {years.map((y) => <option key={y}>{y}</option>)}
+                  </select>
+                </label>
+              </div>
+            </>
+          ) : (
+            <Chips
+              label={t('sources')}
+              options={Object.entries(SOURCE_LABEL).map(([id, label]) => ({ id, label }))}
+              active={sources}
+              onToggle={(id) => toggle(sources, id, setSources)}
+            />
+          )}
+        </div>
       </div>
 
       {selected ? (
