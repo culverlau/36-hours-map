@@ -116,8 +116,8 @@ export default function App() {
 
   const selected = filtered.find((l) => l.id === selectedId) || null;
   const total = visible.reduce((n, l) => n + l.articles.length, 0);
-  // Tabs change the whole dataset, so re-fit the map when switching to restaurants or searching there.
-  const fitKey = tab === 'nyt' ? query.trim().toLowerCase() : `food|${query.trim().toLowerCase()}`;
+  // Re-fit the map only while searching; switching tabs leaves the map exactly where it is.
+  const fitKey = query.trim() ? `${tab}|${query.trim().toLowerCase()}` : '';
 
   return (
     <div className="app" data-tab={tab}>
