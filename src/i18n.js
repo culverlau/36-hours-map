@@ -63,12 +63,20 @@ export const STRINGS = {
   },
 };
 
-/** Pick the starting language: saved choice, else the browser's, else English. */
-export function initialLang(storage, navigatorLang = '') {
+/**
+ * Pick the starting language: a saved choice wins; otherwise walk the browser's language list in order and
+ * use the first one we support (["fr-FR", "es-MX"] gives Spanish); otherwise English.
+ */
+export function initialLang(storage, browserLangs = []) {
   let saved = null;
   try { saved = storage?.getItem('lang'); } catch { /* storage can be blocked */ }
   if (saved && STRINGS[saved]) return saved;
-  return String(navigatorLang).toLowerCase().startsWith('es') ? 'es' : 'en';
+  const list = Array.isArray(browserLangs) ? browserLangs : [browserLangs];
+  for (const l of list) {
+    const base = String(l).slice(0, 2).toLowerCase();
+    if (STRINGS[base]) return base;
+  }
+  return 'en';
 }
 
 export function makeT(lang) {

@@ -15,7 +15,7 @@ const load = (file) =>
   });
 
 export default function App() {
-  const [lang, setLangState] = useState(() => initialLang(window.localStorage, navigator.language));
+  const [lang, setLangState] = useState(() => initialLang(window.localStorage, navigator.languages?.length ? navigator.languages : [navigator.language]));
   const t = useMemo(() => makeT(lang), [lang]);
   const setLang = (next) => {
     setLangState(next);

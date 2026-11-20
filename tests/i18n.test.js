@@ -16,6 +16,11 @@ test('starting language: saved choice wins, then the browser, then English', () 
   assert.equal(initialLang(store(null), 'es-MX'), 'es');
   assert.equal(initialLang(store(null), 'fr-FR'), 'en');
   assert.equal(initialLang({ getItem() { throw new Error('blocked'); } }, 'es'), 'es');
+  // walks the whole list, using the first language we support
+  assert.equal(initialLang(store(null), ['fr-FR', 'es-MX', 'en']), 'es');
+  assert.equal(initialLang(store(null), ['es-ES', 'en']), 'es');
+  assert.equal(initialLang(store(null), ['en-US', 'es']), 'en');
+  assert.equal(initialLang(store(null), []), 'en');
 });
 
 test('counts use the right singular and plural', () => {
